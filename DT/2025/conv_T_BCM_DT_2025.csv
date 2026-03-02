@@ -1,0 +1,3024 @@
+ID,Name,Size Byte[Bit],Encoding Name,Mask,Min,Max
+8,Test Failed,0 [1],False,$1,$0,$0
+8,Test Failed,0 [1],True,$1,$1,$1
+9,Test Failed This Operation Cycle,0 [1],False,$1,$0,$0
+9,Test Failed This Operation Cycle,0 [1],True,$1,$1,$1
+10,Pending DTC,0 [1],False,$1,$0,$0
+10,Pending DTC,0 [1],True,$1,$1,$1
+11,Confirmed DTC,0 [1],False,$1,$0,$0
+11,Confirmed DTC,0 [1],True,$1,$1,$1
+12,Test Not Completed Since Last Clear,0 [1],False,$1,$0,$0
+12,Test Not Completed Since Last Clear,0 [1],True,$1,$1,$1
+13,Test Failed Since Last Clear,0 [1],False,$1,$0,$0
+13,Test Failed Since Last Clear,0 [1],True,$1,$1,$1
+14,Test Not Completed This Operation Cycle,0 [1],False,$1,$0,$0
+14,Test Not Completed This Operation Cycle,0 [1],True,$1,$1,$1
+15,Warning Indicator Requested,0 [1],False,$1,$0,$0
+15,Warning Indicator Requested,0 [1],True,$1,$1,$1
+35,Communication Type,0 [2],Reserved,$3,$0,$0
+35,Communication Type,0 [2],Normal Communication Messages,$3,$1,$1
+35,Communication Type,0 [2],Network Management Communication Messages,$3,$2,$2
+35,Communication Type,0 [2],Network Management Communication Messages and normal Communication Messages,$3,$3,$3
+36,Communication Type Target,0 [4],Disable/Enable specified Communication Type (see encoding of bit 0-1) in the receiving node and all connected networks,$F,$0,$0
+36,Communication Type Target,0 [4],Network 1,$F,$1,$1
+36,Communication Type Target,0 [4],Network 2,$F,$2,$2
+36,Communication Type Target,0 [4],Network 3,$F,$3,$3
+36,Communication Type Target,0 [4],Network 4,$F,$4,$4
+36,Communication Type Target,0 [4],Network 5,$F,$5,$5
+36,Communication Type Target,0 [4],Network 6,$F,$6,$6
+36,Communication Type Target,0 [4],Network 7,$F,$7,$7
+36,Communication Type Target,0 [4],Network 8,$F,$8,$8
+36,Communication Type Target,0 [4],Network 9,$F,$9,$9
+36,Communication Type Target,0 [4],Network A,$F,$A,$A
+36,Communication Type Target,0 [4],Network B,$F,$B,$B
+36,Communication Type Target,0 [4],Network C,$F,$C,$C
+36,Communication Type Target,0 [4],Network D,$F,$D,$D
+36,Communication Type Target,0 [4],Network E,$F,$E,$E
+36,Communication Type Target,0 [4],Disable/Enable network which request is received on (receiving node (server)),$F,$F,$F
+37,Baudrate Identifier Values,1 [0],CAN 125000 Baud (125 KBaud),$FF,$10,$10
+37,Baudrate Identifier Values,1 [0],CAN 1000000 Baud (1 MBaud),$FF,$13,$13
+37,Baudrate Identifier Values,1 [0],CAN 500000 Baud (500 KBaud),$FF,$12,$12
+38,Address and Length Format Identifier,1 [0],"Length: memoryAddress 4 byte, memorySize 4 byte",$FF,$44,$44
+2029,True/False,0 [1],False,$1,$0,$0
+2029,True/False,0 [1],True,$1,$1,$1
+2096,Undefined (2b),0 [2],Undefined,$3,$0,$0
+2577,Failed/Passed (1 Byte),1 [0],Failed,$FF,$00,$00
+2577,Failed/Passed (1 Byte),1 [0],Passed,$FF,$01,$01
+3795,Off / On,0 [1],Off,$1,$0,$0
+3795,Off / On,0 [1],On,$1,$1,$1
+4008,Not Pressed / Pressed,0 [1],Not Pressed,$1,$0,$0
+4008,Not Pressed / Pressed,0 [1],Pressed,$1,$1,$1
+4635,VTA Status (VMM 515),1 [0],Disarmed,$FF,$00,$00
+4635,VTA Status (VMM 515),1 [0],Pre-Armed,$FF,$01,$01
+4635,VTA Status (VMM 515),1 [0],Armed,$FF,$02,$02
+4635,VTA Status (VMM 515),1 [0],Alarm - Lights Only,$FF,$03,$03
+4635,VTA Status (VMM 515),1 [0],Alarm - Lights and Horn,$FF,$04,$04
+4635,VTA Status (VMM 515),1 [0],Tamper Alert,$FF,$05,$05
+4635,VTA Status (VMM 515),1 [0],VTA ITM Alarm,$FF,$06,$06
+4635,VTA Status (VMM 515),1 [0],SNA,$FF,$07,$07
+7234,Not Complete / Complete,0 [1],Not Complete,$1,$0,$0
+7234,Not Complete / Complete,0 [1],Complete,$1,$1,$1
+7795,Power window adjustment,0 [3],Not Pressed,$7,$0,$0
+7795,Power window adjustment,0 [3],Manual Open Pressed,$7,$1,$1
+7795,Power window adjustment,0 [3],Manual Close Pressed,$7,$2,$2
+7795,Power window adjustment,0 [3],Automatic Open Pressed,$7,$5,$5
+7795,Power window adjustment,0 [3],Automatic Close Pressed,$7,$6,$6
+7795,Power window adjustment,0 [3],Implausible,$7,$7,$7
+7936,Not Engaged / Engaged,0 [1],Not Engaged,$1,$0,$0
+7936,Not Engaged / Engaged,0 [1],Engaged,$1,$1,$1
+9903,Reserved (1 Bit),0 [1],Reserved,$1,$0,$0
+11110,Engaged/Not Engaged,0 [1], Not Engaged,$1,$0,$0
+11110,Engaged/Not Engaged,0 [1],Engaged,$1,$1,$1
+11181,Absent / Present,0 [1],Absent,$1,$0,$0
+11181,Absent / Present,0 [1],Present,$1,$1,$1
+11763,_Reserved_Special_Conversion_TC1758,0 [1],Reserved,$1,$0,$0
+12650,Not Active / Active,0 [1],Not Active,$1,$0,$0
+12650,Not Active / Active,0 [1],Active,$1,$1,$1
+13065,DTC AllSupportedSnapshotRecordNumbers with FF,1 [0],Record 0x01,$FF,$01,$01
+13065,DTC AllSupportedSnapshotRecordNumbers with FF,1 [0],Record 0x02,$FF,$02,$02
+13065,DTC AllSupportedSnapshotRecordNumbers with FF,1 [0],All Records (0xFF),$FF,$FF,$FF
+13122,Average last longitudinal accel values,0 [4],No Averaging,$F,$0,$0
+13122,Average last longitudinal accel values,0 [4],Average 1,$F,$1,$1
+13122,Average last longitudinal accel values,0 [4],Average 2,$F,$2,$2
+13122,Average last longitudinal accel values,0 [4],Average 3,$F,$3,$3
+13122,Average last longitudinal accel values,0 [4],Average 4,$F,$4,$4
+13122,Average last longitudinal accel values,0 [4],Average 5,$F,$5,$5
+13122,Average last longitudinal accel values,0 [4],Average 6,$F,$6,$6
+13122,Average last longitudinal accel values,0 [4],Average 7,$F,$7,$7
+13122,Average last longitudinal accel values,0 [4],Average 8,$F,$8,$8
+13122,Average last longitudinal accel values,0 [4],Average 9,$F,$9,$9
+13122,Average last longitudinal accel values,0 [4],Average 10,$F,$A,$A
+13122,Average last longitudinal accel values,0 [4],Average 11,$F,$B,$B
+13122,Average last longitudinal accel values,0 [4],Average 12,$F,$C,$C
+13122,Average last longitudinal accel values,0 [4],Average 13,$F,$D,$D
+13122,Average last longitudinal accel values,0 [4],Average 14,$F,$E,$E
+13122,Average last longitudinal accel values,0 [4],Average 15,$F,$F,$F
+13123,Average last lateral accel values,0 [4],No Averaging,$F,$0,$0
+13123,Average last lateral accel values,0 [4],Average 1,$F,$1,$1
+13123,Average last lateral accel values,0 [4],Average 2,$F,$2,$2
+13123,Average last lateral accel values,0 [4],Average 3,$F,$3,$3
+13123,Average last lateral accel values,0 [4],Average 4,$F,$4,$4
+13123,Average last lateral accel values,0 [4],Average 5,$F,$5,$5
+13123,Average last lateral accel values,0 [4],Average 6,$F,$6,$6
+13123,Average last lateral accel values,0 [4],Average 7,$F,$7,$7
+13123,Average last lateral accel values,0 [4],Average 8,$F,$8,$8
+13123,Average last lateral accel values,0 [4],Average 9,$F,$9,$9
+13123,Average last lateral accel values,0 [4],Average 10,$F,$A,$A
+13123,Average last lateral accel values,0 [4],Average 11,$F,$B,$B
+13123,Average last lateral accel values,0 [4],Average 12,$F,$C,$C
+13123,Average last lateral accel values,0 [4],Average 13,$F,$D,$D
+13123,Average last lateral accel values,0 [4],Average 14,$F,$E,$E
+13123,Average last lateral accel values,0 [4],Average 15,$F,$F,$F
+13124,Excess longitudinal acceleration factor,0 [4],Filter Off,$F,$0,$0
+13124,Excess longitudinal acceleration factor,0 [4],0.5,$F,$1,$1
+13124,Excess longitudinal acceleration factor,0 [4],1,$F,$2,$2
+13124,Excess longitudinal acceleration factor,0 [4],1.5,$F,$3,$3
+13124,Excess longitudinal acceleration factor,0 [4],2,$F,$4,$4
+13124,Excess longitudinal acceleration factor,0 [4],2.5,$F,$5,$5
+13124,Excess longitudinal acceleration factor,0 [4],3,$F,$6,$6
+13124,Excess longitudinal acceleration factor,0 [4],3.5,$F,$7,$7
+13124,Excess longitudinal acceleration factor,0 [4],4,$F,$8,$8
+13124,Excess longitudinal acceleration factor,0 [4],4.5,$F,$9,$9
+13124,Excess longitudinal acceleration factor,0 [4],5,$F,$A,$A
+13124,Excess longitudinal acceleration factor,0 [4],5.5,$F,$B,$B
+13124,Excess longitudinal acceleration factor,0 [4],6,$F,$C,$C
+13124,Excess longitudinal acceleration factor,0 [4],6.5,$F,$D,$D
+13124,Excess longitudinal acceleration factor,0 [4],7,$F,$E,$E
+13124,Excess longitudinal acceleration factor,0 [4],7.5,$F,$F,$F
+13126,Brake smoothing duration,0 [5],Filter Off,$1F,$0,$0
+13126,Brake smoothing duration,0 [5],1 period,$1F,$1,$1
+13126,Brake smoothing duration,0 [5],2 periods,$1F,$2,$2
+13126,Brake smoothing duration,0 [5],3 periods,$1F,$3,$3
+13126,Brake smoothing duration,0 [5],4 periods,$1F,$4,$4
+13126,Brake smoothing duration,0 [5],5 periods,$1F,$5,$5
+13126,Brake smoothing duration,0 [5],6 periods,$1F,$6,$6
+13126,Brake smoothing duration,0 [5],7 periods,$1F,$7,$7
+13126,Brake smoothing duration,0 [5],8 periods,$1F,$8,$8
+13126,Brake smoothing duration,0 [5],9 periods,$1F,$9,$9
+13126,Brake smoothing duration,0 [5],10 periods,$1F,$A,$A
+13126,Brake smoothing duration,0 [5],11 periods,$1F,$B,$B
+13126,Brake smoothing duration,0 [5],12 periods,$1F,$C,$C
+13126,Brake smoothing duration,0 [5],13 periods,$1F,$D,$D
+13126,Brake smoothing duration,0 [5],14 periods,$1F,$E,$E
+13126,Brake smoothing duration,0 [5],15 periods,$1F,$F,$F
+13126,Brake smoothing duration,0 [5],16 periods,$1F,$10,$10
+13126,Brake smoothing duration,0 [5],17 periods,$1F,$11,$11
+13126,Brake smoothing duration,0 [5],18 periods,$1F,$12,$12
+13126,Brake smoothing duration,0 [5],19 periods,$1F,$13,$13
+13126,Brake smoothing duration,0 [5],20 periods,$1F,$14,$14
+13126,Brake smoothing duration,0 [5],21 periods,$1F,$15,$15
+13126,Brake smoothing duration,0 [5],22 periods,$1F,$16,$16
+13126,Brake smoothing duration,0 [5],23 periods,$1F,$17,$17
+13126,Brake smoothing duration,0 [5],24 periods,$1F,$18,$18
+13126,Brake smoothing duration,0 [5],25 periods,$1F,$19,$19
+13126,Brake smoothing duration,0 [5],26 periods,$1F,$1A,$1A
+13126,Brake smoothing duration,0 [5],27 periods,$1F,$1B,$1B
+13126,Brake smoothing duration,0 [5],28 periods,$1F,$1C,$1C
+13126,Brake smoothing duration,0 [5],29 periods,$1F,$1D,$1D
+13126,Brake smoothing duration,0 [5],30 periods,$1F,$1E,$1E
+13126,Brake smoothing duration,0 [5],31 periods,$1F,$1F,$1F
+13127,Brake smoothing factor,0 [3],Filter Off,$7,$0,$0
+13127,Brake smoothing factor,0 [3],0.5,$7,$1,$1
+13127,Brake smoothing factor,0 [3],1,$7,$2,$2
+13127,Brake smoothing factor,0 [3],1.5,$7,$3,$3
+13127,Brake smoothing factor,0 [3],2,$7,$4,$4
+13127,Brake smoothing factor,0 [3],2.5,$7,$5,$5
+13127,Brake smoothing factor,0 [3],3,$7,$6,$6
+13127,Brake smoothing factor,0 [3],3.5,$7,$7,$7
+13128,Steering smoothing duration,0 [5],Filter Off,$1F,$0,$0
+13128,Steering smoothing duration,0 [5],1 period,$1F,$1,$1
+13128,Steering smoothing duration,0 [5],2 periods,$1F,$2,$2
+13128,Steering smoothing duration,0 [5],3 periods,$1F,$3,$3
+13128,Steering smoothing duration,0 [5],4 periods,$1F,$4,$4
+13128,Steering smoothing duration,0 [5],5 periods,$1F,$5,$5
+13128,Steering smoothing duration,0 [5],6 periods,$1F,$6,$6
+13128,Steering smoothing duration,0 [5],7 periods,$1F,$7,$7
+13128,Steering smoothing duration,0 [5],8 periods,$1F,$8,$8
+13128,Steering smoothing duration,0 [5],9 periods,$1F,$9,$9
+13128,Steering smoothing duration,0 [5],10 periods,$1F,$A,$A
+13128,Steering smoothing duration,0 [5],11 periods,$1F,$B,$B
+13128,Steering smoothing duration,0 [5],12 periods,$1F,$C,$C
+13128,Steering smoothing duration,0 [5],13 periods,$1F,$D,$D
+13128,Steering smoothing duration,0 [5],14 periods,$1F,$E,$E
+13128,Steering smoothing duration,0 [5],15 periods,$1F,$F,$F
+13128,Steering smoothing duration,0 [5],16 periods,$1F,$10,$10
+13128,Steering smoothing duration,0 [5],17 periods,$1F,$11,$11
+13128,Steering smoothing duration,0 [5],18 periods,$1F,$12,$12
+13128,Steering smoothing duration,0 [5],19 periods,$1F,$13,$13
+13128,Steering smoothing duration,0 [5],20 periods,$1F,$14,$14
+13128,Steering smoothing duration,0 [5],21 periods,$1F,$15,$15
+13128,Steering smoothing duration,0 [5],22 periods,$1F,$16,$16
+13128,Steering smoothing duration,0 [5],23 periods,$1F,$17,$17
+13128,Steering smoothing duration,0 [5],24 periods,$1F,$18,$18
+13128,Steering smoothing duration,0 [5],25 periods,$1F,$19,$19
+13128,Steering smoothing duration,0 [5],26 periods,$1F,$1A,$1A
+13128,Steering smoothing duration,0 [5],27 periods,$1F,$1B,$1B
+13128,Steering smoothing duration,0 [5],28 periods,$1F,$1C,$1C
+13128,Steering smoothing duration,0 [5],29 periods,$1F,$1D,$1D
+13128,Steering smoothing duration,0 [5],30 periods,$1F,$1E,$1E
+13128,Steering smoothing duration,0 [5],31 periods,$1F,$1F,$1F
+13129,Steering smoothing factor,0 [3],Filter Off,$7,$0,$0
+13129,Steering smoothing factor,0 [3],0.5,$7,$1,$1
+13129,Steering smoothing factor,0 [3],1,$7,$2,$2
+13129,Steering smoothing factor,0 [3],1.5,$7,$3,$3
+13129,Steering smoothing factor,0 [3],2,$7,$4,$4
+13129,Steering smoothing factor,0 [3],2.5,$7,$5,$5
+13129,Steering smoothing factor,0 [3],3,$7,$6,$6
+13129,Steering smoothing factor,0 [3],3.5,$7,$7,$7
+13130,Steering smoothing threshold,0 [4],Filter Off,$F,$0,$0
+13130,Steering smoothing threshold,0 [4],10 degrees,$F,$1,$1
+13130,Steering smoothing threshold,0 [4],20 degrees,$F,$2,$2
+13130,Steering smoothing threshold,0 [4],30 degrees,$F,$3,$3
+13130,Steering smoothing threshold,0 [4],40 degrees,$F,$4,$4
+13130,Steering smoothing threshold,0 [4],50 degrees,$F,$5,$5
+13130,Steering smoothing threshold,0 [4],60 degrees,$F,$6,$6
+13130,Steering smoothing threshold,0 [4],70 degrees,$F,$7,$7
+13130,Steering smoothing threshold,0 [4],80 degrees,$F,$8,$8
+13130,Steering smoothing threshold,0 [4],90 degrees,$F,$9,$9
+13130,Steering smoothing threshold,0 [4],100 degrees,$F,$A,$A
+13130,Steering smoothing threshold,0 [4],110 degrees,$F,$B,$B
+13130,Steering smoothing threshold,0 [4],120 degrees,$F,$C,$C
+13130,Steering smoothing threshold,0 [4],130 degrees,$F,$D,$D
+13130,Steering smoothing threshold,0 [4],140 degrees,$F,$E,$E
+13130,Steering smoothing threshold,0 [4],150 degrees,$F,$F,$F
+13131,Brake Smoothing threshold,0 [4],Filter Off,$F,$0,$0
+13131,Brake Smoothing threshold,0 [4],25 Nm,$F,$1,$1
+13131,Brake Smoothing threshold,0 [4],50 Nm,$F,$2,$2
+13131,Brake Smoothing threshold,0 [4],75 Nm,$F,$3,$3
+13131,Brake Smoothing threshold,0 [4],100 Nm,$F,$4,$4
+13131,Brake Smoothing threshold,0 [4],125 Nm,$F,$5,$5
+13131,Brake Smoothing threshold,0 [4],150 Nm,$F,$6,$6
+13131,Brake Smoothing threshold,0 [4],175 Nm,$F,$7,$7
+13131,Brake Smoothing threshold,0 [4],200 Nm,$F,$8,$8
+13131,Brake Smoothing threshold,0 [4],225 Nm,$F,$9,$9
+13131,Brake Smoothing threshold,0 [4],250 Nm,$F,$A,$A
+13131,Brake Smoothing threshold,0 [4],275 Nm,$F,$B,$B
+13131,Brake Smoothing threshold,0 [4],300 Nm,$F,$C,$C
+13131,Brake Smoothing threshold,0 [4],325 Nm,$F,$D,$D
+13131,Brake Smoothing threshold,0 [4],350 Nm,$F,$E,$E
+13131,Brake Smoothing threshold,0 [4],375 Nm,$F,$F,$F
+13132,Maximum longitudinal change,0 [4],Filter Off,$F,$0,$0
+13132,Maximum longitudinal change,0 [4],.2 degrees,$F,$1,$1
+13132,Maximum longitudinal change,0 [4],.4 degrees,$F,$2,$2
+13132,Maximum longitudinal change,0 [4],.6 degrees,$F,$3,$3
+13132,Maximum longitudinal change,0 [4],.8 degrees,$F,$4,$4
+13132,Maximum longitudinal change,0 [4],1.0 degrees,$F,$5,$5
+13132,Maximum longitudinal change,0 [4],1.2 degrees,$F,$6,$6
+13132,Maximum longitudinal change,0 [4],1.4 degrees,$F,$7,$7
+13132,Maximum longitudinal change,0 [4],1.6 degrees,$F,$8,$8
+13132,Maximum longitudinal change,0 [4],1.8 degrees,$F,$9,$9
+13132,Maximum longitudinal change,0 [4],2.0 degrees,$F,$A,$A
+13132,Maximum longitudinal change,0 [4],2.2 degrees,$F,$B,$B
+13132,Maximum longitudinal change,0 [4],2.4 degrees,$F,$C,$C
+13132,Maximum longitudinal change,0 [4],2.6 degrees,$F,$D,$D
+13132,Maximum longitudinal change,0 [4],2.8 degrees,$F,$E,$E
+13132,Maximum longitudinal change,0 [4],3.0 degrees,$F,$F,$F
+13133,Maximum lateral change,0 [4],Filter Off,$F,$0,$0
+13133,Maximum lateral change,0 [4],.2 degrees,$F,$1,$1
+13133,Maximum lateral change,0 [4],.4 degrees,$F,$2,$2
+13133,Maximum lateral change,0 [4],.6 degrees,$F,$3,$3
+13133,Maximum lateral change,0 [4],.8 degrees,$F,$4,$4
+13133,Maximum lateral change,0 [4],1.0 degrees,$F,$5,$5
+13133,Maximum lateral change,0 [4],1.2 degrees,$F,$6,$6
+13133,Maximum lateral change,0 [4],1.4 degrees,$F,$7,$7
+13133,Maximum lateral change,0 [4],1.6 degrees,$F,$8,$8
+13133,Maximum lateral change,0 [4],1.8 degrees,$F,$9,$9
+13133,Maximum lateral change,0 [4],2.0 degrees,$F,$A,$A
+13133,Maximum lateral change,0 [4],2.2 degrees,$F,$B,$B
+13133,Maximum lateral change,0 [4],2.4 degrees,$F,$C,$C
+13133,Maximum lateral change,0 [4],2.6 degrees,$F,$D,$D
+13133,Maximum lateral change,0 [4],2.8 degrees,$F,$E,$E
+13133,Maximum lateral change,0 [4],3.0 degrees,$F,$F,$F
+13135,Acceleration factor,0 [4],Filter Off,$F,$0,$0
+13135,Acceleration factor,0 [4],0.5,$F,$1,$1
+13135,Acceleration factor,0 [4],1,$F,$2,$2
+13135,Acceleration factor,0 [4],1.5,$F,$3,$3
+13135,Acceleration factor,0 [4],2,$F,$4,$4
+13135,Acceleration factor,0 [4],2.5,$F,$5,$5
+13135,Acceleration factor,0 [4],3,$F,$6,$6
+13135,Acceleration factor,0 [4],3.5,$F,$7,$7
+13135,Acceleration factor,0 [4],4,$F,$8,$8
+13135,Acceleration factor,0 [4],4.5,$F,$9,$9
+13135,Acceleration factor,0 [4],5,$F,$A,$A
+13135,Acceleration factor,0 [4],5.5,$F,$B,$B
+13135,Acceleration factor,0 [4],6,$F,$C,$C
+13135,Acceleration factor,0 [4],6.5,$F,$D,$D
+13135,Acceleration factor,0 [4],7,$F,$E,$E
+13135,Acceleration factor,0 [4],7.5,$F,$F,$F
+13631,Not Ready to send ENQp message/Send ENQp message,1 [0],Not Ready to send ENQp message,$FF,$00,$00
+13631,Not Ready to send ENQp message/Send ENQp message,1 [0],Send ENQp message,$FF,$01,$01
+13634,Not ready to send MK1/Ready to send MK1,1 [0],Not ready to send MK1,$FF,$00,$00
+13634,Not ready to send MK1/Ready to send MK1,1 [0],Ready to send MK1,$FF,$01,$01
+13679,Excess lateral aceleration factor,0 [2],Filter Off,$3,$0,$0
+13679,Excess lateral aceleration factor,0 [2],0.5,$3,$1,$1
+13679,Excess lateral aceleration factor,0 [2],1,$3,$2,$2
+13679,Excess lateral aceleration factor,0 [2],1.5,$3,$3,$3
+14462,Lock the BCM,2 [0],Not Locked,$FFFF,$0000,$55A9
+14462,Lock the BCM,2 [0],Locked,$FFFF,$55AA,$55AA
+14462,Lock the BCM,2 [0],Not Locked,$FFFF,$55AB,$FFFF
+14538,Disabled / Enabled,0 [1],Disabled,$1,$0,$0
+14538,Disabled / Enabled,0 [1],Enabled,$1,$1,$1
+14619,EngineSts,0 [2],Engine Off,$3,$0,$0
+14619,EngineSts,0 [2],Engine Cranking,$3,$1,$1
+14619,EngineSts,0 [2],Engine On,$3,$2,$2
+14619,EngineSts,0 [2],SNA,$3,$3,$3
+14620,_0False_1True_TC4460,0 [1],False,$1,$0,$0
+14620,_0False_1True_TC4460,0 [1],True,$1,$1,$1
+14626,_True__False_TC130,0 [1],False,$1,$0,$0
+14626,_True__False_TC130,0 [1],True,$1,$1,$1
+19020,Close / Open,0 [1],Close,$1,$0,$0
+19020,Close / Open,0 [1],Open,$1,$1,$1
+19099,Reserved (7 Bit),0 [7],Reserved,$7F,$0,$0
+19334,_offon_TC9801,0 [1],Off,$1,$0,$0
+19334,_offon_TC9801,0 [1],On,$1,$1,$1
+19451,_DisableEnable_TC10766,0 [1],Disable,$1,$0,$0
+19451,_DisableEnable_TC10766,0 [1],Enable,$1,$1,$1
+21954,Nose dive threshold,0 [4],Filter Off,$F,$0,$0
+21954,Nose dive threshold,0 [4],200 degrees,$F,$1,$1
+21954,Nose dive threshold,0 [4],220 degrees,$F,$2,$2
+21954,Nose dive threshold,0 [4],240 degrees,$F,$3,$3
+21954,Nose dive threshold,0 [4],260 degrees,$F,$4,$4
+21954,Nose dive threshold,0 [4],280 degrees,$F,$5,$5
+21954,Nose dive threshold,0 [4],300 degrees,$F,$6,$6
+21954,Nose dive threshold,0 [4],320 degrees,$F,$7,$7
+21954,Nose dive threshold,0 [4],340 degrees,$F,$8,$8
+21954,Nose dive threshold,0 [4],360 degrees,$F,$9,$9
+21954,Nose dive threshold,0 [4],380 degrees,$F,$A,$A
+21954,Nose dive threshold,0 [4],400 degrees,$F,$B,$B
+21954,Nose dive threshold,0 [4],420 degrees,$F,$C,$C
+21954,Nose dive threshold,0 [4],440 degrees,$F,$D,$D
+21954,Nose dive threshold,0 [4],460 degrees,$F,$E,$E
+21954,Nose dive threshold,0 [4],480 degrees,$F,$F,$F
+21955,Acceleration threshold,0 [4],Filter Off,$F,$0,$0
+21955,Acceleration threshold,0 [4],0.1 m/s2,$F,$1,$1
+21955,Acceleration threshold,0 [4],0.2 m/s2,$F,$2,$2
+21955,Acceleration threshold,0 [4],0.3 m/s2,$F,$3,$3
+21955,Acceleration threshold,0 [4],0.4 m/s2,$F,$4,$4
+21955,Acceleration threshold,0 [4],0.5 m/s2,$F,$5,$5
+21955,Acceleration threshold,0 [4],0.6 m/s2,$F,$6,$6
+21955,Acceleration threshold,0 [4],0.7 m/s2,$F,$7,$7
+21955,Acceleration threshold,0 [4],0.8 m/s2,$F,$8,$8
+21955,Acceleration threshold,0 [4],0.9 m/s2,$F,$9,$9
+21955,Acceleration threshold,0 [4],1.0 m/s2,$F,$A,$A
+21955,Acceleration threshold,0 [4],1.1 m/s2,$F,$B,$B
+21955,Acceleration threshold,0 [4],1.2 m/s2,$F,$C,$C
+21955,Acceleration threshold,0 [4],1.3 m/s2,$F,$D,$D
+21955,Acceleration threshold,0 [4],1.4 m/s2,$F,$E,$E
+21955,Acceleration threshold,0 [4],1.5 m/s2,$F,$F,$F
+22309,Immo Fail Reason,1 [0],Timeout,$FF,$00,$00
+22309,Immo Fail Reason,1 [0],Incorrect Code,$FF,$01,$01
+22309,Immo Fail Reason,1 [0],Negative Response,$FF,$02,$02
+22309,Immo Fail Reason,1 [0],Key not authenticated,$FF,$50,$50
+22309,Immo Fail Reason,1 [0],ESL not unlocked,$FF,$60,$60
+22309,Immo Fail Reason,1 [0],VTM blocked,$FF,$70,$70
+22309,Immo Fail Reason,1 [0],SNA,$FF,$FF,$FF
+31848,Logistic Mode,1 [0],Standard Power,$FF,$00,$00
+31848,Logistic Mode,1 [0],Logistic Mode active,$FF,$01,$01
+32688,False / True,0 [1],False,$1,$0,$0
+32688,False / True,0 [1],True,$1,$1,$1
+49375,Pass / Fail,0 [1],Pass,$1,$0,$0
+49375,Pass / Fail,0 [1],Fail,$1,$1,$1
+66160,Closed / Open,0 [1],Closed,$1,$0,$0
+66160,Closed / Open,0 [1],Open,$1,$1,$1
+69218,Supp/not supp (1bit),0 [1],Not supported,$1,$0,$0
+69218,Supp/not supp (1bit),0 [1],Supported,$1,$1,$1
+70152,LOCKED / UNLOCKED,0 [1],Locked,$1,$0,$0
+70152,LOCKED / UNLOCKED,0 [1],Unlocked,$1,$1,$1
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],Reserved,$FF,$00,$3F
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level -,$FF,$40,$40
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level A,$FF,$41,$41
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level B,$FF,$42,$42
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level C,$FF,$43,$43
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level D,$FF,$44,$44
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level E,$FF,$45,$45
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],CS.00102 Change Level F,$FF,$46,$46
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],Reserved,$FF,$47,$FE
+79609,_Diagnostic_Specification_Information__Standard_Diagnostic_Data_UDS_Version_TC76064,1 [0],Not Supported,$FF,$FF,$FF
+79613,_Running_in_Boot_Application_TC76173,0 [1],Running in Boot,$1,$0,$0
+79613,_Running_in_Boot_Application_TC76173,0 [1],Running in Application,$1,$1,$1
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],Reserved,$FF,$00,$4F
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level -,$FF,$50,$50
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level A,$FF,$51,$51
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level B,$FF,$52,$52
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level C,$FF,$53,$53
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level D,$FF,$54,$54
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level E,$FF,$55,$55
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],CS.00099 Change Level F,$FF,$56,$56
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],Reserved,$FF,$57,$FE
+79617,_Diagnostic_Specification_Information__Diagnostic_Requirements_Standard_Version_TC77121,1 [0],Not Supported,$FF,$FF,$FF
+79621,_0Not_Valid_1Valid_TC76169,0 [1],Not Valid,$1,$0,$0
+79621,_0Not_Valid_1Valid_TC76169,0 [1],Valid,$1,$1,$1
+79625,_Reserved_Special_Conversion_TC11699,0 [1],Reserved,$1,$1,$1
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],Reserved,$FF,$00,$00
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],Reserved,$FF,$01,$8F
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level -,$FF,$90,$90
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level A,$FF,$91,$91
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level B,$FF,$92,$92
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level C,$FF,$93,$93
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level D,$FF,$94,$94
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],CS.00100 Change Level E,$FF,$95,$95
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],Reserved,$FF,$96,$FE
+79629,_Diagnostic_Protocol_UDS_Version_TC76056,1 [0],Not Supported,$FF,$FF,$FF
+79633,_Erase_Verification_TC76165,1 [0],Erase Completed Successfully,$FF,$00,$00
+79633,_Erase_Verification_TC76165,1 [0],Erase Failed - General Failure,$FF,$01,$01
+79633,_Erase_Verification_TC76165,1 [0],Erase Failed - Voltage too High,$FF,$02,$02
+79633,_Erase_Verification_TC76165,1 [0],Erase Failed - Voltage too Low,$FF,$03,$03
+79633,_Erase_Verification_TC76165,1 [0],Erase Failed - Microprocessor Temperature to High,$FF,$04,$04
+79633,_Erase_Verification_TC76165,1 [0],Erase Failed - Microprocessor Temperature to Low,$FF,$05,$05
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],Reserved,$FF,$00,$2F
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level -,$FF,$30,$30
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level A,$FF,$31,$31
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level B,$FF,$32,$32
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level C,$FF,$33,$33
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level D,$FF,$34,$34
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level E,$FF,$35,$35
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],CS.00101 Change Level F,$FF,$36,$36
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],Reserved,$FF,$37,$FE
+79637,_ECU_Flash_Reprogramming_Requirements_Version_TC76060,1 [0],Not Supported,$FF,$FF,$FF
+79645,_RoELight_Activation_State_TC76129,1 [0],enabled,$FF,$00,$00
+79645,_RoELight_Activation_State_TC76129,1 [0],disabled,$FF,$01,$01
+79649,_VIN_Lock_State_TC18584,1 [0],Not Locked,$FF,$00,$00
+79649,_VIN_Lock_State_TC18584,1 [0],Locked by external tool,$FF,$01,$01
+79649,_VIN_Lock_State_TC18584,1 [0],Locked by odometer,$FF,$02,$02
+83773,_0_ECU_is_a_Not_a_Slave_1_ECU_is_a_Slave_TC81993,0 [1],ECU is a Not a Slave,$1,$0,$0
+83773,_0_ECU_is_a_Not_a_Slave_1_ECU_is_a_Slave_TC81993,0 [1],ECU is a Slave,$1,$1,$1
+83777,_reserved_1_TC81997,0 [1],Reserved,$1,$0,$0
+83785,_0_ECU_is_a_Not_Gateway_1_ECU_is_a_Gateway_TC81989,0 [1],ECU is a Not Gateway,$1,$0,$0
+83785,_0_ECU_is_a_Not_Gateway_1_ECU_is_a_Gateway_TC81989,0 [1],ECU is a Gateway,$1,$1,$1
+83809,_reserved_5_TC33900,0 [1],Reserved,$1,$0,$0
+83833,_reserved_4_TC33904,0 [1],Reserved,$1,$0,$0
+83849,_reserved_2_TC82005,0 [1],Reserved,$1,$0,$0
+83853,_reserved_3_TC33896,0 [1],Reserved,$1,$0,$0
+84846,Not Set / Set,0 [1],Not Set,$1,$0,$0
+84846,Not Set / Set,0 [1],Set,$1,$1,$1
+85582,Remote Start Mode,1 [0],Off Inhibit,$FF,$00,$00
+85582,Remote Start Mode,1 [0],Off,$FF,$01,$01
+85582,Remote Start Mode,1 [0],Pre Start Wait,$FF,$02,$02
+85582,Remote Start Mode,1 [0],Start,$FF,$03,$03
+85582,Remote Start Mode,1 [0],Run,$FF,$04,$04
+85582,Remote Start Mode,1 [0],Customer Access,$FF,$05,$05
+85582,Remote Start Mode,1 [0],Not Programmed,$FF,$FF,$FF
+86054,Immo Ecu,1 [0],BCM,$FF,$00,$00
+86054,Immo Ecu,1 [0],RFHM,$FF,$01,$01
+86054,Immo Ecu,1 [0],Reserved,$FF,$02,$02
+86054,Immo Ecu,1 [0],ECM,$FF,$03,$03
+86054,Immo Ecu,1 [0],HCP,$FF,$04,$04
+86054,Immo Ecu,1 [0],ESL,$FF,$05,$05
+86054,Immo Ecu,1 [0],SNA,$FF,$FF,$FF
+86062,Passed/Failed (2 bit),0 [2],Failed,$3,$0,$0
+86062,Passed/Failed (2 bit),0 [2],Passed,$3,$1,$1
+86062,Passed/Failed (2 bit),0 [2],SNA,$3,$2,$2
+86070,No / Yes (1Bit),0 [1],No,$1,$0,$0
+86070,No / Yes (1Bit),0 [1],Yes,$1,$1,$1
+86082,Routine Request,1 [0],ECU Reset,$FF,$01,$01
+87326,_VTA_Triggers_TC10646,1 [0],Unknown,$FF,$00,$00
+87326,_VTA_Triggers_TC10646,1 [0],Front Driver Door,$FF,$01,$01
+87326,_VTA_Triggers_TC10646,1 [0],Front Passenger Door,$FF,$02,$02
+87326,_VTA_Triggers_TC10646,1 [0],Left Rear Door,$FF,$03,$03
+87326,_VTA_Triggers_TC10646,1 [0],Right Rear Door,$FF,$04,$04
+87326,_VTA_Triggers_TC10646,1 [0],Rear Door,$FF,$05,$05
+87326,_VTA_Triggers_TC10646,1 [0],Hood,$FF,$06,$06
+87326,_VTA_Triggers_TC10646,1 [0],Ignition State Run/Start,$FF,$07,$07
+87326,_VTA_Triggers_TC10646,1 [0],ITM Motion Sensed,$FF,$08,$08
+87326,_VTA_Triggers_TC10646,1 [0],ITM Fault,$FF,$09,$09
+87326,_VTA_Triggers_TC10646,1 [0],Tilt,$FF,$0A,$0A
+87326,_VTA_Triggers_TC10646,1 [0],Spare,$FF,$0B,$0B
+87326,_VTA_Triggers_TC10646,1 [0],Not Programmed,$FF,$FF,$FF
+91042,Debugger Mode,1 [0],Mode Off,$FF,$00,$00
+91042,Debugger Mode,1 [0],Debugger Mode 1,$FF,$01,$01
+91042,Debugger Mode,1 [0],Debugger Mode 2,$FF,$02,$02
+91042,Debugger Mode,1 [0],Debugger Mode 3,$FF,$03,$03
+91042,Debugger Mode,1 [0],Debugger Mode 4,$FF,$04,$04
+91042,Debugger Mode,1 [0],Debugger Mode 5,$FF,$05,$05
+91042,Debugger Mode,1 [0],Debugger Mode 6,$FF,$06,$06
+91042,Debugger Mode,1 [0],Debugger Mode 7,$FF,$07,$07
+91042,Debugger Mode,1 [0],Debugger Mode 8,$FF,$FF,$FF
+100742,Current Fail/Not Fail,0 [1],Current Fail,$1,$0,$0
+100742,Current Fail/Not Fail,0 [1],Not fail,$1,$1,$1
+100754,SlaveResp_CRVMM,1 [0],"DIAGNOSTIC ADDRESS ""CRVMM""",$FF,$2C,$2C
+100774,MasterReq,1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+100774,MasterReq,1 [0],"DIAGNOSTIC ADDRESS ""IBS3"" (47h)",$FF,$47,$47
+100794,WiperSpeed,0 [3],Off / Off,$7,$0,$0
+100794,WiperSpeed,0 [3],Speed1 / Speed1,$7,$1,$1
+100794,WiperSpeed,0 [3],Speed2 / Speed2,$7,$2,$2
+100822,SlaveResp_HRLS,1 [0],"DIAGNOSTIC ADDRESS ""HRLS""",$FF,$22,$22
+100846,SlaveResp_OHC,1 [0],"DIAGNOSTIC ADDRESS ""OHC""",$FF,$33,$33
+100850,Battery Status,0 [1],Normal Battery Status,$1,$0,$0
+100850,Battery Status,0 [1],Critical Battery Status,$1,$1,$1
+100854,Reserved(3 bits),0 [3],Reserved,$7,$0,$0
+100866,Reserved(2 bits),0 [2],Reserved,$3,$0,$0
+100870,SlaveResp_RVDM,1 [0],"DIAGNOSTIC ADDRESS ""RVDM""",$FF,$66,$66
+100882,Reserved(6 bits),0 [6],Reserved,$3F,$0,$0
+100954,Window status,0 [3],Open,$7,$0,$0
+100954,Window status,0 [3],Closed,$7,$1,$1
+100954,Window status,0 [3],Closed Stopped in Intermediate Position,$7,$2,$2
+100954,Window status,0 [3],Running Up,$7,$3,$3
+100954,Window status,0 [3],Running Down,$7,$4,$4
+100954,Window status,0 [3],Reverse,$7,$5,$5
+100954,Window status,0 [3],Short Drop,$7,$6,$6
+100954,Window status,0 [3],Soft Stop Position,$7,$7,$7
+100958,SlaveResp_WCPM,1 [0],"DIAGNOSTIC ADDRESS ""WCPM""",$FF,$50,$50
+101026,Reserved (5 Bits),0 [5],Reserved,$1F,$0,$0
+101038,Camera Blocked,0 [1],Not blocked,$1,$0,$0
+101038,Camera Blocked,0 [1],Blocked,$1,$1,$1
+101046,IBS3_StandbyTime,0 [4],0 <= ET < 10min / ET_10min,$F,$0,$0
+101046,IBS3_StandbyTime,0 [4],10min <= ET < 20min / ET_10min_20min,$F,$1,$1
+101046,IBS3_StandbyTime,0 [4],20min <= ET < 60min / ET_20min_60min,$F,$2,$2
+101046,IBS3_StandbyTime,0 [4],60min <= ET < 4h / ET_60min_4h,$F,$3,$3
+101046,IBS3_StandbyTime,0 [4],4h <= ET < 8h / ET_4h_8h,$F,$4,$4
+101046,IBS3_StandbyTime,0 [4],8h <= ET < 24h / ET_8h_24h,$F,$5,$5
+101046,IBS3_StandbyTime,0 [4],24h <= ET < 36h / ET_24h_36h,$F,$6,$6
+101046,IBS3_StandbyTime,0 [4],36h <=  ET < 48h (2dd) / ET_36h_48h,$F,$7,$7
+101046,IBS3_StandbyTime,0 [4],2dd <=  ET < 5dd / ET_2dd_5dd,$F,$8,$8
+101046,IBS3_StandbyTime,0 [4],5dd <=  ET < 10dd / ET_5dd_10dd,$F,$9,$9
+101046,IBS3_StandbyTime,0 [4],10dd <=  ET < 15dd / ET_10dd_15dd,$F,$A,$A
+101046,IBS3_StandbyTime,0 [4],15dd <=  ET < 20dd / ET_15dd_20dd,$F,$B,$B
+101046,IBS3_StandbyTime,0 [4],20dd <=  ET < 30dd / ET_20dd_30dd,$F,$C,$C
+101046,IBS3_StandbyTime,0 [4],30dd <=  ET < 40dd / ET_30dd_40dd,$F,$D,$D
+101046,IBS3_StandbyTime,0 [4],40dd <  ET / ET_More,$F,$E,$E
+101046,IBS3_StandbyTime,0 [4],SNA,$F,$F,$F
+101058,Inaccurate / accurate,0 [1],Inaccurate / Inaccurate,$1,$0,$0
+101058,Inaccurate / accurate,0 [1],Accurate / Accurate,$1,$1,$1
+101078,Reserved(4 Bytes),4 [0],Reserved,$FFFFFFFF,$00000000,$00000000
+101094,discharge/charge,0 [1],charge mode,$1,$0,$0
+101094,discharge/charge,0 [1],discharge mode,$1,$1,$1
+101098,Reserved(1 bit),0 [1],Reserved,$1,$0,$0
+101110,Reserved(4 bits),0 [4],Reserved,$F,$0,$0
+101142,WindshieldLightVariant,0 [1],Type 1,$1,$0,$0
+101142,WindshieldLightVariant,0 [1],Type 2,$1,$1,$1
+101146,IBS3_Ibatt_Keyoff_Dsch,0 [2],Ibatt quiescent current >= 0 (Charge) / CHARGE,$3,$0,$0
+101146,IBS3_Ibatt_Keyoff_Dsch,0 [2],Ibatt quiescent current < 0 (Disharge) / DISCHARGE,$3,$1,$1
+101146,IBS3_Ibatt_Keyoff_Dsch,0 [2],Quiescent state not reached / UNKNOWN,$3,$2,$2
+101146,IBS3_Ibatt_Keyoff_Dsch,0 [2],SNA,$3,$3,$3
+101150,IBS3_MasterWkRs,0 [3],Charge current limt detected / CURR_LT,$7,$0,$0
+101150,IBS3_MasterWkRs,0 [3],Below minimal charge limit / CHRG_LT,$7,$1,$1
+101150,IBS3_MasterWkRs,0 [3],Above quiscent current limit / QUIS_LT,$7,$2,$2
+101150,IBS3_MasterWkRs,0 [3],Below voltage limit / VOLT_LT,$7,$4,$4
+101150,IBS3_MasterWkRs,0 [3],SNA,$7,$7,$7
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],0mA <= Q < 5mA / QUIES_5mA,$F,$0,$0
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],5mA <= Q < 10mA / QUIES_5mA_10mA,$F,$1,$1
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],10mA <= Q < 15mA / QUIES_10mA_15mA,$F,$2,$2
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],15mA <= Q < 20mA / QUIES_15mA_20mA,$F,$3,$3
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],20mA <= Q < 35mA / QUIES_20mA_35mA,$F,$4,$4
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],35mA <= Q < 50mA / QUIES_35mA_50mA,$F,$5,$5
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],50mA <= Q < 100mA / QUIES_50mA_100mA,$F,$6,$6
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],100mA <= Q < 150mA / QUIES_100mA_150mA,$F,$7,$7
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],150mA <= Q < 250mA / QUIES_150mA_250mA,$F,$8,$8
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],250mA <= Q < 500mA / QUIES_250mA_500mA,$F,$9,$9
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],500mA <= Q < 1000mA / QUIES_500mA_1000mA,$F,$A,$A
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],1000mA <= Q < 1500mA / QUIES_1000mA_1500mA,$F,$B,$B
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],1500mA <= Q < 2000mA / QUIES_1500mA_2000mA,$F,$C,$C
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],2000mA <= Q < 3000mA / QUIES_2000mA_3000mA,$F,$D,$D
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],3000mA <= Q / QUIES_More,$F,$E,$E
+101154,IBS3_Ibatt_Keyoff_Value,0 [4],SNA,$F,$F,$F
+101158,No_Disconnect/ Disconnect,0 [1],No disconnect since last key cycle / No_Disconnect,$1,$0,$0
+101158,No_Disconnect/ Disconnect,0 [1],Battery disconnected since last key cycle / Disconnect,$1,$1,$1
+101166,Plausible / Implausible,0 [1],Plausible State,$1,$0,$0
+101166,Plausible / Implausible,0 [1],Implausible State,$1,$1,$1
+101174,Day light mode,0 [1],Night,$1,$0,$0
+101174,Day light mode,0 [1],Day,$1,$1,$1
+112053,RFReq,0 [3],REQUESTOR_DEFAULT,$7,$0,$0
+112053,RFReq,0 [3],REQUESTOR_RKE,$7,$1,$1
+112053,RFReq,0 [3],REQUESTOR_PE,$7,$2,$2
+112053,RFReq,0 [3],REQUESTOR_REMOTESTART,$7,$3,$3
+112053,RFReq,0 [3],REQUESTOR_UCONNECT,$7,$4,$4
+112053,RFReq,0 [3],REQUESTOR_PE_HANDSFREE,$7,$5,$5
+112053,RFReq,0 [3],SNA,$7,$7,$7
+112081,FronWasherSts,0 [1],None,$1,$0,$0
+112081,FronWasherSts,0 [1],Wash Request,$1,$1,$1
+112085,Stop/Moving,0 [1],Stop,$1,$0,$0
+112085,Stop/Moving,0 [1],Moving,$1,$1,$1
+112093,FrontFogLightCmd,0 [2],Off,$3,$0,$0
+112093,FrontFogLightCmd,0 [2],Right,$3,$1,$1
+112093,FrontFogLightCmd,0 [2],Left,$3,$2,$2
+112093,FrontFogLightCmd,0 [2],Both,$3,$3,$3
+112117,DRLCmd,0 [2],Off,$3,$0,$0
+112117,DRLCmd,0 [2],Right,$3,$1,$1
+112117,DRLCmd,0 [2],Left,$3,$2,$2
+112117,DRLCmd,0 [2],Both,$3,$3,$3
+112125,EC_MirrStat,0 [2],OFF,$3,$0,$0
+112125,EC_MirrStat,0 [2],OFF,$3,$1,$1
+112125,EC_MirrStat,0 [2],DNA,$3,$2,$2
+112125,EC_MirrStat,0 [2],DNA,$3,$3,$3
+112141,Remote Start Not Active/Remote Start Active,0 [1],Remote Start Not Active,$1,$0,$0
+112141,Remote Start Not Active/Remote Start Active,0 [1],Remote Start Active,$1,$1,$1
+112145,SideMarkerCmd,0 [2],Off,$3,$0,$0
+112145,SideMarkerCmd,0 [2],Right,$3,$1,$1
+112145,SideMarkerCmd,0 [2],Left,$3,$2,$2
+112145,SideMarkerCmd,0 [2],Both,$3,$3,$3
+112149,PositionLampsCmd,0 [2],Off,$3,$0,$0
+112149,PositionLampsCmd,0 [2],Right,$3,$1,$1
+112149,PositionLampsCmd,0 [2],Left,$3,$2,$2
+112149,PositionLampsCmd,0 [2],Both,$3,$3,$3
+112157,TurnSignalCmd,0 [2],Off,$3,$0,$0
+112157,TurnSignalCmd,0 [2],Right,$3,$1,$1
+112157,TurnSignalCmd,0 [2],Left,$3,$2,$2
+112157,TurnSignalCmd,0 [2],Both,$3,$3,$3
+112161,TurnIndicatorSts,0 [2],Center,$3,$0,$0
+112161,TurnIndicatorSts,0 [2],Right,$3,$1,$1
+112161,TurnIndicatorSts,0 [2],Left,$3,$2,$2
+112161,TurnIndicatorSts,0 [2],SNA,$3,$3,$3
+112173,HighBeamCmd,0 [2],Off,$3,$0,$0
+112173,HighBeamCmd,0 [2],Right,$3,$1,$1
+112173,HighBeamCmd,0 [2],Left,$3,$2,$2
+112173,HighBeamCmd,0 [2],Both,$3,$3,$3
+112181,LowBeamCmd,0 [2],Off,$3,$0,$0
+112181,LowBeamCmd,0 [2],Right,$3,$1,$1
+112181,LowBeamCmd,0 [2],Left,$3,$2,$2
+112181,LowBeamCmd,0 [2],Both,$3,$3,$3
+112197,DRLSts,0 [2],Off,$3,$0,$0
+112197,DRLSts,0 [2],On,$3,$1,$1
+112197,DRLSts,0 [2],Fault,$3,$2,$2
+112197,DRLSts,0 [2],SNA,$3,$3,$3
+112209,HCP_IMMO_STAT_CANC,0 [2],HCPIS,$3,$0,$0
+112209,HCP_IMMO_STAT_CANC,0 [2],HCPKILL,$3,$1,$1
+112209,HCP_IMMO_STAT_CANC,0 [2],HCPRUN,$3,$2,$2
+112209,HCP_IMMO_STAT_CANC,0 [2],SNA,$3,$3,$3
+112217,Off/Active,0 [1],Off,$1,$0,$0
+112217,Off/Active,0 [1],Active,$1,$1,$1
+113369,Car_Shape_Configuration,1 [0],Invalid,$FF,$00,$00
+113369,Car_Shape_Configuration,1 [0],Sedan,$FF,$01,$01
+113369,Car_Shape_Configuration,1 [0],Station Wagon,$FF,$02,$02
+113369,Car_Shape_Configuration,1 [0],Cargo,$FF,$03,$03
+113369,Car_Shape_Configuration,1 [0],Combi,$FF,$04,$04
+113369,Car_Shape_Configuration,1 [0],Panorama,$FF,$05,$05
+113369,Car_Shape_Configuration,1 [0],Cabrio,$FF,$06,$06
+113369,Car_Shape_Configuration,1 [0],Hatch,$FF,$07,$07
+113369,Car_Shape_Configuration,1 [0],SUV,$FF,$08,$08
+113369,Car_Shape_Configuration,1 [0],CUV,$FF,$09,$09
+113369,Car_Shape_Configuration,1 [0],Truck,$FF,$0A,$0A
+113369,Car_Shape_Configuration,1 [0],Reserved,$FF,$0B,$FF
+113445,Contry_Code,1 [0],WORLD,$FF,$00,$00
+113445,Contry_Code,1 [0],AFGAHANISTAN,$FF,$01,$01
+113445,Contry_Code,1 [0],United States of America,$FF,$02,$02
+113445,Contry_Code,1 [0],ALGERIA,$FF,$03,$03
+113445,Contry_Code,1 [0],CANADA,$FF,$04,$04
+113445,Contry_Code,1 [0],UNITED KINGDOM,$FF,$05,$05
+113445,Contry_Code,1 [0],JAPAN,$FF,$06,$06
+113445,Contry_Code,1 [0],GERMANY,$FF,$07,$07
+113445,Contry_Code,1 [0],SWITZERLAND,$FF,$08,$08
+113445,Contry_Code,1 [0],MALAYSIA,$FF,$09,$09
+113445,Contry_Code,1 [0],AUSTRALIA,$FF,$0A,$0A
+113445,Contry_Code,1 [0],INDONESIA,$FF,$0B,$0B
+113445,Contry_Code,1 [0],ARUBA (Barbados),$FF,$0C,$0C
+113445,Contry_Code,1 [0],VENEZUELA,$FF,$0D,$0D
+113445,Contry_Code,1 [0],MEXICO,$FF,$0E,$0E
+113445,Contry_Code,1 [0],BRAZIL,$FF,$0F,$0F
+113445,Contry_Code,1 [0],CHINA MAINLAND,$FF,$10,$10
+113445,Contry_Code,1 [0],EGYPT,$FF,$11,$11
+113445,Contry_Code,1 [0],BAHRAIN,$FF,$12,$12
+113445,Contry_Code,1 [0],BARBADOS & ISLANDS,$FF,$13,$13
+113445,Contry_Code,1 [0],BELARUS (Ukraine),$FF,$14,$14
+113445,Contry_Code,1 [0],BELGIUM,$FF,$15,$15
+113445,Contry_Code,1 [0],BELIZE (Barbados),$FF,$16,$16
+113445,Contry_Code,1 [0],BENIN (Ivory Coast),$FF,$17,$17
+113445,Contry_Code,1 [0],BERMUDA (Barbados),$FF,$18,$18
+113445,Contry_Code,1 [0],BOLIVIA,$FF,$19,$19
+113445,Contry_Code,1 [0],BOSNIA-HERZEGOVINA (Serbia),$FF,$1A,$1A
+113445,Contry_Code,1 [0],BOTSWANA (South Africa),$FF,$1B,$1B
+113445,Contry_Code,1 [0],AZERBAIJAN,$FF,$1C,$1C
+113445,Contry_Code,1 [0],BRITISH INDIA OCEAN,$FF,$1D,$1D
+113445,Contry_Code,1 [0],BRITISH VIRGIN ISLANDS (Barbados),$FF,$1E,$1E
+113445,Contry_Code,1 [0],BRUNEI,$FF,$1F,$1F
+113445,Contry_Code,1 [0],BULGARIA,$FF,$20,$20
+113445,Contry_Code,1 [0],BURKINA FASO (Ivory Coast),$FF,$21,$21
+113445,Contry_Code,1 [0],BURMA,$FF,$22,$22
+113445,Contry_Code,1 [0],BURUNDI,$FF,$23,$23
+113445,Contry_Code,1 [0],BHUTAN,$FF,$24,$24
+113445,Contry_Code,1 [0],CAMBODIA/KAMPUCHEA,$FF,$25,$25
+113445,Contry_Code,1 [0],CAMEROON,$FF,$26,$26
+113445,Contry_Code,1 [0],AMERICAN SAMOA,$FF,$27,$27
+113445,Contry_Code,1 [0],CANARY ISLANDS,$FF,$28,$28
+113445,Contry_Code,1 [0],CAPE VERDE,$FF,$29,$29
+113445,Contry_Code,1 [0],CAYMAN ISLANDS,$FF,$2A,$2A
+113445,Contry_Code,1 [0],CENTRAL AFRICAN REPUBLIC,$FF,$2B,$2B
+113445,Contry_Code,1 [0],CHAD,$FF,$2C,$2C
+113445,Contry_Code,1 [0],CHILE,$FF,$2D,$2D
+113445,Contry_Code,1 [0],AZORES (Portugal),$FF,$2E,$2E
+113445,Contry_Code,1 [0],COLOMBIA,$FF,$2F,$2F
+113445,Contry_Code,1 [0],COMOROS,$FF,$30,$30
+113445,Contry_Code,1 [0],CONGO,$FF,$31,$31
+113445,Contry_Code,1 [0],COSTA RICA,$FF,$32,$32
+113445,Contry_Code,1 [0],CROATIA,$FF,$33,$33
+113445,Contry_Code,1 [0],CUBA,$FF,$34,$34
+113445,Contry_Code,1 [0],CUETA,$FF,$35,$35
+113445,Contry_Code,1 [0],CYPRUS,$FF,$36,$36
+113445,Contry_Code,1 [0],CZECH. REPUBLIC,$FF,$37,$37
+113445,Contry_Code,1 [0],DENMARK,$FF,$38,$38
+113445,Contry_Code,1 [0],DJIBOUTI,$FF,$39,$39
+113445,Contry_Code,1 [0],DOMINICA,$FF,$3A,$3A
+113445,Contry_Code,1 [0],DOMINICAN REPUBLIC,$FF,$3B,$3B
+113445,Contry_Code,1 [0],ECUADOR,$FF,$3C,$3C
+113445,Contry_Code,1 [0],BAHAMAS (Barbados),$FF,$3D,$3D
+113445,Contry_Code,1 [0],EL SALVADOR,$FF,$3E,$3E
+113445,Contry_Code,1 [0],EQUATORIAL GUINEA,$FF,$3F,$3F
+113445,Contry_Code,1 [0],ERITREA,$FF,$40,$40
+113445,Contry_Code,1 [0],ESTONIA,$FF,$41,$41
+113445,Contry_Code,1 [0],ETHOPIA,$FF,$42,$42
+113445,Contry_Code,1 [0],FAEROE ISLANDS,$FF,$43,$43
+113445,Contry_Code,1 [0],FAUKLAND ISLANDS,$FF,$44,$44
+113445,Contry_Code,1 [0],FIJI,$FF,$45,$45
+113445,Contry_Code,1 [0],FINLAND,$FF,$46,$46
+113445,Contry_Code,1 [0],FRANCE,$FF,$47,$47
+113445,Contry_Code,1 [0],FRENCH GUIANA,$FF,$48,$48
+113445,Contry_Code,1 [0],FRENCH POLYNESIA / TAHITI,$FF,$49,$49
+113445,Contry_Code,1 [0],GABON,$FF,$4A,$4A
+113445,Contry_Code,1 [0],GAMBIA,$FF,$4B,$4B
+113445,Contry_Code,1 [0],GEORGIA,$FF,$4C,$4C
+113445,Contry_Code,1 [0],ANGUILLA (Barbados),$FF,$4D,$4D
+113445,Contry_Code,1 [0],GHANA,$FF,$4E,$4E
+113445,Contry_Code,1 [0],GIBRALTAR,$FF,$4F,$4F
+113445,Contry_Code,1 [0],GREECE,$FF,$50,$50
+113445,Contry_Code,1 [0],GREENLAND,$FF,$51,$51
+113445,Contry_Code,1 [0],GRENADA,$FF,$52,$52
+113445,Contry_Code,1 [0],GUADELOUPE,$FF,$53,$53
+113445,Contry_Code,1 [0],GUAM,$FF,$54,$54
+113445,Contry_Code,1 [0],GUATEMALA,$FF,$55,$55
+113445,Contry_Code,1 [0],GUINEA,$FF,$56,$56
+113445,Contry_Code,1 [0],GUINEA - BISSAU,$FF,$57,$57
+113445,Contry_Code,1 [0],GUYANA,$FF,$58,$58
+113445,Contry_Code,1 [0],HAITI,$FF,$59,$59
+113445,Contry_Code,1 [0],HONDURAS,$FF,$5A,$5A
+113445,Contry_Code,1 [0],HONG KONG,$FF,$5B,$5B
+113445,Contry_Code,1 [0],HUNGARY,$FF,$5C,$5C
+113445,Contry_Code,1 [0],ICELAND,$FF,$5D,$5D
+113445,Contry_Code,1 [0],INDIA,$FF,$5E,$5E
+113445,Contry_Code,1 [0],ARMENIA,$FF,$5F,$5F
+113445,Contry_Code,1 [0],IRAN,$FF,$60,$60
+113445,Contry_Code,1 [0],IRAQ,$FF,$61,$61
+113445,Contry_Code,1 [0],IRELAND,$FF,$62,$62
+113445,Contry_Code,1 [0],ISRAEL,$FF,$63,$63
+113445,Contry_Code,1 [0],ITALY,$FF,$64,$64
+113445,Contry_Code,1 [0],IVORY COAST,$FF,$65,$65
+113445,Contry_Code,1 [0],JAMACIA,$FF,$66,$66
+113445,Contry_Code,1 [0],ANGOLA,$FF,$67,$67
+113445,Contry_Code,1 [0],JORDAN,$FF,$68,$68
+113445,Contry_Code,1 [0],KAZAKSTAN,$FF,$69,$69
+113445,Contry_Code,1 [0],KENYA (South Africa),$FF,$6A,$6A
+113445,Contry_Code,1 [0],KIRIBATI/GILBERT,$FF,$6B,$6B
+113445,Contry_Code,1 [0],KUWAIT,$FF,$6C,$6C
+113445,Contry_Code,1 [0],KYRGHYSTAN,$FF,$6D,$6D
+113445,Contry_Code,1 [0],LAOS,$FF,$6E,$6E
+113445,Contry_Code,1 [0],LATVIA,$FF,$6F,$6F
+113445,Contry_Code,1 [0],LEBANON,$FF,$70,$70
+113445,Contry_Code,1 [0],LESOTHO (South Africa),$FF,$71,$71
+113445,Contry_Code,1 [0],LIBERIA,$FF,$72,$72
+113445,Contry_Code,1 [0],LIBYA,$FF,$73,$73
+113445,Contry_Code,1 [0],LITHUANIA,$FF,$74,$74
+113445,Contry_Code,1 [0],MACAO,$FF,$75,$75
+113445,Contry_Code,1 [0],MALAGASY/MADASGAR,$FF,$76,$76
+113445,Contry_Code,1 [0],MALAWI (South Africa),$FF,$77,$77
+113445,Contry_Code,1 [0],ANTIGUA (Barbados),$FF,$78,$78
+113445,Contry_Code,1 [0],MALDIVES,$FF,$79,$79
+113445,Contry_Code,1 [0],MALI,$FF,$7A,$7A
+113445,Contry_Code,1 [0],MALTA & GOZO,$FF,$7B,$7B
+113445,Contry_Code,1 [0],MARSHALL ISLANDS,$FF,$7C,$7C
+113445,Contry_Code,1 [0],MARTINIQUE,$FF,$7D,$7D
+113445,Contry_Code,1 [0],MAURITANIA,$FF,$7E,$7E
+113445,Contry_Code,1 [0],MAURITIUS (South Africa),$FF,$7F,$7F
+113445,Contry_Code,1 [0],MAYOTTE,$FF,$80,$80
+113445,Contry_Code,1 [0],AUSTRIA,$FF,$81,$81
+113445,Contry_Code,1 [0],MICRONESIA,$FF,$82,$82
+113445,Contry_Code,1 [0],MOLDOVA,$FF,$84,$84
+113445,Contry_Code,1 [0],MONACO,$FF,$85,$85
+113445,Contry_Code,1 [0],MONGOLIA,$FF,$86,$86
+113445,Contry_Code,1 [0],MOROCCO,$FF,$87,$87
+113445,Contry_Code,1 [0],MOZAMBIQUE (South Africa),$FF,$88,$88
+113445,Contry_Code,1 [0],NAMBIA (South Africa),$FF,$89,$89
+113445,Contry_Code,1 [0],NAURU,$FF,$8A,$8A
+113445,Contry_Code,1 [0],NEPAL,$FF,$8B,$8B
+113445,Contry_Code,1 [0],NETHERLANDS,$FF,$8C,$8C
+113445,Contry_Code,1 [0],NETHERLANDS ANTILLES/CURACOA,$FF,$8D,$8D
+113445,Contry_Code,1 [0],NEW CALEDONIA,$FF,$8E,$8E
+113445,Contry_Code,1 [0],NEW ZEALAND,$FF,$8F,$8F
+113445,Contry_Code,1 [0],NICARAGUA,$FF,$90,$90
+113445,Contry_Code,1 [0],NIGER,$FF,$91,$91
+113445,Contry_Code,1 [0],NIGERIA,$FF,$92,$92
+113445,Contry_Code,1 [0],NORTH KOREA,$FF,$93,$93
+113445,Contry_Code,1 [0],NORWAY,$FF,$94,$94
+113445,Contry_Code,1 [0],OMAN,$FF,$95,$95
+113445,Contry_Code,1 [0],PAKISTAN,$FF,$96,$96
+113445,Contry_Code,1 [0],PANAMA,$FF,$97,$97
+113445,Contry_Code,1 [0],PAPUA NEW GUINEA,$FF,$98,$98
+113445,Contry_Code,1 [0],PARAGUAY,$FF,$99,$99
+113445,Contry_Code,1 [0],PERU,$FF,$9A,$9A
+113445,Contry_Code,1 [0],PHILIPPINES,$FF,$9B,$9B
+113445,Contry_Code,1 [0],PITCAIRN ISLANDS,$FF,$9C,$9C
+113445,Contry_Code,1 [0],POLAND,$FF,$9D,$9D
+113445,Contry_Code,1 [0],PORTUGAL,$FF,$9E,$9E
+113445,Contry_Code,1 [0],PUERTO RICO,$FF,$9F,$9F
+113445,Contry_Code,1 [0],QATAR,$FF,$A0,$A0
+113445,Contry_Code,1 [0],ROMANIA,$FF,$A1,$A1
+113445,Contry_Code,1 [0],RUSSIA,$FF,$A2,$A2
+113445,Contry_Code,1 [0],RWANDA,$FF,$A3,$A3
+113445,Contry_Code,1 [0],SAO TOME,$FF,$A4,$A4
+113445,Contry_Code,1 [0],SAUDI ARABIA,$FF,$A5,$A5
+113445,Contry_Code,1 [0],SENEGAL,$FF,$A6,$A6
+113445,Contry_Code,1 [0],SERBIA,$FF,$A7,$A7
+113445,Contry_Code,1 [0],SEYCHELLES,$FF,$A8,$A8
+113445,Contry_Code,1 [0],SIERRA LEONE,$FF,$A9,$A9
+113445,Contry_Code,1 [0],SINGAPORE,$FF,$AA,$AA
+113445,Contry_Code,1 [0],SLOVAKIA,$FF,$AB,$AB
+113445,Contry_Code,1 [0],SLOVENIA,$FF,$AC,$AC
+113445,Contry_Code,1 [0],SOLOMAN ISLANDS,$FF,$AD,$AD
+113445,Contry_Code,1 [0],SOMALIA,$FF,$AE,$AE
+113445,Contry_Code,1 [0],SOUTH AFRICA,$FF,$AF,$AF
+113445,Contry_Code,1 [0],SOUTH KOREA,$FF,$B0,$B0
+113445,Contry_Code,1 [0],SPAIN,$FF,$B1,$B1
+113445,Contry_Code,1 [0],SRI LANKA,$FF,$B2,$B2
+113445,Contry_Code,1 [0],ST. KITTS AND NEVIS,$FF,$B3,$B3
+113445,Contry_Code,1 [0],ST. LUCIA,$FF,$B4,$B4
+113445,Contry_Code,1 [0],ST. PIERRE & MIQUELON,$FF,$B5,$B5
+113445,Contry_Code,1 [0],ST. THOMAS & U.S. VIRGIN ISLANDS,$FF,$B6,$B6
+113445,Contry_Code,1 [0],ST. VINCENT,$FF,$B7,$B7
+113445,Contry_Code,1 [0],SUDAN,$FF,$B8,$B8
+113445,Contry_Code,1 [0],SURINAME,$FF,$B9,$B9
+113445,Contry_Code,1 [0],SWAZILAND,$FF,$BA,$BA
+113445,Contry_Code,1 [0],SWEDEN,$FF,$BB,$BB
+113445,Contry_Code,1 [0],ANTARCTICA,$FF,$BC,$BC
+113445,Contry_Code,1 [0],SYRIA,$FF,$BD,$BD
+113445,Contry_Code,1 [0],TAIWAN,$FF,$BE,$BE
+113445,Contry_Code,1 [0],TAJIKISTAN,$FF,$BF,$BF
+113445,Contry_Code,1 [0],TANZANIA (South Africa),$FF,$C0,$C0
+113445,Contry_Code,1 [0],THAILAND,$FF,$C1,$C1
+113445,Contry_Code,1 [0],TOGO,$FF,$C2,$C2
+113445,Contry_Code,1 [0],TONGA,$FF,$C3,$C3
+113445,Contry_Code,1 [0],TRINIDAD & TOBAGO,$FF,$C4,$C4
+113445,Contry_Code,1 [0],TUNISIA,$FF,$C5,$C5
+113445,Contry_Code,1 [0],TURKEY,$FF,$C6,$C6
+113445,Contry_Code,1 [0],TURKMENISTAN,$FF,$C7,$C7
+113445,Contry_Code,1 [0],TURKS & CAICAO ISLAND,$FF,$C8,$C8
+113445,Contry_Code,1 [0],TUVALU,$FF,$C9,$C9
+113445,Contry_Code,1 [0],UGANDA (South Africa),$FF,$CA,$CA
+113445,Contry_Code,1 [0],UKRAINE,$FF,$CB,$CB
+113445,Contry_Code,1 [0],UNITED ARAB EMIRATES,$FF,$CC,$CC
+113445,Contry_Code,1 [0],ANDORRA (Spain),$FF,$CD,$CD
+113445,Contry_Code,1 [0],ALBANIA,$FF,$CE,$CE
+113445,Contry_Code,1 [0],URUGUAY,$FF,$CF,$CF
+113445,Contry_Code,1 [0],UZBEKISTAN,$FF,$D0,$D0
+113445,Contry_Code,1 [0],VANUATU,$FF,$D1,$D1
+113445,Contry_Code,1 [0],VATICAN CITY,$FF,$D2,$D2
+113445,Contry_Code,1 [0],ARGENTINA,$FF,$D3,$D3
+113445,Contry_Code,1 [0],VIETNAM,$FF,$D4,$D4
+113445,Contry_Code,1 [0],WALLIS & FUTUNA,$FF,$D5,$D5
+113445,Contry_Code,1 [0],WESTERN SAMOA,$FF,$D6,$D6
+113445,Contry_Code,1 [0],YEMEN,$FF,$D7,$D7
+113445,Contry_Code,1 [0],YUGOSLAVIA,$FF,$D8,$D8
+113445,Contry_Code,1 [0],ZAIRE,$FF,$D9,$D9
+113445,Contry_Code,1 [0],ZAMBIA (South Africa),$FF,$DA,$DA
+113445,Contry_Code,1 [0],ZIMBABWE (South Africa),$FF,$DB,$DB
+113445,Contry_Code,1 [0],LUXEMBOURG,$FF,$DC,$DC
+113445,Contry_Code,1 [0],REUNION,$FF,$DD,$DD
+113445,Contry_Code,1 [0],LIECHTENSTEIN,$FF,$DE,$DE
+113445,Contry_Code,1 [0],MACEDONIA,$FF,$DF,$DF
+113445,Contry_Code,1 [0],MONTENEGRO,$FF,$E0,$E0
+113445,Contry_Code,1 [0],MADAGASCAR,$FF,$E1,$E1
+113445,Contry_Code,1 [0],SOUTH SUDAN,$FF,$E2,$E2
+113445,Contry_Code,1 [0],Reserved,$FF,$E3,$FF
+119450,Reserved (1Byte),1 [0],Reserved,$FF,$00,$00
+124726,Ignition ON,1 [0],Ignition OFF,$FF,$00,$00
+124726,Ignition ON,1 [0],Ignition ON,$FF,$FF,$FF
+127186,Not Initialized / Initialized,0 [1],Not Initialized,$1,$0,$0
+127186,Not Initialized / Initialized,0 [1],Initialized,$1,$1,$1
+134985,Not Used,0 [7],Not Used,$7F,$0,$0
+134985,Not Used,0 [7],Invalid,$7F,$1,$7F
+135045,Not Used,0 [1],Not Used,$1,$0,$0
+135045,Not Used,0 [1],Invalid,$1,$1,$1
+135109,Not Used,0 [4],Not Used,$F,$0,$0
+135109,Not Used,0 [4],Invalid,$F,$1,$F
+135181,Not Used,0 [5],Not Used,$1F,$0,$0
+135181,Not Used,0 [5],Invalid,$1F,$1,$1F
+135201,Not Used,0 [3],Not Used,$7,$0,$0
+135201,Not Used,0 [3],Invalid,$7,$1,$7
+135245,Not Used,0 [6],Not Used,$3F,$0,$0
+135245,Not Used,0 [6],Invalid,$3F,$1,$3F
+135277,Not Used,1 [0],Not Used,$FF,$00,$00
+135277,Not Used,1 [0],Invalid,$FF,$01,$FF
+135369,Not Used,0 [2],Not Used,$3,$0,$0
+135369,Not Used,0 [2],Invalid,$3,$1,$3
+137897,SlaveResp_SBMRR,1 [0],"DIAGNOSTIC ADDRESS ""SBMRR"" (6Ch)",$FF,$6C,$6C
+137901,SlaveResp_SBMRL,1 [0],"DIAGNOSTIC ADDRESS ""SBMRL"" (6Bh)",$FF,$6B,$6B
+138017,IBS3_Current Flow Direction,0 [2],Ibatt quiescent current >= 0 (Charge) / CHARGE,$3,$0,$0
+138017,IBS3_Current Flow Direction,0 [2],Ibatt quiescent current < 0 (Disharge) / DISCHARGE,$3,$1,$1
+138017,IBS3_Current Flow Direction,0 [2],Quiescent state not reached / UNKNOWN,$3,$2,$2
+138017,IBS3_Current Flow Direction,0 [2],SNA,$3,$3,$3
+138025,IBS3_Current Status,0 [4],0mA <= Q < 5mA / QUIES_5mA,$F,$0,$0
+138025,IBS3_Current Status,0 [4],5mA <= Q < 10mA / QUIES_5mA_10mA,$F,$1,$1
+138025,IBS3_Current Status,0 [4],10mA <= Q < 15mA / QUIES_10mA_15mA,$F,$2,$2
+138025,IBS3_Current Status,0 [4],15mA <= Q < 20mA / QUIES_15mA_20mA,$F,$3,$3
+138025,IBS3_Current Status,0 [4],20mA <= Q < 35mA / QUIES_20mA_35mA,$F,$4,$4
+138025,IBS3_Current Status,0 [4],35mA <= Q < 50mA / QUIES_35mA_50mA,$F,$5,$5
+138025,IBS3_Current Status,0 [4],50mA <= Q < 100mA / QUIES_50mA_100mA,$F,$6,$6
+138025,IBS3_Current Status,0 [4],100mA <= Q < 150mA / QUIES_100mA_150mA,$F,$7,$7
+138025,IBS3_Current Status,0 [4],150mA <= Q < 250mA / QUIES_150mA_250mA,$F,$8,$8
+138025,IBS3_Current Status,0 [4],250mA <= Q < 500mA / QUIES_250mA_500mA,$F,$9,$9
+138025,IBS3_Current Status,0 [4],500mA <= Q < 1000mA / QUIES_500mA_1000mA,$F,$A,$A
+138025,IBS3_Current Status,0 [4],1000mA <= Q < 1500mA / QUIES_1000mA_1500mA,$F,$B,$B
+138025,IBS3_Current Status,0 [4],1500mA <= Q < 2000mA / QUIES_1500mA_2000mA,$F,$C,$C
+138025,IBS3_Current Status,0 [4],2000mA <= Q < 3000mA / QUIES_2000mA_3000mA,$F,$D,$D
+138025,IBS3_Current Status,0 [4],3000mA <= Q / QUIES_More,$F,$E,$E
+138025,IBS3_Current Status,0 [4],SNA,$F,$F,$F
+138033,nofault/fault,0 [1],No Fault / No_Fault,$1,$0,$0
+138033,nofault/fault,0 [1],Over Current / Over_Current,$1,$1,$1
+138037,Inactive / Activel2plus,0 [1],Inactive / Inactive,$1,$0,$0
+138037,Inactive / Activel2plus,0 [1],L2plus mode active / L2plus_mode_active,$1,$1,$1
+138041,nofault/faultunvol,0 [1],No Fault / No_Fault,$1,$0,$0
+138041,nofault/faultunvol,0 [1],Under_Voltage / Under_Voltage,$1,$1,$1
+138045,RsErr_ASBM,0 [1],No error,$1,$0,$0
+138045,RsErr_ASBM,0 [1],error,$1,$1,$1
+138065,ESS AC/NONACK,0 [1],ESS_NotActivated / ESS_NotActivated,$1,$0,$0
+138065,ESS AC/NONACK,0 [1],ESS_Activated / ESS_Activated,$1,$1,$1
+138097,Error/No-Error,0 [1],NoError=[0],$1,$0,$0
+138097,Error/No-Error,0 [1],Error=[1],$1,$1,$1
+138125,_Not_Authenticated_Authenticated,1 [0],Not Authenticated,$FF,$00,$00
+138125,_Not_Authenticated_Authenticated,1 [0],Authenticated,$FF,$01,$01
+139738,Not Selected / Selected,0 [1],Not Selected,$1,$0,$0
+139738,Not Selected / Selected,0 [1],Selected,$1,$1,$1
+140066,Policy Type2 (1Byte),1 [0],Reserved,$FF,$00,$00
+140066,Policy Type2 (1Byte),1 [0],Pre-Series Policy,$FF,$01,$01
+140066,Policy Type2 (1Byte),1 [0],Default Policy,$FF,$02,$02
+140066,Policy Type2 (1Byte),1 [0],Assembly Policy,$FF,$03,$03
+140066,Policy Type2 (1Byte),1 [0],Customer Intent Policy,$FF,$04,$04
+140066,Policy Type2 (1Byte),1 [0],Upfitters Policy,$FF,$05,$05
+140066,Policy Type2 (1Byte),1 [0],Forensic Policy,$FF,$06,$06
+140066,Policy Type2 (1Byte),1 [0],Reserved,$FF,$07,$FF
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],58 (29%),$F,$0,$0
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],60 (30%),$F,$1,$1
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],62 (31%),$F,$2,$2
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],64 (32%),$F,$3,$3
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],70 (35%),$F,$4,$4
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],75 (37.5%),$F,$5,$5
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],80 (40%),$F,$6,$6
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],85 (42.5%),$F,$7,$7
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],90 (45%),$F,$8,$8
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],95 (47.50%),$F,$9,$9
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],100 (50%),$F,$A,$A
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],120 (60%),$F,$B,$B
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],140 (70%),$F,$C,$C
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],160 (80%),$F,$D,$D
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],180 (90%),$F,$E,$E
+141896,_Illuminated_Approach_Interior_Lighting_Target_Percentage_TC23405,0 [4],200 (100%),$F,$F,$F
+141899,_SingleDouble_TC81173,0 [1],Single,$1,$0,$0
+141899,_SingleDouble_TC81173,0 [1],Double,$1,$1,$1
+141923,_Reserved1_Byte_TC101102,1 [0],Reserved,$FF,$00,$00
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],10 km/hr,$F,$0,$0
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],15 km/hr,$F,$1,$1
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],20 km/hr,$F,$2,$2
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],25 km/hr,$F,$3,$3
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],30 km/hr,$F,$4,$4
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],35 km/hr,$F,$5,$5
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],40 km/hr,$F,$6,$6
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],45 km/hr,$F,$7,$7
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],50 km/hr,$F,$8,$8
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],55 km/hr,$F,$9,$9
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],60 km/hr,$F,$A,$A
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],65 km/hr,$F,$B,$B
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],70 km/hr,$F,$C,$C
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],75 km/hr,$F,$D,$D
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],80 km/hr,$F,$E,$E
+142310,_Auto_High_Beam_Threshold_TC142274,0 [4],85 km/hr,$F,$F,$F
+142601,_0_Running_in_App__1_Running_in_Boot_TC81981,0 [1],Running in Boot,$1,$0,$0
+142601,_0_Running_in_App__1_Running_in_Boot_TC81981,0 [1],Running in Application,$1,$1,$1
+145910,Option 2,0 [1],Hasn't EOL,$1,$0,$0
+145910,Option 2,0 [1],Has EOL,$1,$1,$1
+146000,Option 1,0 [1],Absent,$1,$0,$0
+146000,Option 1,0 [1],Present,$1,$1,$1
+155401,_After_Market_ECM_Detected_TC13675,0 [2],Default,$3,$0,$0
+155401,_After_Market_ECM_Detected_TC13675,0 [2],Reserved,$3,$1,$1
+155401,_After_Market_ECM_Detected_TC13675,0 [2],After Market ECM Detected,$3,$2,$2
+155401,_After_Market_ECM_Detected_TC13675,0 [2],SNA,$3,$3,$3
+157873,Regional Designation,1 [0],APAC,$FF,$00,$00
+157873,Regional Designation,1 [0],China,$FF,$01,$01
+157873,Regional Designation,1 [0],EMEA,$FF,$02,$02
+157873,Regional Designation,1 [0],NAFTA,$FF,$03,$03
+157873,Regional Designation,1 [0],ROW,$FF,$04,$04
+157873,Regional Designation,1 [0],Reserved 1,$FF,$05,$05
+157873,Regional Designation,1 [0],Reserved 2,$FF,$06,$06
+157873,Regional Designation,1 [0],Reserved 3,$FF,$07,$07
+157873,Regional Designation,1 [0],Reserved 4,$FF,$08,$08
+157873,Regional Designation,1 [0],Reserved 5,$FF,$09,$09
+157873,Regional Designation,1 [0],Not Programmed,$FF,$FF,$FF
+159800,Reserved (6bit),0 [6],Reserved,$3F,$0,$0
+161446,Mirroring Table Coding,1 [0],FDCAN4-to-FDCAN1,$FF,$01,$01
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$02,$02
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$03,$03
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$04,$04
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$05,$05
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$06,$06
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$07,$07
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$08,$08
+161446,Mirroring Table Coding,1 [0],RESERVED,$FF,$09,$09
+161446,Mirroring Table Coding,1 [0],Mirroring disabled,$FF,$FF,$FF
+161449,Routing Mirroring Status,2 [0],FDCAN4-to-FDCAN1,$FFFF,$030C,$030C
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$0C04,$0C04
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B0,$43B0
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B1,$43B1
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B2,$43B2
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B3,$43B3
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B4,$43B4
+161449,Routing Mirroring Status,2 [0],RESERVED,$FFFF,$43B5,$43B5
+161449,Routing Mirroring Status,2 [0],No mirroring configured,$FFFF,$FFFF,$FFFF
+168924,Not Used,2 [0],Not Used,$FFFF,$0000,$0000
+168924,Not Used,2 [0],Invalid,$FFFF,$0001,$FFFF
+169703,overtemp_detected,0 [1],No_Fault,$1,$0,$0
+169703,overtemp_detected,0 [1],Over_Temp,$1,$1,$1
+170087,Reserved (7bit),0 [7],Reserved,$7F,$0,$0
+170110,Diagnostic Tool and Session Status,1 [0],"Bit 0 : Tester Present Message (0=Message NOT present on bus, 1=Message present on bus)",$FF,$00,$00
+170110,Diagnostic Tool and Session Status,1 [0],"Bit 1 : Default Session (0 = session NOT active, 1 = session active)",$FF,$01,$01
+170110,Diagnostic Tool and Session Status,1 [0],"Bit 2 : Program Session (0 = session NOT active, 1 = session active)",$FF,$02,$02
+170110,Diagnostic Tool and Session Status,1 [0],"Bit 3 : Extended Session (0 = session NOT active, 1 = session active)",$FF,$03,$03
+170110,Diagnostic Tool and Session Status,1 [0],"Bit 4 : Other Session (0 = session NOT active, 1 = session active)",$FF,$04,$04
+170110,Diagnostic Tool and Session Status,1 [0],"session NOT active, 1 = session active)",$FF,$05,$05
+170110,Diagnostic Tool and Session Status,1 [0],Bit 6 : Reserved (set to zero),$FF,$06,$06
+170110,Diagnostic Tool and Session Status,1 [0],Bit 7 : Reserved (set to zero),$FF,$07,$07
+170406,_0x00_Not_Present__0x01_Present_TC37264,0 [1],Not present,$1,$0,$0
+170406,_0x00_Not_Present__0x01_Present_TC37264,0 [1],Present,$1,$1,$1
+170888,_Signature_Type_TC130874,1 [0],AES-128,$FF,$00,$00
+170888,_Signature_Type_TC130874,1 [0],SHA-256 with RSA-2048,$FF,$01,$01
+170888,_Signature_Type_TC130874,1 [0],SHA - 256,$FF,$02,$02
+170888,_Signature_Type_TC130874,1 [0],ECC - 256,$FF,$03,$03
+170888,_Signature_Type_TC130874,1 [0],ECDSA256,$FF,$04,$04
+170888,_Signature_Type_TC130874,1 [0],RESERVED2,$FF,$05,$05
+170888,_Signature_Type_TC130874,1 [0],RESERVED3,$FF,$06,$06
+170888,_Signature_Type_TC130874,1 [0],RESERVED4,$FF,$07,$07
+170888,_Signature_Type_TC130874,1 [0],RESERVED5,$FF,$08,$08
+170888,_Signature_Type_TC130874,1 [0],RESERVED6,$FF,$09,$09
+170888,_Signature_Type_TC130874,1 [0],Not Programmed,$FF,$FF,$FF
+173724,SlaveResp_DBSM2,1 [0],"DIAGNOSTIC ADDRESS ""DBSM2"" (10h)",$FF,$10,$10
+173734,SlaveResp_SWSM,1 [0],"DIAGNOSTIC ADDRESS ""SWSM"" (24h)",$FF,$24,$24
+173738,SlaveResp_IBS3_2,1 [0],"DIAGNOSTIC ADDRESS ""IBS3_2"" (48h)",$FF,$48,$48
+174281,Message NOT present on bus / Message present on bus,0 [1],Message NOT present on bus,$1,$0,$0
+174281,Message NOT present on bus / Message present on bus,0 [1],Message present on bus,$1,$1,$1
+174282,session NOT active / session active,0 [1],session NOT active,$1,$0,$0
+174282,session NOT active / session active,0 [1],session active,$1,$1,$1
+176993,SlaveResp_WSMRR,1 [0],"DIAGNOSTIC ADDRESS ""WSMRR"" (Dh)",$FF,$0D,$0D
+176994,SlaveResp_WSMRL,1 [0],"DIAGNOSTIC ADDRESS ""WSMRL"" (Ch)",$FF,$0C,$0C
+176998,SlaveResp_LMTM,1 [0],"DIAGNOSTIC ADDRESS ""LMTM"" (73h)",$FF,$73,$73
+176999,SlaveResp_SLMRR,1 [0],"DIAGNOSTIC ADDRESS ""SLMRR"" (6Eh)",$FF,$6E,$6E
+177000,SlaveResp_SLMRL,1 [0],"DIAGNOSTIC ADDRESS ""SLMRL"" (6Dh)",$FF,$6D,$6D
+177001,BSA Lamp signal status per function,0 [7],No Active Functions,$7F,$0,$0
+177001,BSA Lamp signal status per function,0 [7],Stop Active,$7F,$1,$1
+177001,BSA Lamp signal status per function,0 [7],Tail Active,$7F,$2,$2
+177001,BSA Lamp signal status per function,0 [7],Turn Active,$7F,$4,$4
+177001,BSA Lamp signal status per function,0 [7],Welcome Active,$7F,$8,$8
+177001,BSA Lamp signal status per function,0 [7],Depart Active,$7F,$A,$A
+177002,fault detect per channel,0 [7],No Faults,$7F,$0,$0
+177002,fault detect per channel,0 [7],CH 1 Fault,$7F,$1,$1
+177002,fault detect per channel,0 [7],CH 2 Fault,$7F,$2,$2
+177002,fault detect per channel,0 [7],CH 3 Fault,$7F,$4,$4
+177002,fault detect per channel,0 [7],CH 4 Fault,$7F,$8,$8
+177002,fault detect per channel,0 [7],CH 5 Fault,$7F,$A,$A
+177003,MasterReq (SLMRL-SLMRR-SLMC1-SLMC2),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+177003,MasterReq (SLMRL-SLMRR-SLMC1-SLMC2),1 [0],"DIAGNOSTIC ADDRESS ""SLMRL"" (6Dh)",$FF,$6D,$6D
+177003,MasterReq (SLMRL-SLMRR-SLMC1-SLMC2),1 [0],"DIAGNOSTIC ADDRESS ""SLMRR"" (6Eh)",$FF,$6E,$6E
+177003,MasterReq (SLMRL-SLMRR-SLMC1-SLMC2),1 [0],"DIAGNOSTIC ADDRESS ""SLMC1"" (78h)",$FF,$78,$78
+177003,MasterReq (SLMRL-SLMRR-SLMC1-SLMC2),1 [0],"DIAGNOSTIC ADDRESS ""SLMC2"" (79h)",$FF,$79,$79
+177005,Digital Switch Conversion,0 [1],Not Active,$1,$0,$0
+177005,Digital Switch Conversion,0 [1],Active,$1,$1,$1
+177006,SlaveResp_ASBM,1 [0],"DIAGNOSTIC ADDRESS ""ASBM"" (1Dh)",$FF,$1D,$1D
+177007,2 State Analog Switch Conversion,0 [4],Active,$F,$0,$0
+177007,2 State Analog Switch Conversion,0 [4],Not Active,$F,$1,$1
+177007,2 State Analog Switch Conversion,0 [4],Open Circuit,$F,$2,$2
+177007,2 State Analog Switch Conversion,0 [4],Short to Ground,$F,$3,$3
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$4,$4
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$5,$5
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$6,$6
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$7,$7
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$8,$8
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$9,$9
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$A,$A
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$B,$B
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$C,$C
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$D,$D
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$E,$E
+177007,2 State Analog Switch Conversion,0 [4],Reserved,$F,$F,$F
+177010,Reserved (4Byte),4 [0],Reserved,$FFFFFFFF,$00000000,$00000000
+177012,Reserved (5bit),0 [5],Reserved,$1F,$0,$0
+177013,Ignition / Battery,0 [1],Ignition,$1,$0,$0
+177013,Ignition / Battery,0 [1],Battery,$1,$1,$1
+177014,Latching / Momentary,0 [1],Latching,$1,$0,$0
+177014,Latching / Momentary,0 [1],Momentary,$1,$1,$1
+177016,Reserved (1bit),0 [1],Reserved,$1,$0,$0
+177017,SlaveResp_CSWC,1 [0],"DIAGNOSTIC ADDRESS ""CSWC"" (25h)",$FF,$25,$25
+177019,MasterReq (CSWC-SWSM),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+177019,MasterReq (CSWC-SWSM),1 [0],"DIAGNOSTIC ADDRESS ""CSWC"" (19h)",$FF,$01,$01
+177019,MasterReq (CSWC-SWSM),1 [0],"DIAGNOSTIC ADDRESS ""SWSM"" (24h)",$FF,$24,$24
+177020,Type_Of_Vehicle,1 [0],M182_M189,$FF,$01,$01
+177020,Type_Of_Vehicle,1 [0],Alfa,$FF,$02,$02
+177020,Type_Of_Vehicle,1 [0],FF,$FF,$03,$03
+177020,Type_Of_Vehicle,1 [0],WL,$FF,$04,$04
+177020,Type_Of_Vehicle,1 [0],WS,$FF,$05,$05
+177020,Type_Of_Vehicle,1 [0],MP,$FF,$06,$06
+177020,Type_Of_Vehicle,1 [0],MASAH,$FF,$07,$07
+177020,Type_Of_Vehicle,1 [0],SNA,$FF,$FF,$FF
+177026,Night / Day,0 [1],Night,$1,$0,$0
+177026,Night / Day,0 [1],Day,$1,$1,$1
+177032,SlaveResp_WCPM3,1 [0],"DIAGNOSTIC ADDRESS ""WCPM3"" (53h)",$FF,$53,$53
+177034,Reserved (3bit),0 [3],Reserved,$7,$0,$0
+177036,Park / Not in Park,0 [1],In Park,$1,$0,$0
+177036,Park / Not in Park,0 [1],Not in park,$1,$1,$1
+177038,SlaveResp_WCPM2,1 [0],"DIAGNOSTIC ADDRESS ""WCPM2"" (7Bh)",$FF,$7B,$7B
+177039,Connected / Disconnected,0 [1],Connected,$1,$0,$0
+177039,Connected / Disconnected,0 [1],Disconnected,$1,$1,$1
+177041,Ajar Conversion,0 [4],Not Ajar,$F,$0,$0
+177041,Ajar Conversion,0 [4],Ajar,$F,$1,$1
+177041,Ajar Conversion,0 [4],Open Circuit,$F,$2,$2
+177041,Ajar Conversion,0 [4],Short to Ground,$F,$3,$3
+177041,Ajar Conversion,0 [4],SNA,$F,$4,$4
+177041,Ajar Conversion,0 [4],Reserved,$F,$5,$5
+177041,Ajar Conversion,0 [4],Reserved,$F,$6,$6
+177041,Ajar Conversion,0 [4],Reserved,$F,$7,$7
+177041,Ajar Conversion,0 [4],Reserved,$F,$8,$8
+177041,Ajar Conversion,0 [4],Reserved,$F,$9,$9
+177041,Ajar Conversion,0 [4],Reserved,$F,$A,$A
+177041,Ajar Conversion,0 [4],Reserved,$F,$B,$B
+177041,Ajar Conversion,0 [4],Reserved,$F,$C,$C
+177041,Ajar Conversion,0 [4],Reserved,$F,$D,$D
+177041,Ajar Conversion,0 [4],Reserved,$F,$E,$E
+177041,Ajar Conversion,0 [4],Reserved,$F,$F,$F
+177043,SlaveResp_ASBM2,1 [0],"DIAGNOSTIC ADDRESS ""ASBM2"" (1Fh)",$FF,$1F,$1F
+177047,NOT_PSD / UP_PSD / DOWN_PSD,0 [2],Not pressed,$3,$0,$0
+177047,NOT_PSD / UP_PSD / DOWN_PSD,0 [2],Up pressed,$3,$1,$1
+177047,NOT_PSD / UP_PSD / DOWN_PSD,0 [2],Down pressed,$3,$2,$2
+177047,NOT_PSD / UP_PSD / DOWN_PSD,0 [2],SNA,$3,$3,$3
+177052,MasterReq (HRLS-CRVMM-OHC-RVDM),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+177052,MasterReq (HRLS-CRVMM-OHC-RVDM),1 [0],"DIAGNOSTIC ADDRESS ""HRLS""",$FF,$22,$22
+177052,MasterReq (HRLS-CRVMM-OHC-RVDM),1 [0],"DIAGNOSTIC ADDRESS ""CRVMM""",$FF,$2C,$2C
+177052,MasterReq (HRLS-CRVMM-OHC-RVDM),1 [0],"DIAGNOSTIC ADDRESS ""OHC""",$FF,$33,$33
+177052,MasterReq (HRLS-CRVMM-OHC-RVDM),1 [0],"DIAGNOSTIC ADDRESS ""RVDM""",$FF,$66,$66
+177054,Country Code,0 [5],Rest of world / ROW,$F,$0,$0
+177054,Country Code,0 [5],USA / USA,$F,$2,$2
+177054,Country Code,0 [5],Europe / EU,$F,$3,$3
+177054,Country Code,0 [5],Canada / CND,$F,$4,$4
+177054,Country Code,0 [5],England / GB,$F,$5,$5
+177054,Country Code,0 [5],Japan / JPN,$F,$6,$6
+177054,Country Code,0 [5],Germany / GER,$F,$7,$7
+177054,Country Code,0 [5],Switzerland / SWISS,$F,$8,$8
+177054,Country Code,0 [5],Malaysia / MLY,$F,$9,$9
+177054,Country Code,0 [5],Australia / AUS,$F,$A,$A
+177054,Country Code,0 [5],Indonesia / IND,$F,$B,$B
+177054,Country Code,0 [5],Gulf coast countries / GULF,$F,$C,$C
+177054,Country Code,0 [5],Venezuela / VEN,$F,$D,$D
+177054,Country Code,0 [5],Mexico / MEX,$F,$E,$E
+177054,Country Code,0 [5],Brazil / BRZ,$F,$F,$F
+177054,Country Code,0 [5],China / CHINA,$F,$10,$10
+177054,Country Code,0 [5],Egypt / EGYPT,$F,$11,$11
+177054,Country Code,0 [5],South Korea / S_KOR,$F,$14,$14
+177054,Country Code,0 [5],ECE Countries / ECE,$F,$15,$15
+177054,Country Code,0 [5],Not programmed / COUNTRY_SNA,$F,$1F,$1F
+177057,Charge / Discharge,0 [1],Charge mode,$1,$0,$0
+177057,Charge / Discharge,0 [1],Discharge mode,$1,$1,$1
+177066,Inaccurate / Accurate,0 [1],Inaccurate,$1,$0,$0
+177066,Inaccurate / Accurate,0 [1],Accurate,$1,$1,$1
+177075,MasterReq (IBS3-TCSM),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+177075,MasterReq (IBS3-TCSM),1 [0],"DIAGNOSTIC ADDRESS ""TCSM"" (2Eh)",$FF,$2E,$2E
+177075,MasterReq (IBS3-TCSM),1 [0],"DIAGNOSTIC ADDRESS ""IBS3"" (47h)",$FF,$47,$47
+177077,Intermittent / Continous,0 [1],Intermittent,$1,$0,$0
+177077,Intermittent / Continous,0 [1],Continous,$1,$1,$1
+177081,SlaveResp_IBS3,1 [0],"DIAGNOSTIC ADDRESS ""IBS3"" (47h)",$FF,$47,$47
+177087,ROT / PB,0 [2],Rotary,$3,$0,$0
+177087,ROT / PB,0 [2],Push button,$3,$1,$1
+177087,ROT / PB,0 [2],SNA,$3,$3,$3
+177088,NPSD / PSD / NDEF2,0 [2],Not pressed,$3,$0,$0
+177088,NPSD / PSD / NDEF2,0 [2],Pressed,$3,$1,$1
+177088,NPSD / PSD / NDEF2,0 [2],Not defined,$3,$2,$2
+177088,NPSD / PSD / NDEF2,0 [2],SNA,$3,$3,$3
+177089,Not Stuck / Stuch,0 [1],Not Stuck,$1,$0,$0
+177089,Not Stuck / Stuch,0 [1],Stuck,$1,$1,$1
+177091,Disable / Enable,0 [1],Disable,$1,$0,$0
+177091,Disable / Enable,0 [1],Enable,$1,$1,$1
+177103,SlaveResp_INVM,1 [0],"DIAGNOSTIC ADDRESS ""INVM"" (Eh)",$FF,$0E,$0E
+177110,SlaveResp_TCSM,1 [0],"DIAGNOSTIC ADDRESS ""TCSM"" (2Eh)",$FF,$2E,$2E
+177111,NPSD / PSD / STUCK,0 [2],Not pressed,$3,$0,$0
+177111,NPSD / PSD / STUCK,0 [2],Pressed,$3,$1,$1
+177111,NPSD / PSD / STUCK,0 [2],Switch stuck,$3,$2,$2
+177111,NPSD / PSD / STUCK,0 [2],SNA,$3,$3,$3
+177123,MasterReq (DBSM-IBS3_2),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+177123,MasterReq (DBSM-IBS3_2),1 [0],"DIAGNOSTIC ADDRESS ""DBSM2"" (10h)",$FF,$10,$10
+177123,MasterReq (DBSM-IBS3_2),1 [0],"DIAGNOSTIC ADDRESS ""IBS3_2"" (48h)",$FF,$48,$48
+177131,WakeUp Reasons table_123,1 [0],Event has not occurred,$FF,$00,$00
+177131,WakeUp Reasons table_123,1 [0],Driver Door Ajar,$FF,$01,$01
+177131,WakeUp Reasons table_123,1 [0],Passenger Door Ajar,$FF,$02,$02
+177131,WakeUp Reasons table_123,1 [0],Left Rear Door Ajar,$FF,$03,$03
+177131,WakeUp Reasons table_123,1 [0],Right Rear Door Ajar,$FF,$04,$04
+177131,WakeUp Reasons table_123,1 [0],Liftgate / Trunk / Tailgate Ajar,$FF,$05,$05
+177131,WakeUp Reasons table_123,1 [0],Reserved (Viper Passenger Inside Handle Switch),$FF,$06,$06
+177131,WakeUp Reasons table_123,1 [0],Hood Ajar,$FF,$07,$07
+177131,WakeUp Reasons table_123,1 [0],Reserved (Truck Snow Plow Enable or Viper Driver Inside Handle Switch),$FF,$08,$08
+177131,WakeUp Reasons table_123,1 [0],Trunk or Liftgate or Fuel Door Switch,$FF,$09,$09
+177131,WakeUp Reasons table_123,1 [0],Driver Door Lock Switch or Driver Analog Door Ajar,$FF,$0A,$0A
+177131,WakeUp Reasons table_123,1 [0],Passenger Door Lock Switch or Passenger Analog Door Ajar,$FF,$0B,$0B
+177131,WakeUp Reasons table_123,1 [0],Hazard Switch,$FF,$0C,$0C
+177131,WakeUp Reasons table_123,1 [0],Sun Shade Switch or Right Rear Analog Door Ajar,$FF,$0D,$0D
+177131,WakeUp Reasons table_123,1 [0],Brake Switch (Pedal),$FF,$0E,$0E
+177131,WakeUp Reasons table_123,1 [0],Headlamp Switch,$FF,$0F,$0F
+177131,WakeUp Reasons table_123,1 [0],Panel Dimmer Switch,$FF,$10,$10
+177131,WakeUp Reasons table_123,1 [0],Left Rear Analog Door Ajar,$FF,$11,$11
+177131,WakeUp Reasons table_123,1 [0],Convenience Lamp Load,$FF,$12,$12
+177131,WakeUp Reasons table_123,1 [0],Horn Switch,$FF,$13,$13
+177131,WakeUp Reasons table_123,1 [0],Not Programmed/ SNA,$FF,$14,$14
+177131,WakeUp Reasons table_123,1 [0],Wake-up Unknown,$FF,$15,$15
+177131,WakeUp Reasons table_123,1 [0],By Internal ECU Timer,$FF,$16,$16
+177131,WakeUp Reasons table_123,1 [0],Commanded Ignition Switch message,$FF,$17,$17
+177131,WakeUp Reasons table_123,1 [0],Ignition Circuit Hardwire,$FF,$18,$18
+177131,WakeUp Reasons table_123,1 [0],CAN Traffic,$FF,$19,$19
+177131,WakeUp Reasons table_123,1 [0],Electronic Park Brake (EPB) Switch,$FF,$1A,$1A
+177131,WakeUp Reasons table_123,1 [0],ECU Internal Event,$FF,$1B,$1B
+177131,WakeUp Reasons table_123,1 [0],Reserved for future wake up,$FF,$1C,$FE
+177131,WakeUp Reasons table_123,1 [0],SNA,$FF,$FF,$FF
+177159,Reserved (2bit),0 [2],Reserved,$3,$0,$0
+177176,SupplierList_00103_c1_TC11740,2 [0],Becker,$FFFF,$0001,$0001
+177176,SupplierList_00103_c1_TC11740,2 [0],Blaupunkt,$FFFF,$0002,$0002
+177176,SupplierList_00103_c1_TC11740,2 [0],Bosch,$FFFF,$0003,$0003
+177176,SupplierList_00103_c1_TC11740,2 [0],MB / DCS,$FFFF,$0004,$0004
+177176,SupplierList_00103_c1_TC11740,2 [0],HuF,$FFFF,$0005,$0005
+177176,SupplierList_00103_c1_TC11740,2 [0],Kammerer,$FFFF,$0006,$0006
+177176,SupplierList_00103_c1_TC11740,2 [0],Kostal,$FFFF,$0007,$0007
+177176,SupplierList_00103_c1_TC11740,2 [0],Siemens,$FFFF,$0008,$0008
+177176,SupplierList_00103_c1_TC11740,2 [0],Stribel,$FFFF,$0009,$0009
+177176,SupplierList_00103_c1_TC11740,2 [0],MicroHeat,$FFFF,$000A,$000A
+177176,SupplierList_00103_c1_TC11740,2 [0],JATCO,$FFFF,$000B,$000B
+177176,SupplierList_00103_c1_TC11740,2 [0],Cummins,$FFFF,$000C,$000C
+177176,SupplierList_00103_c1_TC11740,2 [0],ZF Lenksysteme,$FFFF,$000D,$000D
+177176,SupplierList_00103_c1_TC11740,2 [0],SWF,$FFFF,$0010,$0010
+177176,SupplierList_00103_c1_TC11740,2 [0],VDO,$FFFF,$0011,$0011
+177176,SupplierList_00103_c1_TC11740,2 [0],Webasto,$FFFF,$0012,$0012
+177176,SupplierList_00103_c1_TC11740,2 [0],Dornier,$FFFF,$0013,$0013
+177176,SupplierList_00103_c1_TC11740,2 [0],TEG,$FFFF,$0014,$0014
+177176,SupplierList_00103_c1_TC11740,2 [0],Hella,$FFFF,$0015,$0015
+177176,SupplierList_00103_c1_TC11740,2 [0],Lucas,$FFFF,$0016,$0016
+177176,SupplierList_00103_c1_TC11740,2 [0],GKR,$FFFF,$0017,$0017
+177176,SupplierList_00103_c1_TC11740,2 [0],MBB,$FFFF,$0018,$0018
+177176,SupplierList_00103_c1_TC11740,2 [0],Motometer,$FFFF,$0019,$0019
+177176,SupplierList_00103_c1_TC11740,2 [0],Borg,$FFFF,$0020,$0020
+177176,SupplierList_00103_c1_TC11740,2 [0],Temic,$FFFF,$0021,$0021
+177176,SupplierList_00103_c1_TC11740,2 [0],Teves,$FFFF,$0022,$0022
+177176,SupplierList_00103_c1_TC11740,2 [0],BorgWarner,$FFFF,$0023,$0023
+177176,SupplierList_00103_c1_TC11740,2 [0],MED S.P.A,$FFFF,$0024,$0024
+177176,SupplierList_00103_c1_TC11740,2 [0],DENSO,$FFFF,$0025,$0025
+177176,SupplierList_00103_c1_TC11740,2 [0],ZF,$FFFF,$0026,$0026
+177176,SupplierList_00103_c1_TC11740,2 [0],TRW,$FFFF,$0027,$0027
+177176,SupplierList_00103_c1_TC11740,2 [0],Dunlop,$FFFF,$0028,$0028
+177176,SupplierList_00103_c1_TC11740,2 [0],LUK,$FFFF,$0029,$0029
+177176,SupplierList_00103_c1_TC11740,2 [0],Reserved,$FFFF,$002A,$002A
+177176,SupplierList_00103_c1_TC11740,2 [0],Freightliner,$FFFF,$002B,$002B
+177176,SupplierList_00103_c1_TC11740,2 [0],TAKATA-PETRI,$FFFF,$002C,$002C
+177176,SupplierList_00103_c1_TC11740,2 [0],Haldex,$FFFF,$002D,$002D
+177176,SupplierList_00103_c1_TC11740,2 [0],Hirschmann,$FFFF,$002E,$002E
+177176,SupplierList_00103_c1_TC11740,2 [0],Reserved,$FFFF,$002F,$002F
+177176,SupplierList_00103_c1_TC11740,2 [0],Magneti Marelli,$FFFF,$0030,$0030
+177176,SupplierList_00103_c1_TC11740,2 [0],DODUCO,$FFFF,$0031,$0031
+177176,SupplierList_00103_c1_TC11740,2 [0],Alpine,$FFFF,$0032,$0032
+177176,SupplierList_00103_c1_TC11740,2 [0],AMC (AEG Mobile Com.),$FFFF,$0033,$0033
+177176,SupplierList_00103_c1_TC11740,2 [0],Bose,$FFFF,$0034,$0034
+177176,SupplierList_00103_c1_TC11740,2 [0],Dasa,$FFFF,$0035,$0035
+177176,SupplierList_00103_c1_TC11740,2 [0],Motorola,$FFFF,$0036,$0036
+177176,SupplierList_00103_c1_TC11740,2 [0],Nokia,$FFFF,$0037,$0037
+177176,SupplierList_00103_c1_TC11740,2 [0],Panasonic,$FFFF,$0038,$0038
+177176,SupplierList_00103_c1_TC11740,2 [0],APAG,$FFFF,$0039,$0039
+177176,SupplierList_00103_c1_TC11740,2 [0],Rialtosoft,$FFFF,$003A,$003A
+177176,SupplierList_00103_c1_TC11740,2 [0],Applicom,$FFFF,$003B,$003B
+177176,SupplierList_00103_c1_TC11740,2 [0],Conti Temic,$FFFF,$003C,$003C
+177176,SupplierList_00103_c1_TC11740,2 [0],Cherry,$FFFF,$003D,$003D
+177176,SupplierList_00103_c1_TC11740,2 [0],TI Automotive,$FFFF,$003E,$003E
+177176,SupplierList_00103_c1_TC11740,2 [0],Kongsberg Automotive,$FFFF,$003F,$003F
+177176,SupplierList_00103_c1_TC11740,2 [0],Delphi,$FFFF,$0040,$0040
+177176,SupplierList_00103_c1_TC11740,2 [0],Alfmeier,$FFFF,$0041,$0041
+177176,SupplierList_00103_c1_TC11740,2 [0],Sidler,$FFFF,$0042,$0042
+177176,SupplierList_00103_c1_TC11740,2 [0],Marquardt,$FFFF,$0043,$0043
+177176,SupplierList_00103_c1_TC11740,2 [0],Wehrle,$FFFF,$0044,$0044
+177176,SupplierList_00103_c1_TC11740,2 [0],megamos,$FFFF,$0045,$0045
+177176,SupplierList_00103_c1_TC11740,2 [0],ADC,$FFFF,$0046,$0046
+177176,SupplierList_00103_c1_TC11740,2 [0],BERU,$FFFF,$0047,$0047
+177176,SupplierList_00103_c1_TC11740,2 [0],Valeo,$FFFF,$0048,$0048
+177176,SupplierList_00103_c1_TC11740,2 [0],Magna,$FFFF,$0049,$0049
+177176,SupplierList_00103_c1_TC11740,2 [0],Allison,$FFFF,$004A,$004A
+177176,SupplierList_00103_c1_TC11740,2 [0],Isringhausen,$FFFF,$004B,$004B
+177176,SupplierList_00103_c1_TC11740,2 [0],Grammer,$FFFF,$004C,$004C
+177176,SupplierList_00103_c1_TC11740,2 [0],Funkwerk Dabendorf,$FFFF,$004D,$004D
+177176,SupplierList_00103_c1_TC11740,2 [0],Hella-Behr,$FFFF,$004E,$004E
+177176,SupplierList_00103_c1_TC11740,2 [0],Pollak,$FFFF,$004F,$004F
+177176,SupplierList_00103_c1_TC11740,2 [0],AKG,$FFFF,$0050,$0050
+177176,SupplierList_00103_c1_TC11740,2 [0],Automotive Lighting,$FFFF,$0051,$0051
+177176,SupplierList_00103_c1_TC11740,2 [0],TAG,$FFFF,$0052,$0052
+177176,SupplierList_00103_c1_TC11740,2 [0],UNITED PARTS,$FFFF,$0053,$0053
+177176,SupplierList_00103_c1_TC11740,2 [0],catem,$FFFF,$0054,$0054
+177176,SupplierList_00103_c1_TC11740,2 [0],Alge,$FFFF,$0055,$0055
+177176,SupplierList_00103_c1_TC11740,2 [0],Pierburg,$FFFF,$0056,$0056
+177176,SupplierList_00103_c1_TC11740,2 [0],Brusa,$FFFF,$0057,$0057
+177176,SupplierList_00103_c1_TC11740,2 [0],Ecostar,$FFFF,$0058,$0058
+177176,SupplierList_00103_c1_TC11740,2 [0],Xcellsis,$FFFF,$0059,$0059
+177176,SupplierList_00103_c1_TC11740,2 [0],Wabco Automotive,$FFFF,$005A,$005A
+177176,SupplierList_00103_c1_TC11740,2 [0],Voith,$FFFF,$005B,$005B
+177176,SupplierList_00103_c1_TC11740,2 [0],Knorr,$FFFF,$005C,$005C
+177176,SupplierList_00103_c1_TC11740,2 [0],TVI,$FFFF,$005D,$005D
+177176,SupplierList_00103_c1_TC11740,2 [0],Stoneridge,$FFFF,$005E,$005E
+177176,SupplierList_00103_c1_TC11740,2 [0],Telma,$FFFF,$005F,$005F
+177176,SupplierList_00103_c1_TC11740,2 [0],STW,$FFFF,$0060,$0060
+177176,SupplierList_00103_c1_TC11740,2 [0],Koyo,$FFFF,$0061,$0061
+177176,SupplierList_00103_c1_TC11740,2 [0],Eberspächer,$FFFF,$0062,$0062
+177176,SupplierList_00103_c1_TC11740,2 [0],ADVICS,$FFFF,$0063,$0063
+177176,SupplierList_00103_c1_TC11740,2 [0],OMRON,$FFFF,$0064,$0064
+177176,SupplierList_00103_c1_TC11740,2 [0],Mitsubishi Heavy Industry,$FFFF,$0065,$0065
+177176,SupplierList_00103_c1_TC11740,2 [0],Methode,$FFFF,$0066,$0066
+177176,SupplierList_00103_c1_TC11740,2 [0],UNISIAJECS,$FFFF,$0067,$0067
+177176,SupplierList_00103_c1_TC11740,2 [0],UNISIA JKC Steering Systems,$FFFF,$0068,$0068
+177176,SupplierList_00103_c1_TC11740,2 [0],AISIN,$FFFF,$0069,$0069
+177176,SupplierList_00103_c1_TC11740,2 [0],Zexel Valeo,$FFFF,$006A,$006A
+177176,SupplierList_00103_c1_TC11740,2 [0],Schrader,$FFFF,$006B,$006B
+177176,SupplierList_00103_c1_TC11740,2 [0],Ballard,$FFFF,$006C,$006C
+177176,SupplierList_00103_c1_TC11740,2 [0],Alcoa Fujikura,$FFFF,$006D,$006D
+177176,SupplierList_00103_c1_TC11740,2 [0],Transtron,$FFFF,$006E,$006E
+177176,SupplierList_00103_c1_TC11740,2 [0],Iteris,$FFFF,$006F,$006F
+177176,SupplierList_00103_c1_TC11740,2 [0],SFT,$FFFF,$0070,$0070
+177176,SupplierList_00103_c1_TC11740,2 [0],Kieckert AG,$FFFF,$0071,$0071
+177176,SupplierList_00103_c1_TC11740,2 [0],Behr,$FFFF,$0072,$0072
+177176,SupplierList_00103_c1_TC11740,2 [0],MB Lenkungen,$FFFF,$0073,$0073
+177176,SupplierList_00103_c1_TC11740,2 [0],Peiker,$FFFF,$0075,$0075
+177176,SupplierList_00103_c1_TC11740,2 [0],Petri,$FFFF,$0076,$0076
+177176,SupplierList_00103_c1_TC11740,2 [0],Autoliv,$FFFF,$0077,$0077
+177176,SupplierList_00103_c1_TC11740,2 [0],Thien Electronic,$FFFF,$0078,$0078
+177176,SupplierList_00103_c1_TC11740,2 [0],Siemens VDO,$FFFF,$0079,$0079
+177176,SupplierList_00103_c1_TC11740,2 [0],Dornier Consulting GmbH,$FFFF,$007A,$007A
+177176,SupplierList_00103_c1_TC11740,2 [0],Alps,$FFFF,$007B,$007B
+177176,SupplierList_00103_c1_TC11740,2 [0],PREH,$FFFF,$007C,$007C
+177176,SupplierList_00103_c1_TC11740,2 [0],Hitachi Unisia,$FFFF,$007D,$007D
+177176,SupplierList_00103_c1_TC11740,2 [0],Hitachi,$FFFF,$007E,$007E
+177176,SupplierList_00103_c1_TC11740,2 [0],Reserved,$FFFF,$007F,$007F
+177176,SupplierList_00103_c1_TC11740,2 [0],Huntsville,$FFFF,$0080,$0080
+177176,SupplierList_00103_c1_TC11740,2 [0],Yazaki,$FFFF,$0081,$0081
+177176,SupplierList_00103_c1_TC11740,2 [0],Lear,$FFFF,$0082,$0082
+177176,SupplierList_00103_c1_TC11740,2 [0],Johnson Controls,$FFFF,$0083,$0083
+177176,SupplierList_00103_c1_TC11740,2 [0],Harman,$FFFF,$0084,$0084
+177176,SupplierList_00103_c1_TC11740,2 [0],Mitsubishi Electric,$FFFF,$0085,$0085
+177176,SupplierList_00103_c1_TC11740,2 [0],Tokico USA Inc.,$FFFF,$0086,$0086
+177176,SupplierList_00103_c1_TC11740,2 [0],Nippon Seiki (NS Intl),$FFFF,$0087,$0087
+177176,SupplierList_00103_c1_TC11740,2 [0],Inalfa,$FFFF,$0088,$0088
+177176,SupplierList_00103_c1_TC11740,2 [0],Nippon Seiki ( UK ),$FFFF,$0089,$0089
+177176,SupplierList_00103_c1_TC11740,2 [0],GHSP,$FFFF,$008A,$008A
+177176,SupplierList_00103_c1_TC11740,2 [0],Vector,$FFFF,$008B,$008B
+177176,SupplierList_00103_c1_TC11740,2 [0],Gentex,$FFFF,$008C,$008C
+177176,SupplierList_00103_c1_TC11740,2 [0],Visteon,$FFFF,$008D,$008D
+177176,SupplierList_00103_c1_TC11740,2 [0],Tochigi Fuji,$FFFF,$008E,$008E
+177176,SupplierList_00103_c1_TC11740,2 [0],DCA,$FFFF,$008F,$008F
+177176,SupplierList_00103_c1_TC11740,2 [0],May and Scofield,$FFFF,$0090,$0090
+177176,SupplierList_00103_c1_TC11740,2 [0],Reserved,$FFFF,$0091,$0091
+177176,SupplierList_00103_c1_TC11740,2 [0],AISIN AW,$FFFF,$0092,$0092
+177176,SupplierList_00103_c1_TC11740,2 [0],TOYODA MACHINE WORKS,$FFFF,$0093,$0093
+177176,SupplierList_00103_c1_TC11740,2 [0],Solectron-Invotronics,$FFFF,$0094,$0094
+177176,SupplierList_00103_c1_TC11740,2 [0],Kicker,$FFFF,$0095,$0095
+177176,SupplierList_00103_c1_TC11740,2 [0],American Axle Company,$FFFF,$0096,$0096
+177176,SupplierList_00103_c1_TC11740,2 [0],GETRAG,$FFFF,$0097,$0097
+177176,SupplierList_00103_c1_TC11740,2 [0],Promate,$FFFF,$0098,$0098
+177176,SupplierList_00103_c1_TC11740,2 [0],ArvinMeritor,$FFFF,$0099,$0099
+177176,SupplierList_00103_c1_TC11740,2 [0],Autometer,$FFFF,$009A,$009A
+177176,SupplierList_00103_c1_TC11740,2 [0],Valeo Sylvania,$FFFF,$009B,$009B
+177176,SupplierList_00103_c1_TC11740,2 [0],Cobasys,$FFFF,$009C,$009C
+177176,SupplierList_00103_c1_TC11740,2 [0],FUSO,$FFFF,$00A2,$00A2
+177176,SupplierList_00103_c1_TC11740,2 [0],M/A-COM,$FFFF,$00B0,$00B0
+177176,SupplierList_00103_c1_TC11740,2 [0],TBK (Tokai Bussan Corp),$FFFF,$00B1,$00B1
+177176,SupplierList_00103_c1_TC11740,2 [0],DDC,$FFFF,$00B2,$00B2
+177176,SupplierList_00103_c1_TC11740,2 [0],3SOFT,$FFFF,$00B3,$00B3
+177176,SupplierList_00103_c1_TC11740,2 [0],MB-Tech,$FFFF,$00B4,$00B4
+177176,SupplierList_00103_c1_TC11740,2 [0],E-T-A,$FFFF,$00B5,$00B5
+177176,SupplierList_00103_c1_TC11740,2 [0],Ssangyong,$FFFF,$00B6,$00B6
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - IBOX,$FFFF,$00B7,$00B7
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - Production Line,$FFFF,$00B8,$00B8
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - EDT2,$FFFF,$00B9,$00B9
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - Unknown,$FFFF,$00BA,$00BA
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - StarSCAN,$FFFF,$00BB,$00BB
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - StarMOBILE,$FFFF,$00BC,$00BC
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - Vector HW,$FFFF,$00BD,$00BD
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - MPVCI,$FFFF,$00BE,$00BE
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - J2534 Blue Streak,$FFFF,$00BF,$00BF
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - J2534 Actia,$FFFF,$00C0,$00C0
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - J2534 DrewTech,$FFFF,$00C1,$00C1
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - J2534 Other,$FFFF,$00C2,$00C2
+177176,SupplierList_00103_c1_TC11740,2 [0],BHTC,$FFFF,$00C3,$00C3
+177176,SupplierList_00103_c1_TC11740,2 [0],HUGHES,$FFFF,$00C4,$00C4
+177176,SupplierList_00103_c1_TC11740,2 [0],KDAC,$FFFF,$00C5,$00C5
+177176,SupplierList_00103_c1_TC11740,2 [0],Continental,$FFFF,$00C6,$00C6
+177176,SupplierList_00103_c1_TC11740,2 [0],Gigatronik,$FFFF,$00C7,$00C7
+177176,SupplierList_00103_c1_TC11740,2 [0],Chrysler - Onboard Flash Tool,$FFFF,$00C8,$00C8
+177176,SupplierList_00103_c1_TC11740,2 [0],Mobis,$FFFF,$00C9,$00C9
+177176,SupplierList_00103_c1_TC11740,2 [0],Flextronics,$FFFF,$00CA,$00CA
+177176,SupplierList_00103_c1_TC11740,2 [0],JTEKT,$FFFF,$00CB,$00CB
+177176,SupplierList_00103_c1_TC11740,2 [0],Nartron,$FFFF,$00CC,$00CC
+177176,SupplierList_00103_c1_TC11740,2 [0],Whetron Electronics,$FFFF,$00CD,$00CD
+177176,SupplierList_00103_c1_TC11740,2 [0],PI-Shurlok,$FFFF,$00CE,$00CE
+177176,SupplierList_00103_c1_TC11740,2 [0],BrightStar,$FFFF,$00CF,$00CF
+177176,SupplierList_00103_c1_TC11740,2 [0],Electrovaya,$FFFF,$00D0,$00D0
+177176,SupplierList_00103_c1_TC11740,2 [0],Eetrex,$FFFF,$00D1,$00D1
+177176,SupplierList_00103_c1_TC11740,2 [0],Nexteer,$FFFF,$00D2,$00D2
+177176,SupplierList_00103_c1_TC11740,2 [0],Inergy,$FFFF,$00D3,$00D3
+177176,SupplierList_00103_c1_TC11740,2 [0],Kuster,$FFFF,$00D4,$00D4
+177176,SupplierList_00103_c1_TC11740,2 [0],MHICC - Mitsubishi Heavy Industries Climate Control,$FFFF,$00D5,$00D5
+177176,SupplierList_00103_c1_TC11740,2 [0],Delta Electronics,$FFFF,$00D6,$00D6
+177176,SupplierList_00103_c1_TC11740,2 [0],Hyundai PowerTech (HPT) ,$FFFF,$00D7,$00D7
+177176,SupplierList_00103_c1_TC11740,2 [0],Dura Automotive Systems,$FFFF,$00D8,$00D8
+177176,SupplierList_00103_c1_TC11740,2 [0],TRAMA,$FFFF,$00D9,$00D9
+177176,SupplierList_00103_c1_TC11740,2 [0],Mayco,$FFFF,$00DA,$00DA
+177176,SupplierList_00103_c1_TC11740,2 [0],Beijing West Industries,$FFFF,$00DB,$00DB
+177176,SupplierList_00103_c1_TC11740,2 [0],Daesung,$FFFF,$00DC,$00DC
+177176,SupplierList_00103_c1_TC11740,2 [0],LG-CPI,$FFFF,$00DD,$00DD
+177176,SupplierList_00103_c1_TC11740,2 [0],Parrot,$FFFF,$00DE,$00DE
+177176,SupplierList_00103_c1_TC11740,2 [0],Strattec,$FFFF,$00DF,$00DF
+177176,SupplierList_00103_c1_TC11740,2 [0],Maserati,$FFFF,$00E0,$00E0
+177176,SupplierList_00103_c1_TC11740,2 [0],AVL,$FFFF,$00E1,$00E1
+177176,SupplierList_00103_c1_TC11740,2 [0],China Automotive Systems Inc,$FFFF,$00E2,$00E2
+177176,SupplierList_00103_c1_TC11740,2 [0],Brose,$FFFF,$00E3,$00E3
+177176,SupplierList_00103_c1_TC11740,2 [0],SK Continental E-Motion,$FFFF,$00E4,$00E4
+177176,SupplierList_00103_c1_TC11740,2 [0],Bitron,$FFFF,$00E5,$00E5
+177176,SupplierList_00103_c1_TC11740,2 [0],GKN,$FFFF,$00E6,$00E6
+177176,SupplierList_00103_c1_TC11740,2 [0],DGE,$FFFF,$00E7,$00E7
+177176,SupplierList_00103_c1_TC11740,2 [0],IEE Sensing,$FFFF,$00E8,$00E8
+177176,SupplierList_00103_c1_TC11740,2 [0],Samsung SDI Battery Systems,$FFFF,$00E9,$00E9
+177176,SupplierList_00103_c1_TC11740,2 [0],FCA,$FFFF,$00EA,$00EA
+177176,SupplierList_00103_c1_TC11740,2 [0],Hutchinson,$FFFF,$00EB,$00EB
+177176,SupplierList_00103_c1_TC11740,2 [0],Google,$FFFF,$00EC,$00EC
+177176,SupplierList_00103_c1_TC11740,2 [0],Mobileye,$FFFF,$00ED,$00ED
+177176,SupplierList_00103_c1_TC11740,2 [0],CATL,$FFFF,$00EE,$00EE
+177176,SupplierList_00103_c1_TC11740,2 [0],HALLA,$FFFF,$00EF,$00EF
+177176,SupplierList_00103_c1_TC11740,2 [0],LG-E,$FFFF,$00F0,$00F0
+177176,SupplierList_00103_c1_TC11740,2 [0],Veoneer,$FFFF,$00F1,$00F1
+177176,SupplierList_00103_c1_TC11740,2 [0],ED,$FFFF,$00F2,$00F2
+177176,SupplierList_00103_c1_TC11740,2 [0],Earth Electronic,$FFFF,$00F3,$00F3
+177176,SupplierList_00103_c1_TC11740,2 [0],Aptiv,$FFFF,$00F4,$00F4
+177176,SupplierList_00103_c1_TC11740,2 [0],Stabilus,$FFFF,$00F5,$00F5
+177176,SupplierList_00103_c1_TC11740,2 [0],erae,$FFFF,$00F6,$00F6
+177176,SupplierList_00103_c1_TC11740,2 [0],Faurecia,$FFFF,$00F7,$00F7
+177176,SupplierList_00103_c1_TC11740,2 [0],Hanon Systems,$FFFF,$00F8,$00F8
+177176,SupplierList_00103_c1_TC11740,2 [0],Meta System,$FFFF,$00F9,$00F9
+177176,SupplierList_00103_c1_TC11740,2 [0],After Market Supplier,$FFFF,$EFFE,$EFFE
+177176,SupplierList_00103_c1_TC11740,2 [0],Unidentified,$FFFF,$EFFF,$EFFF
+177176,SupplierList_00103_c1_TC11740,2 [0],Reserved,$FFFF,$F000,$FFFF
+177177,Unlocked / Locked (1Byte),1 [0],Unlocked,$FF,$00,$00
+177177,Unlocked / Locked (1Byte),1 [0],Locked,$FF,$01,$01
+177873,Option 28,0 [2],Absent,$3,$0,$0
+177873,Option 28,0 [2],2 Lateral,$3,$1,$1
+177873,Option 28,0 [2],2 Lateral + 1 Central,$3,$2,$2
+177874,Option 27,0 [2],Weight Sensor,$3,$0,$0
+177874,Option 27,0 [2],OCS,$3,$1,$1
+177874,Option 27,0 [2],PPD,$3,$2,$2
+177874,Option 27,0 [2],SBR,$3,$3,$3
+177878,Option 29,0 [2],Absent,$3,$0,$0
+177878,Option 29,0 [2],One Sensor,$3,$1,$1
+177878,Option 29,0 [2],Two Sensors,$3,$2,$2
+177925,Option 109,0 [3],None/Level 1,$7,$0,$0
+177925,Option 109,0 [3],Level 2,$7,$1,$1
+177925,Option 109,0 [3],Level 2 Plus,$7,$2,$2
+179240,OPEN/CLOSE,0 [1],Open,$1,$0,$0
+179240,OPEN/CLOSE,0 [1],Close,$1,$1,$1
+179242,ADAS Operation,0 [2],Unknown,$3,$0,$0
+179242,ADAS Operation,0 [2],Ok,$3,$1,$1
+179242,ADAS Operation,0 [2],Not Ok,$3,$2,$2
+179242,ADAS Operation,0 [2],SNA,$3,$3,$3
+179243,ESS_NotActivated / ESS_Activated,0 [1],Not Activated,$1,$0,$0
+179243,ESS_NotActivated / ESS_Activated,0 [1],Activated,$1,$1,$1
+179244,battery_id_mode2,0 [2],Use Battery Type,$3,$0,$0
+179244,battery_id_mode2,0 [2],Use Battery Parameter,$3,$1,$1
+179244,battery_id_mode2,0 [2],Clustering,$3,$2,$2
+179244,battery_id_mode2,0 [2],No Change in Battery Coding,$3,$3,$3
+179245,Wakeup reason for LMTM,0 [2],NO_WUP / NO_WUP,$3,$0,$0
+179245,Wakeup reason for LMTM,0 [2],Not Defined,$3,$1,$1
+179245,Wakeup reason for LMTM,0 [2],NDEF / NDEF,$3,$2,$2
+179245,Wakeup reason for LMTM,0 [2],SNA,$3,$3,$3
+179246,ShiftLeverPosition_LMTM,0 [4],No Selection Active,$F,$0,$0
+179246,ShiftLeverPosition_LMTM,0 [4],P,$F,$1,$1
+179246,ShiftLeverPosition_LMTM,0 [4],R,$F,$2,$2
+179246,ShiftLeverPosition_LMTM,0 [4],N,$F,$3,$3
+179246,ShiftLeverPosition_LMTM,0 [4],D,$F,$4,$4
+179246,ShiftLeverPosition_LMTM,0 [4],L,$F,$5,$5
+179246,ShiftLeverPosition_LMTM,0 [4],TIP Autostick,$F,$6,$6
+179246,ShiftLeverPosition_LMTM,0 [4],Plus,$F,$7,$7
+179246,ShiftLeverPosition_LMTM,0 [4],Minus,$F,$8,$8
+179246,ShiftLeverPosition_LMTM,0 [4],Sport,$F,$9,$9
+179246,ShiftLeverPosition_LMTM,0 [4],SNA,$F,$F,$F
+179249,Perform Welcome or Departure Animation,0 [2],Off,$3,$0,$0
+179249,Perform Welcome or Departure Animation,0 [2],Welcome,$3,$1,$1
+179249,Perform Welcome or Departure Animation,0 [2],Departure,$3,$2,$2
+179249,Perform Welcome or Departure Animation,0 [2],SNA,$3,$3,$3
+179250,Accurate/Inaccurate,0 [1],Inaccurate,$1,$0,$0
+179250,Accurate/Inaccurate,0 [1],Accurate,$1,$1,$1
+179251,Not_Disconnected / Disconnecred (2bit),0 [2],Not Disconnected,$3,$0,$0
+179251,Not_Disconnected / Disconnecred (2bit),0 [2],Disconnected,$3,$1,$1
+179251,Not_Disconnected / Disconnecred (2bit),0 [2],Not Used,$3,$2,$2
+179251,Not_Disconnected / Disconnecred (2bit),0 [2],SNA,$3,$3,$3
+179252,ESS_ENG_ST,0 [4],ENS Stopped,$F,$1,$1
+179252,ESS_ENG_ST,0 [4],ENS Request Start,$F,$2,$2
+179252,ESS_ENG_ST,0 [4],ENS Running,$F,$3,$3
+179252,ESS_ENG_ST,0 [4],ENS Stop Pending,$F,$4,$4
+179252,ESS_ENG_ST,0 [4],ENS Start protection,$F,$5,$5
+179252,ESS_ENG_ST,0 [4],ENS Start inhibit,$F,$6,$6
+179252,ESS_ENG_ST,0 [4],ENS Disabled,$F,$7,$7
+179252,ESS_ENG_ST,0 [4],ENS Inhibit Latch,$F,$8,$8
+179252,ESS_ENG_ST,0 [4],ENS Starting,$F,$9,$9
+179252,ESS_ENG_ST,0 [4],SNA,$F,$F,$F
+179253,FOB search request,0 [2],No Action,$3,$0,$0
+179253,FOB search request,0 [2],Request Search,$3,$1,$1
+179253,FOB search request,0 [2],Result Received,$3,$2,$2
+179253,FOB search request,0 [2],Reserved,$3,$3,$3
+179254,Hands Off Status,0 [4],Hands Off Detected,$F,$0,$0
+179254,Hands Off Status,0 [4],Energy Saving Mode,$F,$1,$1
+179254,Hands Off Status,0 [4],Hands Off Not Detected,$F,$2,$2
+179254,Hands Off Status,0 [4],Hands Not Available,$F,$3,$3
+179254,Hands Off Status,0 [4],Hands Off Error,$F,$4,$4
+179254,Hands Off Status,0 [4],SNA,$F,$F,$F
+179255,Desired State (Off/On/Toggle),1 [0],On,$FF,$00,$00
+179255,Desired State (Off/On/Toggle),1 [0],Off,$FF,$01,$01
+179255,Desired State (Off/On/Toggle),1 [0],Toggle,$FF,$02,$02
+179256,CamWashRes,0 [2],Off,$3,$0,$0
+179256,CamWashRes,0 [2],In Progress,$3,$1,$1
+179256,CamWashRes,0 [2],Error,$3,$2,$2
+179257,AirSusp,0 [2],Not Pressed,$3,$0,$0
+179257,AirSusp,0 [2],Pressed,$3,$1,$1
+179257,AirSusp,0 [2],SNA,$3,$3,$3
+179258,Steering_Wheel_Type,0 [4],Leather Standard,$F,$0,$0
+179258,Steering_Wheel_Type,0 [4],Leather Wood Standard,$F,$1,$1
+179258,Steering_Wheel_Type,0 [4],Leather Sport,$F,$2,$2
+179258,Steering_Wheel_Type,0 [4],Carbon Sport,$F,$3,$3
+179258,Steering_Wheel_Type,0 [4],Not Used,$F,$4,$4
+179258,Steering_Wheel_Type,0 [4],SNA,$F,$F,$F
+179260,Heater_Presence,0 [2],No Heater,$3,$0,$0
+179260,Heater_Presence,0 [2],Heater Present,$3,$1,$1
+179260,Heater_Presence,0 [2],Not_Used,$3,$2,$2
+179260,Heater_Presence,0 [2],SNA,$3,$3,$3
+179262,Desired State (front/rear/off),1 [0],Front,$FF,$00,$00
+179262,Desired State (front/rear/off),1 [0],Rear,$FF,$01,$01
+179262,Desired State (front/rear/off),1 [0],Off,$FF,$02,$02
+179263,Ignition Status (2),1 [0],Lock,$FF,$00,$00
+179263,Ignition Status (2),1 [0],Off,$FF,$01,$01
+179263,Ignition Status (2),1 [0],Run,$FF,$04,$04
+179263,Ignition Status (2),1 [0],Start,$FF,$05,$05
+179263,Ignition Status (2),1 [0],SNA,$FF,$07,$07
+179263,Ignition Status (2),1 [0],SNA / Not Programmed,$FF,$FF,$FF
+179264,IBS3_BatteryId_mode,0 [2],Use battery type,$3,$0,$0
+179264,IBS3_BatteryId_mode,0 [2],Use battery parameters,$3,$1,$1
+179264,IBS3_BatteryId_mode,0 [2],Clustering,$3,$2,$2
+179264,IBS3_BatteryId_mode,0 [2],No change of battery coding,$3,$3,$3
+179265,IBS3_Batt_Technology,0 [2],Lead acid flooded & enhanced flooded,$3,$0,$0
+179265,IBS3_Batt_Technology,0 [2],Lead acid AGM,$3,$1,$1
+179265,IBS3_Batt_Technology,0 [2],SNA,$3,$3,$3
+179266,SelectedSensitivityR,0 [3],Level 0,$7,$0,$0
+179266,SelectedSensitivityR,0 [3],Level 1,$7,$1,$1
+179266,SelectedSensitivityR,0 [3],Level 2,$7,$2,$2
+179266,SelectedSensitivityR,0 [3],Level 3,$7,$3,$3
+179266,SelectedSensitivityR,0 [3],Level 4,$7,$4,$4
+179266,SelectedSensitivityR,0 [3],Level 5,$7,$5,$5
+179266,SelectedSensitivityR,0 [3],Level 6,$7,$6,$6
+179270,IgnPosSts,0 [3],Initialization,$7,$0,$0
+179270,IgnPosSts,0 [3],Ignition Lock,$7,$1,$1
+179270,IgnPosSts,0 [3],Accessory,$7,$3,$3
+179270,IgnPosSts,0 [3],Run,$7,$4,$4
+179270,IgnPosSts,0 [3],Start,$7,$5,$5
+179270,IgnPosSts,0 [3],SNA,$7,$7,$7
+179272,CustKeyInIgnSts,0 [2],Key Default,$3,$0,$0
+179272,CustKeyInIgnSts,0 [2],Key Not in Ignition,$3,$1,$1
+179272,CustKeyInIgnSts,0 [2],Key in Ignition,$3,$2,$2
+179272,CustKeyInIgnSts,0 [2],SNA,$3,$3,$3
+179273,SLMSts,0 [2],No Fault,$3,$0,$0
+179273,SLMSts,0 [2],Fault,$3,$1,$1
+179273,SLMSts,0 [2],SNA,$3,$3,$3
+179275,RFFuncReq,0 [5],No Basic Request,$1F,$0,$0
+179275,RFFuncReq,0 [5],Lock Request,$1F,$1,$1
+179275,RFFuncReq,0 [5],Relock Request,$1F,$2,$2
+179275,RFFuncReq,0 [5],Driver Unlock Request,$1F,$3,$3
+179275,RFFuncReq,0 [5],All Unlock Request,$1F,$4,$4
+179275,RFFuncReq,0 [5],Trunk Toggle Request,$1F,$5,$5
+179275,RFFuncReq,0 [5],Left Slider Toggle Request,$1F,$6,$6
+179275,RFFuncReq,0 [5],Right Slider Toggle Request,$1F,$7,$7
+179275,RFFuncReq,0 [5],Flipper Glass Request,$1F,$8,$8
+179275,RFFuncReq,0 [5],Remote Start On,$1F,$9,$9
+179275,RFFuncReq,0 [5],Remote Start Off,$1F,$A,$A
+179275,RFFuncReq,0 [5],Global Window Down Request,$1F,$B,$B
+179275,RFFuncReq,0 [5],Open Convertibale Top,$1F,$C,$C
+179275,RFFuncReq,0 [5],Close Convertibale Top,$1F,$D,$D
+179275,RFFuncReq,0 [5],Panic Toggle Request,$1F,$E,$E
+179275,RFFuncReq,0 [5],Dead Lock Request,$1F,$F,$F
+179275,RFFuncReq,0 [5],Global Window Up Request,$1F,$10,$10
+179275,RFFuncReq,0 [5],Headlight Off Delay,$1F,$11,$11
+179275,RFFuncReq,0 [5],SNA,$1F,$1F,$1F
+179276,IP Dimmer Switch Conversion,0 [4],Dome Defeat,$F,$0,$0
+179276,IP Dimmer Switch Conversion,0 [4],Dim 1,$F,$1,$1
+179276,IP Dimmer Switch Conversion,0 [4],Dim 2,$F,$2,$2
+179276,IP Dimmer Switch Conversion,0 [4],Dim 3,$F,$3,$3
+179276,IP Dimmer Switch Conversion,0 [4],Dim 4,$F,$4,$4
+179276,IP Dimmer Switch Conversion,0 [4],Dim 5,$F,$5,$5
+179276,IP Dimmer Switch Conversion,0 [4],Dim 6,$F,$6,$6
+179276,IP Dimmer Switch Conversion,0 [4],Parade,$F,$7,$7
+179276,IP Dimmer Switch Conversion,0 [4],Dome On,$F,$8,$8
+179276,IP Dimmer Switch Conversion,0 [4],Open Circuit,$F,$9,$9
+179276,IP Dimmer Switch Conversion,0 [4],Short to Ground,$F,$A,$A
+179276,IP Dimmer Switch Conversion,0 [4],Reserved,$F,$B,$B
+179276,IP Dimmer Switch Conversion,0 [4],Reserved,$F,$C,$C
+179276,IP Dimmer Switch Conversion,0 [4],Reserved,$F,$D,$D
+179276,IP Dimmer Switch Conversion,0 [4],Reserved,$F,$E,$E
+179276,IP Dimmer Switch Conversion,0 [4],Reserved,$F,$F,$F
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Fog Off Bedlight Off,$F,$0,$0
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Fog On Bedlight Off,$F,$1,$1
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Fog On Bedlight On,$F,$2,$2
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Fog Off Bedlight On,$F,$3,$3
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Open Circuit,$F,$4,$4
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Short to Ground,$F,$5,$5
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$6,$6
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$7,$7
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$8,$8
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$9,$9
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$A,$A
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$B,$B
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$C,$C
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$D,$D
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$E,$E
+179277,Fog and Cargo Bedlight Switch Conversion,0 [4],Reserved,$F,$F,$F
+179278,AVHSwitchSts,0 [3],Not Pressed,$7,$0,$0
+179278,AVHSwitchSts,0 [3],Pressed,$7,$1,$1
+179278,AVHSwitchSts,0 [3],Reserved1 / Reserved1,$7,$2,$2
+179278,AVHSwitchSts,0 [3],Reserved2 / Reserved2,$7,$3,$3
+179278,AVHSwitchSts,0 [3],Reserved3 / Reserved3,$7,$4,$4
+179278,AVHSwitchSts,0 [3],Short to Ground,$7,$5,$5
+179278,AVHSwitchSts,0 [3],Open/Short to Power,$7,$6,$6
+179278,AVHSwitchSts,0 [3],SNA,$7,$7,$7
+179279,AmbientLightingLevel,0 [4],Level 1,$F,$0,$0
+179279,AmbientLightingLevel,0 [4],Level 2,$F,$1,$1
+179279,AmbientLightingLevel,0 [4],Level 3,$F,$2,$2
+179279,AmbientLightingLevel,0 [4],Level 4,$F,$3,$3
+179279,AmbientLightingLevel,0 [4],Level 5,$F,$4,$4
+179279,AmbientLightingLevel,0 [4],Level 6,$F,$5,$5
+179279,AmbientLightingLevel,0 [4],Level 7,$F,$6,$6
+179279,AmbientLightingLevel,0 [4],Level 8,$F,$7,$7
+179279,AmbientLightingLevel,0 [4],Level 9,$F,$8,$8
+179279,AmbientLightingLevel,0 [4],Level 10,$F,$9,$9
+179279,AmbientLightingLevel,0 [4],Level 11,$F,$A,$A
+179279,AmbientLightingLevel,0 [4],Level 12,$F,$B,$B
+179279,AmbientLightingLevel,0 [4],Level 13,$F,$C,$C
+179279,AmbientLightingLevel,0 [4],Level 14,$F,$D,$D
+179279,AmbientLightingLevel,0 [4],Level 15,$F,$E,$E
+179279,AmbientLightingLevel,0 [4],Level 16,$F,$F,$F
+179280,Headlamp Switch Conversion,0 [4],Off,$F,$0,$0
+179280,Headlamp Switch Conversion,0 [4],Park,$F,$1,$1
+179280,Headlamp Switch Conversion,0 [4],Low Beam,$F,$2,$2
+179280,Headlamp Switch Conversion,0 [4],Auto,$F,$3,$3
+179280,Headlamp Switch Conversion,0 [4],Open Circuit,$F,$4,$4
+179280,Headlamp Switch Conversion,0 [4],Short to Ground,$F,$5,$5
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$6,$6
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$7,$7
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$8,$8
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$9,$9
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$A,$A
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$B,$B
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$C,$C
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$D,$D
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$E,$E
+179280,Headlamp Switch Conversion,0 [4],Reserved,$F,$F,$F
+179281,TowSwitch_Rq_LIN,0 [3],Not Pressed,$7,$0,$0
+179281,TowSwitch_Rq_LIN,0 [3],Pressed,$7,$1,$1
+179281,TowSwitch_Rq_LIN,0 [3],Reserved / Reserved,$7,$2,$2
+179281,TowSwitch_Rq_LIN,0 [3],Reserved1 / Reserved1,$7,$3,$3
+179281,TowSwitch_Rq_LIN,0 [3],Reserved2/ Reserved2,$7,$4,$4
+179281,TowSwitch_Rq_LIN,0 [3],Short to Ground,$7,$5,$5
+179281,TowSwitch_Rq_LIN,0 [3],Open/Short to Power,$7,$6,$6
+179281,TowSwitch_Rq_LIN,0 [3],Reserved3 / Reserved3,$7,$7,$7
+179282,WprWash_R_Sw_Posn_V3,0 [2],Off,$3,$0,$0
+179282,WprWash_R_Sw_Posn_V3,0 [2],Intermittent,$3,$1,$1
+179282,WprWash_R_Sw_Posn_V3,0 [2],Wash,$3,$2,$2
+179282,WprWash_R_Sw_Posn_V3,0 [2],Constant,$3,$3,$3
+179283,WprSw6Posn,0 [4],Off,$F,$0,$0
+179283,WprSw6Posn,0 [4],Interval 1,$F,$1,$1
+179283,WprSw6Posn,0 [4],Interval 2,$F,$2,$2
+179283,WprSw6Posn,0 [4],Interval 3,$F,$3,$3
+179283,WprSw6Posn,0 [4],Interval 4,$F,$4,$4
+179283,WprSw6Posn,0 [4],Interval 5,$F,$5,$5
+179283,WprSw6Posn,0 [4],Interval 6,$F,$6,$6
+179283,WprSw6Posn,0 [4],Low,$F,$D,$D
+179283,WprSw6Posn,0 [4],High,$F,$E,$E
+179283,WprSw6Posn,0 [4],SNA,$F,$F,$F
+179284,Ambient Dimmer Switch Conversion,0 [4],Off,$F,$0,$0
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 1,$F,$1,$1
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 2,$F,$2,$2
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 3,$F,$3,$3
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 4,$F,$4,$4
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 5,$F,$5,$5
+179284,Ambient Dimmer Switch Conversion,0 [4],Dim 6,$F,$6,$6
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$7,$7
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$8,$8
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$9,$9
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$A,$A
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$B,$B
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$C,$C
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$D,$D
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$E,$E
+179284,Ambient Dimmer Switch Conversion,0 [4],Reserved,$F,$F,$F
+179286,HiBmLvr_Stat,0 [2],Idle,$3,$0,$0
+179286,HiBmLvr_Stat,0 [2],On (Pressed),$3,$1,$1
+179286,HiBmLvr_Stat,0 [2],Flash On (Pressed),$3,$2,$2
+179287,FrontWiperReq,0 [4],Off,$F,$0,$0
+179287,FrontWiperReq,0 [4],Low,$F,$1,$1
+179287,FrontWiperReq,0 [4],LOW,$F,$2,$2
+179287,FrontWiperReq,0 [4],High,$F,$3,$3
+179287,FrontWiperReq,0 [4],Auto,$F,$4,$4
+179287,FrontWiperReq,0 [4],Mist,$F,$5,$5
+179288,SportSwitch_Rq_LIN,0 [3],Not Pressed,$7,$0,$0
+179288,SportSwitch_Rq_LIN,0 [3],Pressed,$7,$1,$1
+179288,SportSwitch_Rq_LIN,0 [3],Reserved / Reserved,$7,$2,$2
+179288,SportSwitch_Rq_LIN,0 [3],Reserved1 / Reserved1,$7,$3,$3
+179288,SportSwitch_Rq_LIN,0 [3],Reserved2 / Reserved2,$7,$4,$4
+179288,SportSwitch_Rq_LIN,0 [3],Short to Ground,$7,$5,$5
+179288,SportSwitch_Rq_LIN,0 [3],Open/Short to Power,$7,$6,$6
+179288,SportSwitch_Rq_LIN,0 [3],Reserved3 / Reserved3,$7,$7,$7
+179289,AUX Switches Configuration,0 [3],No AUX Switches Used,$7,$0,$0
+179289,AUX Switches Configuration,0 [3],Fout With Cutoff,$7,$3,$3
+179289,AUX Switches Configuration,0 [3],Four,$7,$4,$4
+179289,AUX Switches Configuration,0 [3],Five,$7,$5,$5
+179289,AUX Switches Configuration,0 [3],Six,$7,$6,$6
+179289,AUX Switches Configuration,0 [3],SNA,$7,$7,$7
+179292,DoorLockSts,0 [2],Locked,$3,$0,$0
+179292,DoorLockSts,0 [2],Driver Door Unlocked,$3,$1,$1
+179292,DoorLockSts,0 [2],All Doors Unlocked,$3,$2,$2
+179292,DoorLockSts,0 [2],SNA,$3,$3,$3
+179295,No error / Error,0 [1],No Error,$1,$0,$0
+179295,No error / Error,0 [1],Internal Error,$1,$1,$1
+179298,EBL_Stat,0 [2],Off,$3,$0,$0
+179298,EBL_Stat,0 [2],On,$3,$1,$1
+179298,EBL_Stat,0 [2],Blink,$3,$2,$2
+179298,EBL_Stat,0 [2],SNA,$3,$3,$3
+179305,Fail not present / Fail present,0 [1],Fail not present,$1,$0,$0
+179305,Fail not present / Fail present,0 [1],Fail present,$1,$1,$1
+179306,GearEngaged,0 [4],Neutral,$F,$0,$0
+179306,GearEngaged,0 [4],Forward Gear 1,$F,$1,$1
+179306,GearEngaged,0 [4],Forward Gear 2,$F,$2,$2
+179306,GearEngaged,0 [4],Forward Gear 3,$F,$3,$3
+179306,GearEngaged,0 [4],Forward Gear 4,$F,$4,$4
+179306,GearEngaged,0 [4],Forward Gear 5,$F,$5,$5
+179306,GearEngaged,0 [4],Forward Gear 6,$F,$6,$6
+179306,GearEngaged,0 [4],Forward Gear 7,$F,$7,$7
+179306,GearEngaged,0 [4],Forward Gear 8,$F,$8,$8
+179306,GearEngaged,0 [4],Forward Gear 9,$F,$9,$9
+179306,GearEngaged,0 [4],Park,$F,$D,$D
+179306,GearEngaged,0 [4],Reverse,$F,$E,$E
+179306,GearEngaged,0 [4],SNA,$F,$F,$F
+179310,LED Status (OFF-CONT-BLINK),0 [2],Off,$3,$0,$0
+179310,LED Status (OFF-CONT-BLINK),0 [2],Continuous Light,$3,$1,$1
+179310,LED Status (OFF-CONT-BLINK),0 [2],Blinking Light,$3,$2,$2
+179310,LED Status (OFF-CONT-BLINK),0 [2],SNA,$3,$3,$3
+179311,PRND Status,0 [3],P,$7,$0,$0
+179311,PRND Status,0 [3],R,$7,$1,$1
+179311,PRND Status,0 [3],N,$7,$2,$2
+179311,PRND Status,0 [3],D,$7,$4,$4
+179311,PRND Status,0 [3],Not Reverse (Manual Transmission Only),$7,$5,$5
+179311,PRND Status,0 [3],SNA,$7,$7,$7
+179312,CmdIgnSts,0 [3],Initialization,$7,$0,$0
+179312,CmdIgnSts,0 [3],Accessory,$7,$1,$1
+179312,CmdIgnSts,0 [3],ACC,$7,$3,$3
+179312,CmdIgnSts,0 [3],Run,$7,$4,$4
+179312,CmdIgnSts,0 [3],Start,$7,$5,$5
+179312,CmdIgnSts,0 [3],SNA,$7,$7,$7
+179314,Not_Action/Action,0 [1],Not Action,$1,$0,$0
+179314,Not_Action/Action,0 [1],Action,$1,$1,$1
+179316,ChkFuelLevelSts,0 [3],Fault Not Present,$7,$0,$0
+179316,ChkFuelLevelSts,0 [3],Chk Code 1,$7,$1,$1
+179316,ChkFuelLevelSts,0 [3],Chk Code 2,$7,$2,$2
+179316,ChkFuelLevelSts,0 [3],Chk Code 3,$7,$3,$3
+179316,ChkFuelLevelSts,0 [3],Chk Code 4,$7,$4,$4
+179316,ChkFuelLevelSts,0 [3],Not Used,$7,$5,$5
+179316,ChkFuelLevelSts,0 [3],Not Used,$7,$6,$6
+179316,ChkFuelLevelSts,0 [3],Not Used,$7,$7,$7
+179317,LED Satus (OFF-ON-BLINK),0 [2],Lamp Off,$3,$0,$0
+179317,LED Satus (OFF-ON-BLINK),0 [2],Lamp On,$3,$1,$1
+179317,LED Satus (OFF-ON-BLINK),0 [2],Blinking Lamp,$3,$2,$2
+179317,LED Satus (OFF-ON-BLINK),0 [2],SNA,$3,$3,$3
+179319,BrkPdlStat,0 [2],Up,$3,$0,$0
+179319,BrkPdlStat,0 [2],Pressed,$3,$1,$1
+179319,BrkPdlStat,0 [2],N/A,$3,$2,$2
+179319,BrkPdlStat,0 [2],SNA,$3,$3,$3
+179321,OK/Low_level,0 [1],Good,$1,$0,$0
+179321,OK/Low_level,0 [1],Low,$1,$1,$1
+179322,Commanded ignition switch status,0 [3],Ignition lock,$7,$0,$0
+179322,Commanded ignition switch status,0 [3],Ignition Off and Accessory,$7,$3,$3
+179322,Commanded ignition switch status,0 [3],Run,$7,$4,$4
+179322,Commanded ignition switch status,0 [3],Start,$7,$5,$5
+179322,Commanded ignition switch status,0 [3],SNA,$7,$7,$7
+179324,Compass direction,0 [4],North,$F,$0,$0
+179324,Compass direction,0 [4],Northeast,$F,$1,$1
+179324,Compass direction,0 [4],East,$F,$2,$2
+179324,Compass direction,0 [4],Southeast,$F,$3,$3
+179324,Compass direction,0 [4],South,$F,$4,$4
+179324,Compass direction,0 [4],Southwest,$F,$5,$5
+179324,Compass direction,0 [4],West,$F,$6,$6
+179324,Compass direction,0 [4],Northwest,$F,$7,$7
+179324,Compass direction,0 [4],Compass Not Present,$F,$8,$8
+179324,Compass direction,0 [4],SNA,$F,$F,$F
+179325,Not_Set / Set (1Byte),1 [0],Not Set,$FF,$00,$00
+179325,Not_Set / Set (1Byte),1 [0],Set,$FF,$01,$01
+179326,Not_Disconnected / Disconnecred,0 [1],No disconnect since last key cycle,$1,$0,$0
+179326,Not_Disconnected / Disconnecred,0 [1],Battery disconnected since last key cycle,$1,$1,$1
+179328,InternalLightLevel,0 [4],Level 1,$F,$0,$0
+179328,InternalLightLevel,0 [4],Level 2,$F,$1,$1
+179328,InternalLightLevel,0 [4],Level 3,$F,$2,$2
+179328,InternalLightLevel,0 [4],Level 4,$F,$3,$3
+179328,InternalLightLevel,0 [4],Level 5,$F,$4,$4
+179328,InternalLightLevel,0 [4],Level 6,$F,$5,$5
+179328,InternalLightLevel,0 [4],Level 7,$F,$6,$6
+179328,InternalLightLevel,0 [4],Level 8,$F,$7,$7
+179328,InternalLightLevel,0 [4],Level 9,$F,$8,$8
+179328,InternalLightLevel,0 [4],Level 10,$F,$9,$9
+179328,InternalLightLevel,0 [4],Level 11,$F,$A,$A
+179328,InternalLightLevel,0 [4],Level 12,$F,$B,$B
+179328,InternalLightLevel,0 [4],Level 13,$F,$C,$C
+179328,InternalLightLevel,0 [4],Level 14,$F,$D,$D
+179328,InternalLightLevel,0 [4],Level 15,$F,$E,$E
+179328,InternalLightLevel,0 [4],Level 16,$F,$F,$F
+179329,HLSPosition,0 [3],Off,$7,$0,$0
+179329,HLSPosition,0 [3],Position Lamps,$7,$1,$1
+179329,HLSPosition,0 [3],Low Beam,$7,$2,$2
+179329,HLSPosition,0 [3],Auto,$7,$3,$3
+179329,HLSPosition,0 [3],Short Circuit,$7,$4,$4
+179329,HLSPosition,0 [3],Open Circuit,$7,$5,$5
+179329,HLSPosition,0 [3],SNA,$7,$7,$7
+179333,PRND Status_1,0 [3],P,$7,$0,$0
+179333,PRND Status_1,0 [3],R,$7,$1,$1
+179333,PRND Status_1,0 [3],N,$7,$2,$2
+179333,PRND Status_1,0 [3],Unused,$7,$3,$3
+179333,PRND Status_1,0 [3],D,$7,$4,$4
+179333,PRND Status_1,0 [3],Not Reverse (Manual Transmission Only),$7,$5,$5
+179333,PRND Status_1,0 [3],Unused,$7,$6,$6
+179333,PRND Status_1,0 [3],SNA,$7,$7,$7
+179334,PowerModeSts,0 [2],Standard,$3,$0,$0
+179334,PowerModeSts,0 [2],Logistic Mode Active,$3,$1,$1
+179334,PowerModeSts,0 [2],Logistic Mode PR,$3,$2,$2
+179334,PowerModeSts,0 [2],Not Used,$3,$3,$3
+179336,Support ADAS operation,0 [2],Unknown,$3,$0,$0
+179336,Support ADAS operation,0 [2],Ok,$3,$1,$1
+179336,Support ADAS operation,0 [2],Not Ok,$3,$2,$2
+179336,Support ADAS operation,0 [2],SNA,$3,$3,$3
+179338,OperationalModeSts,0 [4],Initialization,$F,$0,$0
+179338,OperationalModeSts,0 [4],Ignition Off w/o Key,$F,$1,$1
+179338,OperationalModeSts,0 [4],Ignition Off,$F,$2,$2
+179338,OperationalModeSts,0 [4],Accessory,$F,$3,$3
+179338,OperationalModeSts,0 [4],Ignition On,$F,$4,$4
+179338,OperationalModeSts,0 [4],Ignition Pre-Start,$F,$5,$5
+179338,OperationalModeSts,0 [4],Ignition Start,$F,$6,$6
+179338,OperationalModeSts,0 [4],Ignition Cranking,$F,$7,$7
+179338,OperationalModeSts,0 [4],Ignition On Engine On,$F,$8,$8
+179338,OperationalModeSts,0 [4],Ignition Pre-Accessory,$F,$9,$9
+179338,OperationalModeSts,0 [4],Ignition Pre-Off,$F,$A,$A
+179338,OperationalModeSts,0 [4],Automatic Cranking,$F,$B,$B
+179338,OperationalModeSts,0 [4],Automatic Stop,$F,$C,$C
+179338,OperationalModeSts,0 [4],Key Authenticated,$F,$D,$D
+179338,OperationalModeSts,0 [4],Not Used,$F,$E,$E
+179338,OperationalModeSts,0 [4],SNA,$F,$F,$F
+179340,EC_Mirror_status,0 [2],EC Mirror Off,$3,$0,$0
+179340,EC_Mirror_status,0 [2],EC Mirror On,$3,$1,$1
+179340,EC_Mirror_status,0 [2],Does Not Apply,$3,$2,$2
+179340,EC_Mirror_status,0 [2],SNA,$3,$3,$3
+179342,TheftAlarmStatus,0 [3],Disarm,$7,$0,$0
+179342,TheftAlarmStatus,0 [3],Prearm,$7,$1,$1
+179342,TheftAlarmStatus,0 [3],Armed,$7,$2,$2
+179342,TheftAlarmStatus,0 [3],VTA_LGT,$7,$3,$3
+179342,TheftAlarmStatus,0 [3],VTA_LGT_HORN,$7,$4,$4
+179342,TheftAlarmStatus,0 [3],VTA_TAMP,$7,$5,$5
+179342,TheftAlarmStatus,0 [3],VTA_ITM_Alarm,$7,$6,$6
+179342,TheftAlarmStatus,0 [3],SNA,$7,$7,$7
+179345,INVM_Op_Suspended_PWRInvernter,0 [2],FALSO,$3,$0,$0
+179345,INVM_Op_Suspended_PWRInvernter,0 [2],Over Temperature,$3,$1,$1
+179345,INVM_Op_Suspended_PWRInvernter,0 [2],Over Voltage,$3,$2,$2
+179345,INVM_Op_Suspended_PWRInvernter,0 [2],Under Voltage,$3,$3,$3
+179347,INVM_Power inverter battery status,0 [2],Not Avalible,$3,$0,$0
+179347,INVM_Power inverter battery status,0 [2],30 Minutes,$3,$1,$1
+179347,INVM_Power inverter battery status,0 [2],Less than 30 Minutes,$3,$2,$2
+179349,Wakeup reason,0 [2],No Wakeup,$3,$0,$0
+179349,Wakeup reason,0 [2],Active Wakeup,$3,$1,$1
+179349,Wakeup reason,0 [2],Not Defined,$3,$2,$2
+179349,Wakeup reason,0 [2],SNA,$3,$3,$3
+179350,Sliding door power off switch status,0 [2],Not pressed,$3,$0,$0
+179350,Sliding door power off switch status,0 [2],Pressed without wake-up,$3,$1,$1
+179350,Sliding door power off switch status,0 [2],Pressed wake-up,$3,$2,$2
+179350,Sliding door power off switch status,0 [2],SNA,$3,$3,$3
+179351,Not Pressed / Pressed / SNA (2bit),0 [2],Not Pressed,$3,$0,$0
+179351,Not Pressed / Pressed / SNA (2bit),0 [2],Pressed,$3,$1,$1
+179351,Not Pressed / Pressed / SNA (2bit),0 [2],SNA,$3,$3,$3
+179352,EC_Mirror_sts,0 [2],Normal Mode,$3,$0,$0
+179352,EC_Mirror_sts,0 [2],Digital Mode,$3,$1,$1
+179352,EC_Mirror_sts,0 [2],Tow Mode,$3,$2,$2
+179352,EC_Mirror_sts,0 [2],SNA,$3,$3,$3
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],13 (260 ms),$F,$0,$0
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],25 (500 ms),$F,$1,$1
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],38 (760 ms),$F,$2,$2
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],50 (1000 ms),$F,$3,$3
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],63 (1260 ms),$F,$4,$4
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],75 (1500 ms),$F,$5,$5
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],88 (1760 ms),$F,$6,$6
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],100 (2000 ms),$F,$7,$7
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],113 (2260 ms),$F,$8,$8
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],125 (2500 ms),$F,$9,$9
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],138 (2760 ms),$F,$A,$A
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],150 (3000 ms),$F,$B,$B
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],163 (3260 ms),$F,$C,$C
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],175 (3500 ms),$F,$D,$D
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],188 (3760 ms),$F,$E,$E
+179353,_Illuminated_Approach_Interior_Lighting_Ramp_Up_Time_TC8598(1),0 [4],200 (4000 ms),$F,$F,$F
+179354,Dome switch status,0 [2],Door,$3,$0,$0
+179354,Dome switch status,0 [2],Dome On,$3,$1,$1
+179354,Dome switch status,0 [2],Dome Default,$3,$2,$2
+179354,Dome switch status,0 [2],SNA,$3,$3,$3
+179355,parametrized type of battery,0 [2],Lead Acid Flooded and Enhanced Flooded,$3,$0,$0
+179355,parametrized type of battery,0 [2],Lead Acid AGM,$3,$1,$1
+179355,parametrized type of battery,0 [2],UNUSED,$3,$2,$2
+179355,parametrized type of battery,0 [2],SNA,$3,$3,$3
+179356,Switch_TCSM,0 [3],Not Activated,$7,$0,$0
+179356,Switch_TCSM,0 [3],Activated,$7,$1,$1
+179356,Switch_TCSM,0 [3],Short to Ground Fault,$7,$5,$5
+179356,Switch_TCSM,0 [3],Open/Short to Power Fault,$7,$6,$6
+179356,Switch_TCSM,0 [3],SNA,$7,$7,$7
+179362,SW_temp_sensor_fault,0 [2],Normal Operation/No Fault,$3,$0,$0
+179362,SW_temp_sensor_fault,0 [2],Short Circuit,$3,$1,$1
+179362,SW_temp_sensor_fault,0 [2],Open Circuit,$3,$2,$2
+179362,SW_temp_sensor_fault,0 [2],SNA,$3,$3,$3
+179364,Steering wheel switch status,0 [2],NOT Pressed,$3,$0,$0
+179364,Steering wheel switch status,0 [2],Pressed,$3,$1,$1
+179364,Steering wheel switch status,0 [2],SNA,$3,$3,$3
+180059,ON / OFF (1Byte),1 [0],ON,$FF,$00,$00
+180059,ON / OFF (1Byte),1 [0],OFF,$FF,$01,$01
+180330,Enable / Disable,0 [1],Enable,$1,$0,$0
+180330,Enable / Disable,0 [1],Disable,$1,$1,$1
+181548,Vehicle_Line_Configuration,1 [0],Invalid,$FF,$00,$00
+181548,Vehicle_Line_Configuration,1 [0],343,$FF,$33,$33
+181548,Vehicle_Line_Configuration,1 [0],327FL (34 Hex),$FF,$34,$34
+181548,Vehicle_Line_Configuration,1 [0],226 (35 Hex),$FF,$35,$35
+181548,Vehicle_Line_Configuration,1 [0],PF (50 Hex),$FF,$50,$50
+181548,Vehicle_Line_Configuration,1 [0],KL/K4  (51 Hex),$FF,$51,$51
+181548,Vehicle_Line_Configuration,1 [0],UF (52 Hex),$FF,$52,$52
+181548,Vehicle_Line_Configuration,1 [0],UT (53 Hex),$FF,$53,$53
+181548,Vehicle_Line_Configuration,1 [0],334 (54 Hex),$FF,$54,$54
+181548,Vehicle_Line_Configuration,1 [0],520 (55 Hex),$FF,$55,$55
+181548,Vehicle_Line_Configuration,1 [0],551 /M1 (56 Hex),$FF,$56,$56
+181548,Vehicle_Line_Configuration,1 [0],338 (57 Hex),$FF,$57,$57
+181548,Vehicle_Line_Configuration,1 [0],521 (58 Hex),$FF,$58,$58
+181548,Vehicle_Line_Configuration,1 [0],636 VM (59 Hex),$FF,$59,$59
+181548,Vehicle_Line_Configuration,1 [0],356 (5A Hex),$FF,$5A,$5A
+181548,Vehicle_Line_Configuration,1 [0],952 (5B Hex),$FF,$5B,$5B
+181548,Vehicle_Line_Configuration,1 [0],341 (5C Hex),$FF,$5C,$5C
+181548,Vehicle_Line_Configuration,1 [0],552/MP (5D Hex),$FF,$5D,$5D
+181548,Vehicle_Line_Configuration,1 [0],949 (5E Hex),$FF,$5E,$5E
+181548,Vehicle_Line_Configuration,1 [0],523 (5F Hex),$FF,$5F,$5F
+181548,Vehicle_Line_Configuration,1 [0],358 (60 Hex),$FF,$60,$60
+181548,Vehicle_Line_Configuration,1 [0],359 (61 Hex),$FF,$61,$61
+181548,Vehicle_Line_Configuration,1 [0],553/M4 (62 Hex),$FF,$62,$62
+181548,Vehicle_Line_Configuration,1 [0],556/M6 (63 Hex),$FF,$63,$63
+181548,Vehicle_Line_Configuration,1 [0],K8 (64 Hex),$FF,$64,$64
+181548,Vehicle_Line_Configuration,1 [0],WL (65 Hex),$FF,$65,$65
+181548,Vehicle_Line_Configuration,1 [0],281 (66 Hex),$FF,$66,$66
+181548,Vehicle_Line_Configuration,1 [0],363 (67 Hex),$FF,$67,$67
+181548,Vehicle_Line_Configuration,1 [0],WS (68 Hex),$FF,$68,$68
+181548,Vehicle_Line_Configuration,1 [0],332 (69 Hex),$FF,$69,$69
+181548,Vehicle_Line_Configuration,1 [0],560 (6A Hex),$FF,$6A,$6A
+181548,Vehicle_Line_Configuration,1 [0],DT (7C Hex),$FF,$7C,$7C
+182265,Reserved (12bit),1 [4],Reserved,$FFF,$00,$00
+183209,Reserved (10bit),1 [2],Reserved,$3FF,$00,$00
+185397,FLAGDISCONNECT ADAS,0 [2],Not Disconnected,$3,$0,$0
+185397,FLAGDISCONNECT ADAS,0 [2],Disconnected,$3,$1,$1
+185397,FLAGDISCONNECT ADAS,0 [2],Not Used,$3,$2,$2
+185397,FLAGDISCONNECT ADAS,0 [2],SNA,$3,$3,$3
+188873,Shipping status,0 [2],Standard Power (Customer Mode),$3,$0,$0
+188873,Shipping status,0 [2],Logistic Mode On (Shipping Mode),$3,$1,$1
+188873,Shipping status,0 [2],Logistic Mode PR (Plant Mode),$3,$2,$2
+188873,Shipping status,0 [2],Reserved,$3,$3,$3
+189008,Option 116,0 [4],Absent,$F,$0,$0
+189008,Option 116,0 [4],"cushion, height, and backrest adjustment",$F,$1,$1
+189008,Option 116,0 [4],"cushion, height, and tilt adjustment",$F,$2,$2
+189008,Option 116,0 [4],"cushion, height, tilt and backrest adjustment",$F,$3,$3
+189008,Option 116,0 [4],"cushion, height, tilt, backrest, cushion ext, and back bolsters adjustment",$F,$4,$4
+189008,Option 116,0 [4],"cushion, height, tilt, backrest, cushion and horizontal and vertical headrest adjustment ext, cushion bolsters,",$F,$5,$5
+189008,Option 116,0 [4],"cushion, height, tilt, backrest, cushion ext., cushion and back bolsters, h orizontal and vertical headrest adjustment",$F,$6,$6
+189009,Option 21,0 [4],Type_1 (140.5 inch / Quad Cab 6’4” Box),$F,$0,$0
+189009,Option 21,0 [4],Type_2 (144.5 inch / Crew Cab 5’7” Box),$F,$1,$1
+189009,Option 21,0 [4],Type_3 (153.5 inch / Crew Cab 6’4” Box),$F,$2,$2
+189010,Option 32,0 [2],"Type_1 (Rebel 144.5"" WB, 55 C factor",$3,$0,$0
+189010,Option 32,0 [2],"Type_2 (Base 140.5' WB or 144.5' WB, 60 C-Factor",$3,$1,$1
+189010,Option 32,0 [2],"Type_3 (Base 153.5' WB or TRX, 63 C-Factor)",$3,$2,$2
+189011,Option 34,0 [2],Absent,$3,$0,$0
+189011,Option 34,0 [2],Drive Selector,$3,$1,$1
+189011,Option 34,0 [2],Terrain Selector,$3,$2,$2
+189012,Option 115,0 [4],Absent,$F,$0,$0
+189012,Option 115,0 [4],"cushion, height, and backrest adjustment",$F,$1,$1
+189012,Option 115,0 [4],"cushion, height, and tilt adjustment",$F,$2,$2
+189012,Option 115,0 [4],"cushion, height, tilt, and backrest adjustment",$F,$3,$3
+189012,Option 115,0 [4],"cushion, height, tilt, backrest, cushion ext., and back bolsters adjustment",$F,$4,$4
+189012,Option 115,0 [4],"cushion, height, tilt, backrest, cushion ext., cushion bolsters, and horizontal and vertical headrest adjustment",$F,$5,$5
+189012,Option 115,0 [4],"cushion, height, tilt, backrest, cushion ext., cushion and back bolsters, horizontal and vertical headrest adjustment",$F,$6,$6
+189013,Option 33,0 [2],Invalid,$3,$0,$0
+189013,Option 33,0 [2],Track 1,$3,$1,$1
+189013,Option 33,0 [2],Track 2,$3,$2,$2
+189014,Option 114,0 [1],2_Doors_PE,$1,$0,$0
+189014,Option 114,0 [1],4_Doors_PE,$1,$1,$1
+189015,Option 35,0 [2],Absent,$3,$0,$0
+189015,Option 35,0 [2],Type1 (TRX_GT_Selector),$3,$1,$1
+189015,Option 35,0 [2],Type2  (Steering_Mointed_Selector),$3,$2,$2
+189015,Option 35,0 [2],Type3,$3,$3,$3
+189016,Option 126,0 [3],Type 1,$7,$1,$1
+189016,Option 126,0 [3],Type 2,$7,$2,$2
+189016,Option 126,0 [3],Type 3,$7,$3,$3
+189016,Option 126,0 [3],Type 4,$7,$4,$4
+189016,Option 126,0 [3],Type 5,$7,$5,$5
+189018,Option 125,0 [3],Absent,$7,$0,$0
+189018,Option 125,0 [3],NA,$7,$1,$1
+189018,Option 125,0 [3],EMEA,$7,$2,$2
+189018,Option 125,0 [3],LATAM,$7,$3,$3
+189018,Option 125,0 [3],APAC,$7,$4,$4
+189019,Option 23,0 [1],Not Active,$1,$0,$0
+189019,Option 23,0 [1],Active,$1,$1,$1
+189020,Option 128,0 [2],Absent,$3,$0,$0
+189020,Option 128,0 [2],Type 1 (Radio),$3,$1,$1
+189020,Option 128,0 [2],Type 2,$3,$2,$2
+189020,Option 128,0 [2],Type 3,$3,$3,$3
+189021,Option 129,0 [2],Absent,$3,$0,$0
+189021,Option 129,0 [2],115V,$3,$1,$1
+189021,Option 129,0 [2],220V,$3,$2,$2
+189022,Option 118,0 [4],Absent,$F,$0,$0
+189022,Option 118,0 [4],"7"" 1280x768",$F,$1,$1
+189022,Option 118,0 [4],"8.4"" 1024x768",$F,$2,$2
+189022,Option 118,0 [4],"10.1"" 1920x1200",$F,$3,$3
+189022,Option 118,0 [4],"10.1"" 1200x1920",$F,$4,$4
+189022,Option 118,0 [4],"10.25"" 1920x720",$F,$5,$5
+189022,Option 118,0 [4],"12"" 1920x1200",$F,$6,$6
+189022,Option 118,0 [4],"12"" 1200x1920",$F,$7,$7
+189022,Option 118,0 [4],"12.3"" 1920x720",$F,$8,$8
+189022,Option 118,0 [4],"14.5"" 1024x1920",$F,$9,$9
+189023,Option 127,0 [2],Type_1,$3,$0,$0
+189023,Option 127,0 [2],Type_2,$3,$1,$1
+189023,Option 127,0 [2],Type_3,$3,$2,$2
+189023,Option 127,0 [2],Type_4,$3,$3,$3
+189024,Option 24,0 [2],Absent,$3,$0,$0
+189024,Option 24,0 [2],Manual,$3,$1,$1
+189024,Option 24,0 [2],Automatic,$3,$2,$2
+189025,Option 117,0 [2],Absent,$3,$0,$0
+189025,Option 117,0 [2],Horizontal without Memory,$3,$1,$1
+189025,Option 117,0 [2],Horizontal and Vertical without Memory,$3,$2,$2
+189025,Option 117,0 [2],Horizontal and Vertical with Memory,$3,$3,$3
+189026,Option 4,0 [1],Left Side,$1,$0,$0
+189026,Option 4,0 [1],Right Side,$1,$1,$1
+189027,Option 5,0 [2],No Lights,$3,$0,$0
+189027,Option 5,0 [2],Two Lights,$3,$1,$1
+189027,Option 5,0 [2],One Right Light,$3,$2,$2
+189027,Option 5,0 [2],One Left Light,$3,$3,$3
+189028,Option 131,0 [2],Absent,$3,$0,$0
+189028,Option 131,0 [2],Active,$3,$1,$1
+189028,Option 131,0 [2],Part Time,$3,$2,$2
+189028,Option 131,0 [2],SRT,$3,$3,$3
+189029,Option 130,0 [2],Absent,$3,$0,$0
+189029,Option 130,0 [2],Rear Locker,$3,$1,$1
+189029,Option 130,0 [2],Front and Rear Locker,$3,$2,$2
+189030,Option 3,0 [1],Has EOL,$1,$1,$1
+189031,Option 120,0 [4],None,$F,$0,$0
+189031,Option 120,0 [4],Type1,$F,$1,$1
+189031,Option 120,0 [4],Type2,$F,$2,$2
+189032,Option 119,0 [3],None,$7,$0,$0
+189032,Option 119,0 [3],400V,$7,$1,$1
+189032,Option 119,0 [3],800V,$7,$2,$2
+189036,Option 43,0 [5],Not Applicable / TYPE_NA,$1F,$0,$0
+189036,Option 43,0 [5],4 pos Elec Rang Selc/TYPE_ERS4,$1F,$1,$1
+189036,Option 43,0 [5],4 pos Autostick / TYPE_AS4,$1F,$2,$2
+189036,Option 43,0 [5],5 pos Elec Rang Selc/TYPE_ERS5,$1F,$3,$3
+189036,Option 43,0 [5],5 pos Autostick / TYPE_AS5,$1F,$4,$4
+189036,Option 43,0 [5],5 pos Standard(PRNDL)/TYPE_ATX5,$1F,$5,$5
+189036,Option 43,0 [5],6 pos Standard (PRND3LorPRND21)/TYPE_ATX6,$1F,$6,$6
+189036,Option 43,0 [5],7 pos Standard (PRND321) / TYPE_ATX7,$1F,$7,$7
+189036,Option 43,0 [5],4 pos Elec Rang Selc w EnableSw / TYPE_ERS4ESW,$1F,$8,$8
+189036,Option 43,0 [5],7 position monostable shifter PRNDS type / TYPE_MS7S,$1F,$9,$9
+189036,Option 43,0 [5],7 position monostable shifter PRNDL type / TYPE_MS7L,$1F,$A,$A
+189036,Option 43,0 [5],5 pos Rotary Eshifter PRNDL/ TYPE_RES5L,$1F,$B,$B
+189036,Option 43,0 [5],5 pos Rotary Eshifter PRNDS/ TYPE_RES5S,$1F,$C,$C
+189036,Option 43,0 [5],Signal not available/SNA,$1F,$D,$D
+189038,Option 93,0 [3],NAFTA,$7,$0,$0
+189038,Option 93,0 [3],EMEA,$7,$1,$1
+189038,Option 93,0 [3],LATAM,$7,$2,$2
+189038,Option 93,0 [3],APAC,$7,$3,$3
+189039,Option 42,0 [4],Invalid,$F,$0,$0
+189039,Option 42,0 [4],Type1 (3.21),$F,$1,$1
+189039,Option 42,0 [4],Type2 (3.92),$F,$2,$2
+189039,Option 42,0 [4],Type3 (3.55),$F,$3,$3
+189042,Option 26,0 [2],Absent,$3,$0,$0
+189042,Option 26,0 [2],Present Monostage,$3,$1,$1
+189042,Option 26,0 [2],Present Dual Stage,$3,$2,$2
+189042,Option 26,0 [2],Present Tri Stage,$3,$3,$3
+189043,Option 94,0 [2],None,$3,$0,$0
+189043,Option 94,0 [2],Welcome,$3,$1,$1
+189043,Option 94,0 [2],Welcome and Departure,$3,$2,$2
+189043,Option 94,0 [2],Not Used,$3,$3,$3
+189045,Option 25,0 [2],"Mirror adjust functions without Convex, without telescope",$3,$0,$0
+189045,Option 25,0 [2],"Mirror Adjust with Convex, without Telescope (LFX +!LF4)",$3,$1,$1
+189045,Option 25,0 [2],"Mirror Adjust with Telescope, without Convex (LF4 + !LFX)",$3,$2,$2
+189045,Option 25,0 [2],"Mirror Adjust with Convex, with Telescope (LFX + LF4)",$3,$3,$3
+189047,Option 7,0 [3],Invalid,$7,$0,$0
+189047,Option 7,0 [3],Gasoline,$7,$1,$1
+189047,Option 7,0 [3],Diesel,$7,$2,$2
+189047,Option 7,0 [3],CNG,$7,$3,$3
+189047,Option 7,0 [3],GPL,$7,$4,$4
+189047,Option 7,0 [3],Electric,$7,$5,$5
+189047,Option 7,0 [3],Hybrid,$7,$6,$6
+189047,Option 7,0 [3],Flex,$7,$7,$7
+189049,Option 48,0 [2],None,$3,$0,$0
+189049,Option 48,0 [2],ERS present,$3,$1,$1
+189049,Option 48,0 [2],Autostick present,$3,$2,$2
+189050,Option 8,0 [1],Short,$1,$0,$0
+189050,Option 8,0 [1],Long,$1,$1,$1
+189052,Option 45,0 [3],No Tcase,$7,$0,$0
+189052,Option 45,0 [3],Tcase Hi Ratio 1:1,$7,$1,$1
+189052,Option 45,0 [3],Special Tcase Hi Ratio 1,$7,$2,$2
+189052,Option 45,0 [3],Special Tcase Hi Ratio 2,$7,$3,$3
+189052,Option 45,0 [3],Special Tcase Hi Ratio 3,$7,$4,$4
+189052,Option 45,0 [3],SNA,$7,$7,$7
+189054,Option 6,0 [1],Enable,$1,$0,$0
+189054,Option 6,0 [1],Disable,$1,$1,$1
+189055,Option 47,0 [3],Not valid,$7,$0,$0
+189055,Option 47,0 [3],MTX,$7,$1,$1
+189055,Option 47,0 [3],MTA (Robotized Gearbox),$7,$2,$2
+189055,Option 47,0 [3],DDCT,$7,$3,$3
+189055,Option 47,0 [3],ATX,$7,$4,$4
+189055,Option 47,0 [3],CVT,$7,$5,$5
+189056,Option 46,0 [5],Invalid,$1F,$0,$0
+189056,Option 46,0 [5],Type1 (8HP75),$1F,$1,$1
+189056,Option 46,0 [5],Type2 (850RE),$1F,$2,$2
+189056,Option 46,0 [5],Type3 (8HP95),$1F,$3,$3
+189056,Option 46,0 [5],Type4 (8HP75 PHEV),$1F,$4,$4
+189058,Option 11,0 [2],Absent,$3,$0,$0
+189058,Option 11,0 [2],Front Seats,$3,$1,$1
+189058,Option 11,0 [2],Front And Rear Seats,$3,$2,$2
+189058,Option 11,0 [2],Not Used,$3,$3,$3
+189060,Option 10,0 [1],Disable,$1,$0,$0
+189060,Option 10,0 [1],Enable,$1,$1,$1
+189061,Option 9,0 [1],LightBulb,$1,$0,$0
+189061,Option 9,0 [1],LEDs.,$1,$1,$1
+189062,Option 13,0 [3],Absent,$7,$0,$0
+189062,Option 13,0 [3],City,$7,$1,$1
+189062,Option 13,0 [3],Sport,$7,$2,$2
+189062,Option 13,0 [3],Eco,$7,$3,$3
+189062,Option 13,0 [3],City_Eco,$7,$4,$4
+189062,Option 13,0 [3],City_Sport,$7,$5,$5
+189064,Option 12,0 [1],Base,$1,$0,$0
+189064,Option 12,0 [1],Premium,$1,$1,$1
+189066,Option 49,0 [3],ShortTimeGap_ kph_160Max,$7,$0,$0
+189066,Option 49,0 [3],ShortimeGap_ mph_160Max,$7,$1,$1
+189066,Option 49,0 [3],LargeTimeGap_kph_160Max,$7,$2,$2
+189066,Option 49,0 [3],LargeTimeGap_mph_160Max,$7,$3,$3
+189066,Option 49,0 [3],ShortTimeGap_ kph_200Max,$7,$4,$4
+189066,Option 49,0 [3],ShortimeGap_ mph_200Max,$7,$5,$5
+189066,Option 49,0 [3],LargeTimeGap_kph_200Max,$7,$6,$6
+189066,Option 49,0 [3],LargeTimeGap_mph_200Max,$7,$7,$7
+189067,Option 15,0 [4],Invalid,$F,$0,$0
+189067,Option 15,0 [4],Type1 (2.0L I4 DOHC DI TURBO ENGINE W/ ESS),$F,$1,$1
+189067,Option 15,0 [4],Type2 (3.6L V6 24V VVT ENGINE UPG I W/ESS ),$F,$2,$2
+189067,Option 15,0 [4],Type3 (6.2L SUPERCHARGED HEMI V8 SRT ENGINE ),$F,$3,$3
+189067,Option 15,0 [4],Type4 (2.0L I4 DOHC DI TURBO PHEV ENGINE),$F,$4,$4
+189067,Option 15,0 [4],Type5 (3.0L I6 TWIN TURBO ENGINE W/ESS),$F,$5,$5
+189067,Option 15,0 [4],Type6 (5.7L V8 HEMI MDS ENGINE),$F,$6,$6
+189067,Option 15,0 [4],Type 7 (3.0L I6 HO Twin Turbo Engine),$F,$7,$7
+189067,Option 15,0 [4],Type8 (3.6L V6 24V VVT ETorque),$F,$8,$8
+189067,Option 15,0 [4],Type9 (6.4L V8 SRT Hemi MDS),$F,$9,$9
+189067,Option 15,0 [4],Type10 (5.7L V8 Hemi MDS VVT BSG),$F,$A,$A
+189067,Option 15,0 [4],Type11 (3.0L I6 HO Twin Turbo W/ESS),$F,$B,$B
+189067,Option 15,0 [4],Type12 (EFF - 3.0L I6 Twin Turbo HEV/PHEV),$F,$C,$C
+189067,Option 15,0 [4],Type13 (EL2 – 400V G2500 FR/RR W/3.6L AUX PWR),$F,$D,$D
+189067,Option 15,0 [4],Type 14 (ELD - 400V G2500 FR/RR ELEC DRIVE),$F,$E,$E
+189072,Option 17,0 [5],Invalid,$1F,$0,$0
+189072,Option 17,0 [5],Sedan,$1F,$1,$1
+189072,Option 17,0 [5],Station Wagon,$1F,$2,$2
+189072,Option 17,0 [5],Cargo,$1F,$3,$3
+189072,Option 17,0 [5],Combi,$1F,$4,$4
+189072,Option 17,0 [5],Panorama,$1F,$5,$5
+189072,Option 17,0 [5],Cabrio,$1F,$6,$6
+189072,Option 17,0 [5],Hatch,$1F,$7,$7
+189072,Option 17,0 [5],SUV,$1F,$8,$8
+189072,Option 17,0 [5],CUV,$1F,$9,$9
+189072,Option 17,0 [5],Truck,$1F,$A,$A
+189073,Option 18,0 [2],No doors (Special Version),$3,$0,$0
+189073,Option 18,0 [2],2 Doors,$3,$1,$1
+189073,Option 18,0 [2],3 Doors,$3,$2,$2
+189073,Option 18,0 [2],4 Doors,$3,$3,$3
+189074,Option 19,0 [2],Lift Gate,$3,$0,$0
+189074,Option 19,0 [2],2 Hinged Doors,$3,$1,$1
+189074,Option 19,0 [2],Powered Lift Gate,$3,$2,$2
+189074,Option 19,0 [2],Powered Tail Gate,$3,$3,$3
+189076,Option 31,0 [2],Absent,$3,$0,$0
+189076,Option 31,0 [2],Full Speed FCW with Pedestrian/Cyclist Emergency Braking,$3,$1,$1
+189076,Option 31,0 [2],Full Speed FCW with Pedestrian Emergency Braking,$3,$2,$2
+189076,Option 31,0 [2],Full Speed Forward Collision Warning with Mitigation,$3,$3,$3
+189077,Option 30,0 [2],Absent,$3,$0,$0
+189077,Option 30,0 [2],ACC,$3,$1,$1
+189077,Option 30,0 [2],ACC with Stop,$3,$2,$2
+189077,Option 30,0 [2],ACC with Stop/Go,$3,$3,$3
+189078,Option 20,0 [2],Absent,$3,$0,$0
+189078,Option 20,0 [2],Horn,$3,$1,$1
+189078,Option 20,0 [2],Siren,$3,$2,$2
+189078,Option 20,0 [2],Not Used,$3,$3,$3
+189081,Option 96,0 [2],Not Present,$3,$0,$0
+189081,Option 96,0 [2],Lane Departure Warning,$3,$1,$1
+189081,Option 96,0 [2],Lane Departure Warning + Lane Keep Assist,$3,$2,$2
+189081,Option 96,0 [2],Active Lane Management,$3,$3,$3
+189084,Option 97,0 [2],Regular,$3,$0,$0
+189084,Option 97,0 [2],Quad,$3,$1,$1
+189084,Option 97,0 [2],Crew,$3,$2,$2
+189084,Option 97,0 [2],Mega,$3,$3,$3
+189088,Option 99,0 [2],Absent,$3,$0,$0
+189088,Option 99,0 [2],Hardwired,$3,$1,$1
+189088,Option 99,0 [2],Virtual (CAN/LIN),$3,$2,$2
+189088,Option 99,0 [2],Hardwire - only TBM call,$3,$3,$3
+189089,Option 88,0 [1],Digital,$1,$0,$0
+189089,Option 88,0 [1],Analog,$1,$1,$1
+189090,Option 98,0 [3],Absent,$7,$0,$0
+189090,Option 98,0 [3],Hard-wired – TBM direct handling,$7,$1,$1
+189090,Option 98,0 [3],Hard-wired – HU selection,$7,$2,$2
+189090,Option 98,0 [3],Remote – TBM direct handing,$7,$3,$3
+189090,Option 98,0 [3],Remote – HU selection,$7,$4,$4
+189093,Option 101,1 [0],Type 1,$FF,$00,$00
+189093,Option 101,1 [0],Type 2,$FF,$01,$01
+189095,Option 100,0 [1],Logic 1 (ADAS Normal Cruise Control Absent ),$1,$0,$0
+189095,Option 100,0 [1],Logic 2 (ADAS Normal Cruise Control  Present ),$1,$1,$1
+189097,Option 103,0 [1],Customer Selectable Setting,$1,$0,$0
+189097,Option 103,0 [1],Gear Position Based,$1,$1,$1
+189099,Option 91,0 [1],Not Set,$1,$0,$0
+189099,Option 91,0 [1],Set,$1,$1,$1
+189100,Option 102,0 [2],None,$3,$0,$0
+189100,Option 102,0 [2],Passive,$3,$1,$1
+189100,Option 102,0 [2],Active-Integrated,$3,$2,$2
+189100,Option 102,0 [2],Active-Standalone,$3,$3,$3
+189102,Option 106,0 [4],Absent,$F,$0,$0
+189102,Option 106,0 [4],Type 1,$F,$1,$1
+189102,Option 106,0 [4],Type 2,$F,$2,$2
+189103,Option 105,0 [4],Absent,$F,$0,$0
+189103,Option 105,0 [4],Type 1 (Cloth),$F,$1,$1
+189103,Option 105,0 [4],Type 2 (Perf Leather),$F,$2,$2
+189103,Option 105,0 [4],Type 3 (Perf Leather Premium),$F,$3,$3
+189103,Option 105,0 [4],Type 4 (Perf Quilt Premium),$F,$4,$4
+189104,Option 38,1 [0],Invalid,$FF,$00,$00
+189104,Option 38,1 [0],Type 1,$FF,$01,$01
+189104,Option 38,1 [0],Type 2,$FF,$02,$02
+189105,Option 39,0 [3],Invalid,$7,$0,$0
+189105,Option 39,0 [3],Not Used,$7,$1,$1
+189105,Option 39,0 [3],Type 2 (25 kN MOC),$7,$2,$2
+189107,Option 37,0 [3],Not Applicable,$7,$0,$0
+189107,Option 37,0 [3],Export,$7,$1,$1
+189107,Option 37,0 [3],PHEV,$7,$2,$2
+189107,Option 37,0 [3],PHEV Export,$7,$3,$3
+189107,Option 37,0 [3],AMS,$7,$4,$4
+189107,Option 37,0 [3],High Performance,$7,$5,$5
+189109,Option 104,0 [2],Absent,$3,$0,$0
+189109,Option 104,0 [2],Present Front,$3,$1,$1
+189109,Option 104,0 [2],Present Rear,$3,$2,$2
+189109,Option 104,0 [2],Present Front And Rear,$3,$3,$3
+189113,Option 108,0 [2],1  Level,$3,$0,$0
+189113,Option 108,0 [2],2 Levels,$3,$1,$1
+189113,Option 108,0 [2],3 Levels,$3,$2,$2
+189114,Option 41,0 [1],Absent (Powertrain Cruise Control Absent),$1,$0,$0
+189114,Option 41,0 [1],Present (Powertrain Cruise Control Present),$1,$1,$1
+189115,Option 107,0 [2],Absent,$3,$0,$0
+189115,Option 107,0 [2],Non-Memory Present,$3,$1,$1
+189115,Option 107,0 [2],Memory Present,$3,$2,$2
+189117,Option 40,0 [3],FWD,$7,$0,$0
+189117,Option 40,0 [3],RWD,$7,$1,$1
+189117,Option 40,0 [3],Single Speed AWD,$7,$2,$2
+189117,Option 40,0 [3],2 Speed 4WD,$7,$3,$3
+189117,Option 40,0 [3],2 Speed 4WD with ELSD,$7,$4,$4
+189119,Option 132,0 [3],Absent,$7,$0,$0
+189119,Option 132,0 [3],Type 1,$7,$1,$1
+189119,Option 132,0 [3],Type 2,$7,$2,$2
+189128,Option 122,0 [3],Not present,$7,$0,$0
+189128,Option 122,0 [3],Default Synthesized,$7,$1,$1
+189128,Option 122,0 [3],Default Wave,$7,$2,$2
+189128,Option 122,0 [3],332 BEV,$7,$3,$3
+189128,Option 122,0 [3],Follow Brand_Configuration_2,$7,$4,$4
+189128,Option 122,0 [3],Fiat LATAM,$7,$5,$5
+189129,Option 135,0 [1],LightBulb,$1,$0,$0
+189129,Option 135,0 [1],LEDs,$1,$1,$1
+189130,Option 134,0 [2],Puddle Lights Only,$3,$0,$0
+189130,Option 134,0 [2],Logo Lights,$3,$1,$1
+189131,Option 121,0 [2],Type_0,$3,$0,$0
+189131,Option 121,0 [2],Type_1,$3,$1,$1
+189131,Option 121,0 [2],Type_2,$3,$2,$2
+189131,Option 121,0 [2],Type_3,$3,$3,$3
+189132,Option 124,0 [2],Type 1,$3,$0,$0
+189132,Option 124,0 [2],Type 2,$3,$1,$1
+189132,Option 124,0 [2],Type 3,$3,$2,$2
+189132,Option 124,0 [2],Type 4,$3,$3,$3
+189133,Option 113,0 [1],Unlock Doors after Vehicle Speed,$1,$0,$0
+189133,Option 113,0 [1],Unlock Doors Immediately below 512kph,$1,$1,$1
+189134,Option 123,0 [2],Absent,$3,$0,$0
+189134,Option 123,0 [2],Type1,$3,$1,$1
+189134,Option 123,0 [2],Type2,$3,$2,$2
+189134,Option 123,0 [2],Type3,$3,$3,$3
+189135,Option 95,0 [2],Disabled,$3,$0,$0
+189135,Option 95,0 [2],Type 1,$3,$1,$1
+189135,Option 95,0 [2],Type 2,$3,$2,$2
+189135,Option 95,0 [2],Type 3,$3,$3,$3
+189136,Option 111,0 [3],Logic 1 NHTSA Enable Warning,$7,$0,$0
+189136,Option 111,0 [3],Logic 2 NAFTA Disable Warning,$7,$1,$1
+189136,Option 111,0 [3],Logic 3 ECE Enable Warning,$7,$2,$2
+189136,Option 111,0 [3],Logic 4 Other Disable Warning,$7,$3,$3
+189136,Option 111,0 [3],Logic 5 CHINA Enable Warning,$7,$4,$4
+189137,Option 137,0 [3],None,$7,$0,$0
+189137,Option 137,0 [3],Four_Cutoff,$7,$1,$1
+189137,Option 137,0 [3],Four,$7,$2,$2
+189137,Option 137,0 [3],Five,$7,$3,$3
+189137,Option 137,0 [3],Six,$7,$4,$4
+189138,Option 136,0 [2],Abesent,$3,$0,$0
+189138,Option 136,0 [2],Type 1,$3,$1,$1
+189138,Option 136,0 [2],Type 2,$3,$2,$2
+189138,Option 136,0 [2],Type 3,$3,$3,$3
+191682,CBC LIN ECUs (DT),1 [0],Window Smart Motor Rear Left (WSMRL),$FF,$0C,$0C
+191682,CBC LIN ECUs (DT),1 [0],Window Smart Motor Rear Right (WSMRR),$FF,$0D,$0D
+191682,CBC LIN ECUs (DT),1 [0],400 Watt Inverter (INVM),$FF,$0E,$0E
+191682,CBC LIN ECUs (DT),1 [0],Dual Switch Battery Module 2 (DBSM 2),$FF,$10,$10
+191682,CBC LIN ECUs (DT),1 [0],Cruise Control Steering Wheel Commands (CSWC),$FF,$19,$19
+191682,CBC LIN ECUs (DT),1 [0],Auxiliary Switch Bank (ASBM),$FF,$1D,$1D
+191682,CBC LIN ECUs (DT),1 [0],Auxiliary Switch Bank 2 (ASBM2),$FF,$1F,$1F
+191682,CBC LIN ECUs (DT),1 [0],Humidity Rain Light Sensor (HRLS),$FF,$22,$22
+191682,CBC LIN ECUs (DT),1 [0],Steering Wheel Sensor Module (SWSM),$FF,$24,$24
+191682,CBC LIN ECUs (DT),1 [0],EVIC Switch Module (SWS),$FF,$25,$25
+191682,CBC LIN ECUs (DT),1 [0],2 kW Inverter (INVM2),$FF,$27,$27
+191682,CBC LIN ECUs (DT),1 [0],Combined Rearview Mirror Module (CRVMM),$FF,$2C,$2C
+191682,CBC LIN ECUs (DT),1 [0],T Case Switch Module (TCSM),$FF,$2E,$2E
+191682,CBC LIN ECUs (DT),1 [0],Overhead Console (OHC),$FF,$33,$33
+191682,CBC LIN ECUs (DT),1 [0],Quiet Vehicle Pedestrian Module 2 (QVPM2),$FF,$36,$36
+191682,CBC LIN ECUs (DT),1 [0],Intelligent Battery Sensor (IBS),$FF,$47,$47
+191682,CBC LIN ECUs (DT),1 [0],Intelligent Battery Sensor 2 (IBS 2),$FF,$48,$48
+191682,CBC LIN ECUs (DT),1 [0],Wireless Charging Pad Module (WCPM),$FF,$50,$50
+191682,CBC LIN ECUs (DT),1 [0],Wireless Charging Pad Module 3 (WCPM 3),$FF,$53,$53
+191682,CBC LIN ECUs (DT),1 [0],Rearview Display Mirror (RVDM),$FF,$66,$66
+191682,CBC LIN ECUs (DT),1 [0],Smart Lighting Module Rear Left (SLMRL),$FF,$6D,$6D
+191682,CBC LIN ECUs (DT),1 [0],Smart Lighting Module Rear Right (SLMRR),$FF,$6E,$6E
+191682,CBC LIN ECUs (DT),1 [0],Left Multifunction Tailgate Module (LMTM),$FF,$73,$73
+191682,CBC LIN ECUs (DT),1 [0],Wireless Charging Pad Module 2 (WCPM 2),$FF,$7B,$7B
+191682,CBC LIN ECUs (DT),1 [0],Switch Bank Module Rear Right (SBMRL),$FF,$7E,$7E
+191682,CBC LIN ECUs (DT),1 [0],Switch Bank Module Rear Right (SBMRR),$FF,$81,$81
+191683,Programmed/Not Programmed,1 [0],Not Programmed,$FF,$00,$00
+191683,Programmed/Not Programmed,1 [0],Learned,$FF,$01,$01
+191683,Programmed/Not Programmed,1 [0],Programmed,$FF,$02,$02
+192740,Option 138,0 [4],Absent,$F,$0,$0
+192740,Option 138,0 [4],GSR Variant,$F,$1,$1
+192740,Option 138,0 [4],China Variant,$F,$2,$2
+192740,Option 138,0 [4],Korea Variant,$F,$3,$3
+193310,Option 36,0 [3],Not Applicable,$7,$0,$0
+193310,Option 36,0 [3],Steel Suspension,$7,$1,$1
+193310,Option 36,0 [3],Air Suspension,$7,$2,$2
+193310,Option 36,0 [3],TRX Suspension,$7,$3,$3
+193310,Option 36,0 [3],Rebel,$7,$4,$4
+193313,Option 50,0 [3],None,$7,$0,$0
+193313,Option 50,0 [3],Base,$7,$1,$1
+193313,Option 50,0 [3],Rebel,$7,$2,$2
+193313,Option 50,0 [3],TRX,$7,$3,$3
+193313,Option 50,0 [3],Tungsten,$7,$4,$4
+193313,Option 50,0 [3],Big Horn/Lone Star,$7,$5,$5
+193314,Option 52,1 [0],World,$FF,$00,$00
+193314,Option 52,1 [0],United States of America,$FF,$02,$02
+193314,Option 52,1 [0],Canada,$FF,$04,$04
+193314,Option 52,1 [0],Mexico,$FF,$0E,$0E
+193314,Option 52,1 [0],China Mainland,$FF,$10,$10
+193314,Option 52,1 [0],Bahrain,$FF,$12,$12
+193314,Option 52,1 [0],Iraq,$FF,$61,$61
+193314,Option 52,1 [0],Jordan,$FF,$68,$68
+193314,Option 52,1 [0],Kuwait,$FF,$6C,$6C
+193314,Option 52,1 [0],Lebanon,$FF,$70,$70
+193314,Option 52,1 [0],Oman,$FF,$95,$95
+193314,Option 52,1 [0],Qatar,$FF,$A0,$A0
+193314,Option 52,1 [0],Saudi Arabia,$FF,$A5,$A5
+193314,Option 52,1 [0],United Arab Emirates,$FF,$CC,$CC
+193314,Option 52,1 [0],Yemen,$FF,$D7,$D7
+193324,Option 139,0 [3],None,$7,$0,$0
+193324,Option 139,0 [3],Type 1,$7,$1,$1
+193324,Option 139,0 [3],Type 2,$7,$2,$2
+193324,Option 139,0 [3],Type 3,$7,$3,$3
+193324,Option 139,0 [3],Type 4,$7,$4,$4
+193326,Option 140,0 [3],Absent,$7,$0,$0
+193326,Option 140,0 [3],2 Levels,$7,$1,$1
+193326,Option 140,0 [3],3 Levels,$7,$2,$2
+193326,Option 140,0 [3],4 Levels,$7,$3,$3
+193326,Option 140,0 [3],5 Levels,$7,$4,$4
+193327,Option 133,0 [3],Level 0 - TBM SR21 and earlier,$7,$0,$0
+193327,Option 133,0 [3],Level 1 - TBM SR22 and later,$7,$1,$1
+193361,RsErr_INVM2,0 [1],No Error,$1,$0,$0
+193361,RsErr_INVM2,0 [1],Error,$1,$1,$1
+193364,QVPM2_Sts,0 [1],No Fail / No_Fail,$1,$0,$0
+193364,QVPM2_Sts,0 [1],QVPM2 Internal Fail Present / QVPM2_Internal_Fail_Present,$1,$1,$1
+193365,LK_Illumination_RL/LK_Illumination_RR,0 [1],ON / ON,$1,$0,$0
+193365,LK_Illumination_RL/LK_Illumination_RR,0 [1],OFF / OFF,$1,$1,$1
+193369,Gear_Pos,0 [4],"Current gear ""N"" (or ParkNeutral) / N",$F,$0,$0
+193369,Gear_Pos,0 [4],"Current gear ""1"" / D1",$F,$1,$1
+193369,Gear_Pos,0 [4],"Current gear ""2"" / D2",$F,$2,$2
+193369,Gear_Pos,0 [4],"Current gear ""3"" / D3",$F,$3,$3
+193369,Gear_Pos,0 [4],"Current gear ""4 (62TE 4P)"" / D4",$F,$4,$4
+193369,Gear_Pos,0 [4],"Current gear ""5 (RFE 4P, 62TE 4)"" / D5",$F,$5,$5
+193369,Gear_Pos,0 [4],"Current gear ""6 (62TE 5)"" / D6",$F,$6,$6
+193369,Gear_Pos,0 [4],"Current gear ""7 (62TE 6)"" / D7",$F,$7,$7
+193369,Gear_Pos,0 [4],"Current gear ""8"" / D8",$F,$8,$8
+193369,Gear_Pos,0 [4],"Current gear ""2nd Prime"" / D2P",$F,$9,$9
+193369,Gear_Pos,0 [4],"Current gear ""9"" / D9",$F,$A,$A
+193369,Gear_Pos,0 [4],"Current gear ""R"" / R",$F,$B,$B
+193369,Gear_Pos,0 [4],"Current gear ""R2"" / R2",$F,$C,$C
+193369,Gear_Pos,0 [4],"Current gear ""P"" / P",$F,$D,$D
+193369,Gear_Pos,0 [4],Disengaged / KRAFTFREI,$F,$E,$E
+193369,Gear_Pos,0 [4],SNA,$F,$F,$F
+193370,HEV_EVT_MD,0 [1],HEV_EVT_MD,$1,$0,$0
+193370,HEV_EVT_MD,0 [1],EV_mode / EV_mode,$1,$1,$1
+193371,Option 15,0 [4],Invalid,$F,$0,$0
+193371,Option 15,0 [4],Type1 (2.0L I4 DOHC DI TURBO ENGINE W/ ESS),$F,$1,$1
+193371,Option 15,0 [4],Type2 (3.6L V6 24V VVT ENGINE UPG I W/ESS ),$F,$2,$2
+193371,Option 15,0 [4],Type3 (6.2L SUPERCHARGED HEMI V8 SRT ENGINE ),$F,$3,$3
+193371,Option 15,0 [4],Type4 (2.0L I4 DOHC DI TURBO PHEV ENGINE),$F,$4,$4
+193371,Option 15,0 [4],Type5 (3.0L I6 TWIN TURBO ENGINE W/ESS),$F,$5,$5
+193371,Option 15,0 [4],Type6 (5.7L V8 HEMI MDS ENGINE),$F,$6,$6
+193371,Option 15,0 [4],Type 7 (3.0L I6 HO Twin Turbo Engine),$F,$7,$7
+193371,Option 15,0 [4],Type8 (3.6L V6 24V VVT ETorque),$F,$8,$8
+193371,Option 15,0 [4],Type9 (6.4L V8 SRT Hemi MDS),$F,$9,$9
+193371,Option 15,0 [4],Type10 (5.7L V8 Hemi MDS VVT BSG),$F,$A,$A
+193371,Option 15,0 [4],Type11 (3.0L I6 HO Twin Turbo W/ESS),$F,$B,$B
+193371,Option 15,0 [4],Type12 (EFF - 3.0L I6 Twin Turbo HEV/PHEV) $F $C,$F,$C,$C
+193371,Option 15,0 [4],Type13 (EL2 – 400V G2500 FR/RR W/3.6L AUX PWR),$F,$D,$D
+193371,Option 15,0 [4],Type 14 (ELD - 400V G2500 FR/RR ELEC DRIVE),$F,$E,$E
+193372,Gear_Engaged,0 [5],Initialize / Initialize,$1F,$0,$0
+193372,Gear_Engaged,0 [5],1st_gear / 1st_gear,$1F,$1,$1
+193372,Gear_Engaged,0 [5],2nd_gear / 2nd_gear,$1F,$2,$2
+193372,Gear_Engaged,0 [5],3rd_gear / 3rd_gear,$1F,$3,$3
+193372,Gear_Engaged,0 [5],4th_gear / 4th_gear,$1F,$4,$4
+193372,Gear_Engaged,0 [5],5th_gear / 5th_gear,$1F,$5,$5
+193372,Gear_Engaged,0 [5],6th_gear / 6th_gear,$1F,$6,$6
+193372,Gear_Engaged,0 [5],7th_gear / 7th_gear,$1F,$7,$7
+193372,Gear_Engaged,0 [5],8th_gear / 8th_gear,$1F,$8,$8
+193372,Gear_Engaged,0 [5],9th_gear / 9th_gear,$1F,$9,$9
+193372,Gear_Engaged,0 [5],Not_used1 / Not_used1,$1F,$A,$A
+193372,Gear_Engaged,0 [5],Not_Used2 / Not_Used2,$1F,$B,$B
+193372,Gear_Engaged,0 [5],P / P,$1F,$C,$C
+193372,Gear_Engaged,0 [5],N / N,$1F,$D,$D
+193372,Gear_Engaged,0 [5],R / R,$1F,$E,$E
+193372,Gear_Engaged,0 [5],D / D,$1F,$F,$F
+193372,Gear_Engaged,0 [5],L / L,$1F,$10,$10
+193372,Gear_Engaged,0 [5],M / M,$1F,$11,$11
+193372,Gear_Engaged,0 [5],S / S,$1F,$12,$12
+193372,Gear_Engaged,0 [5],SNA,$1F,$13,$13
+193373,Option80,0 [4],Not Applicable,$F,$0,$0
+193373,Option80,0 [4],Battery Electric Vehicle (BEV),$F,$1,$1
+193373,Option80,0 [4],Hybrid Electric Vehicle,$F,$2,$2
+193373,Option80,0 [4],Plugin Hybrid Electric Vehicle,$F,$3,$3
+193373,Option80,0 [4],48V Belt Start Generator (BSG),$F,$4,$4
+193373,Option80,0 [4],12V Belt Start Generator (BSG),$F,$5,$5
+193373,Option80,0 [4],Range Electric Paradigm Breaker (REPB),$F,$6,$6
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""WSMRL"" (Ch)",$FF,$0C,$0C
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""WSMRR"" (Dh)",$FF,$0D,$0D
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""QVPM2"" (56h)",$FF,$56,$56
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""SBMRL"" (6Bh)",$FF,$6B,$6B
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""SBMRR"" (6Ch)",$FF,$6C,$6C
+193375,MasterReq (WSMRL_WSMRR_LMTM_SBMRL_SBMRR_QVPM2),1 [0],"DIAGNOSTIC ADDRESS ""LMTM"" (73h)",$FF,$73,$73
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],"DIAGNOSTIC ADDRESS ""ASBM"" (1Dh)",$FF,$1D,$1D
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],"DIAGNOSTIC ADDRESS ""ASBM2"" (1Fh)",$FF,$1F,$1F
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],"DIAGNOSTIC ADDRESS ""WCPM"" (50h)",$FF,$50,$50
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],"DIAGNOSTIC ADDRESS ""WCPM3"" (53h)",$FF,$53,$53
+193376,MasterReq (ASNM-ASBM2-WCPM-WCPM3-WCPM2),1 [0],"DIAGNOSTIC ADDRESS ""WCPM2"" (7Bh)",$FF,$7B,$7B
+193377,Vehicle line,1 [0],NONE,$FF,$00,$00
+193377,Vehicle line,1 [0],WK,$FF,$01,$01
+193377,Vehicle line,1 [0],LX,$FF,$02,$02
+193377,Vehicle line,1 [0],JC,$FF,$16,$16
+193377,Vehicle line,1 [0],DS,$FF,$1D,$1D
+193377,Vehicle line,1 [0],D2,$FF,$1F,$1F
+193377,Vehicle line,1 [0],DD,$FF,$20,$20
+193377,Vehicle line,1 [0],DP,$FF,$21,$21
+193377,Vehicle line,1 [0],DJ,$FF,$22,$22
+193377,Vehicle line,1 [0],WD,$FF,$23,$23
+193377,Vehicle line,1 [0],DX,$FF,$27,$27
+193377,Vehicle line,1 [0],LD,$FF,$29,$29
+193377,Vehicle line,1 [0],M156,$FF,$2A,$2A
+193377,Vehicle line,1 [0],ZD,$FF,$2B,$2B
+193377,Vehicle line,1 [0],LA,$FF,$2C,$2C
+193377,Vehicle line,1 [0],RU,$FF,$2D,$2D
+193377,Vehicle line,1 [0],M161,$FF,$2E,$2E
+193377,Vehicle line,1 [0],WS,$FF,$2F,$2F
+193377,Vehicle line,1 [0],DF,$FF,$30,$30
+193377,Vehicle line,1 [0],JL,$FF,$31,$31
+193377,Vehicle line,1 [0],M157,$FF,$32,$32
+193377,Vehicle line,1 [0],RA,$FF,$33,$33
+193377,Vehicle line,1 [0],WL,$FF,$34,$34
+193377,Vehicle line,1 [0],DT,$FF,$35,$35
+193377,Vehicle line,1 [0],DU,$FF,$36,$36
+193377,Vehicle line,1 [0],RU_PACIFICA,$FF,$38,$38
+193377,Vehicle line,1 [0],PF,$FF,$50,$50
+193377,Vehicle line,1 [0],KL,$FF,$51,$51
+193377,Vehicle line,1 [0],UF,$FF,$52,$52
+193377,Vehicle line,1 [0],UT,$FF,$53,$53
+193377,Vehicle line,1 [0],M145,$FF,$54,$54
+193377,Vehicle line,1 [0],M145BD,$FF,$55,$55
+193377,Vehicle line,1 [0],K8,$FF,$56,$56
+193377,Vehicle line,1 [0],FF,$FF,$57,$57
+193377,Vehicle line,1 [0],FF_Abarth,$FF,$58,$58
+193377,Vehicle line,1 [0],VEH_M182,$FF,$6C,$6C
+193377,Vehicle line,1 [0],VEH_M189,$FF,$6D,$6D
+193377,Vehicle line,1 [0],H6,$FF,$70,$70
+193377,Vehicle line,1 [0],VEH_598,$FF,$C7,$C7
+193377,Vehicle line,1 [0],M1,$FF,$C8,$C8
+193377,Vehicle line,1 [0],M6,$FF,$C9,$C9
+193377,Vehicle line,1 [0],M4,$FF,$CA,$CA
+193377,Vehicle line,1 [0],M7,$FF,$CB,$CB
+193377,Vehicle line,1 [0],MP,$FF,$CC,$CC
+193377,Vehicle line,1 [0],MV,$FF,$CD,$CD
+193378,MasterReq (INVM-SWS-INVM2),1 [0],SLEEP MODE COMMAND,$FF,$00,$00
+193378,MasterReq (INVM-SWS-INVM2),1 [0],"DIAGNOSTIC ADDRESS ""INVM"" (Eh)",$FF,$0E,$0E
+193378,MasterReq (INVM-SWS-INVM2),1 [0],"DIAGNOSTIC ADDRESS ""SWS"" (25h)",$FF,$25,$25
+193378,MasterReq (INVM-SWS-INVM2),1 [0],"DIAGNOSTIC ADDRESS ""TSBM"" (27h)",$FF,$27,$27
+193378,MasterReq (INVM-SWS-INVM2),1 [0],"DIAGNOSTIC ADDRESS ""INVM2"" (4Fh)",$FF,$28,$28
+193747,Cargo_Diagn_WorksiteINVM,0 [2],NONE / NONE,$3,$0,$0
+193747,Cargo_Diagn_WorksiteINVM,0 [2],Short_to_Battery / Short_to_Battery,$3,$1,$1
+193747,Cargo_Diagn_WorksiteINVM,0 [2],Short_to_Ground_Open / Short_to_Ground_Open,$3,$2,$2
+193748,RL_Lk_Sw/RR_Lk_Sw,0 [2],NO_RQ / NO_RQ,$3,$0,$0
+193748,RL_Lk_Sw/RR_Lk_Sw,0 [2],LK_RQ / LK_RQ,$3,$1,$1
+193748,RL_Lk_Sw/RR_Lk_Sw,0 [2],UNLK_RQ / UNLK_RQ,$3,$2,$2
+193749,SlaveResp_QVPM2,1 [0],"DIAGNOSTIC ADDRESS ""QVPM2"" (56h)",$FF,$56,$56
+193838,AHBM aim test status result,0 [2],AHBM in factory aim mode,$3,$0,$0
+193838,AHBM aim test status result,0 [2],AHBM unable to auto aim in field,$3,$1,$1
+193838,AHBM aim test status result,0 [2],AHBM factory aim test done but failed,$3,$2,$2
+193838,AHBM aim test status result,0 [2],AHBM not in factory aim mode,$3,$3,$3
+193839,IBS3 Current Status,0 [4],0mA <= Q < 5mA,$F,$0,$0
+193839,IBS3 Current Status,0 [4],5mA <= Q < 10mA,$F,$1,$1
+193839,IBS3 Current Status,0 [4],10mA <= Q < 15mA,$F,$2,$2
+193839,IBS3 Current Status,0 [4],15mA <= Q < 20mA,$F,$3,$3
+193839,IBS3 Current Status,0 [4],20mA <= Q < 35mA,$F,$4,$4
+193839,IBS3 Current Status,0 [4],35mA <= Q < 50mA,$F,$5,$5
+193839,IBS3 Current Status,0 [4],50mA <= Q < 100mA,$F,$6,$6
+193839,IBS3 Current Status,0 [4],100mA <= Q < 150mA,$F,$7,$7
+193839,IBS3 Current Status,0 [4],150mA <= Q < 250mA,$F,$8,$8
+193839,IBS3 Current Status,0 [4],250mA <= Q < 500mA,$F,$9,$9
+193839,IBS3 Current Status,0 [4],500mA <= Q < 1000mA,$F,$A,$A
+193839,IBS3 Current Status,0 [4],1000mA <= Q < 1500mA,$F,$B,$B
+193839,IBS3 Current Status,0 [4],1500mA <= Q < 2000mA,$F,$C,$C
+193839,IBS3 Current Status,0 [4],2000mA <= Q < 3000mA,$F,$D,$D
+193839,IBS3 Current Status,0 [4],3000mA <= Q,$F,$E,$E
+193839,IBS3 Current Status,0 [4],SNA,$F,$F,$F
+193840,Internal Fault Sts WorksiteI NVM,0 [3],No Fault,$7,$0,$0
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault1,$7,$1,$1
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault2,$7,$2,$2
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault3,$7,$3,$3
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault4,$7,$4,$4
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault5,$7,$5,$5
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault6,$7,$6,$6
+193840,Internal Fault Sts WorksiteI NVM,0 [3],Fault7,$7,$7,$7
+193841,Response error,0 [1],Node Is Operating Correctly,$1,$0,$0
+193841,Response error,0 [1],Node Has Intermittent Problems,$1,$1,$1
+193842,Speaker Sts,0 [2],No Fail,$3,$0,$0
+193842,Speaker Sts,0 [2],Front Speaker Fail,$3,$1,$1
+193842,Speaker Sts,0 [2],Rear Speaker Fail,$3,$2,$2
+193842,Speaker Sts,0 [2],Both Speakers Fail,$3,$3,$3
+193843,Remote Start InhibitAbort Cause,1 [0],Inhibit Default,$FF,$00,$00
+193843,Remote Start InhibitAbort Cause,1 [0],Time Out Run,$FF,$01,$01
+193843,Remote Start InhibitAbort Cause,1 [0],Time out Cust Mode,$FF,$02,$02
+193843,Remote Start InhibitAbort Cause,1 [0],Key In Run,$FF,$03,$03
+193843,Remote Start InhibitAbort Cause,1 [0],Orv Door Ajar,$FF,$04,$04
+193843,Remote Start InhibitAbort Cause,1 [0],Pass Door Ajar,$FF,$05,$05
+193843,Remote Start InhibitAbort Cause,1 [0],LB Door Ajar,$FF,$06,$06
+193843,Remote Start InhibitAbort Cause,1 [0],RR Door Ajar,$FF,$07,$07
+193843,Remote Start InhibitAbort Cause,1 [0],Start Counter,$FF,$08,$08
+193843,Remote Start InhibitAbort Cause,1 [0],Fail Counter,$FF,$09,$09
+193843,Remote Start InhibitAbort Cause,1 [0],Low Rpm Shutdown,$FF,$0A,$0A
+193843,Remote Start InhibitAbort Cause,1 [0],Key In Ign,$FF,$0B,$0B
+193843,Remote Start InhibitAbort Cause,1 [0],Brake Pressed,$FF,$0C,$0C
+193843,Remote Start InhibitAbort Cause,1 [0],Hazard Lamp On,$FF,$0D,$0D
+193843,Remote Start InhibitAbort Cause,1 [0],Not In Park,$FF,$0E,$0E
+193843,Remote Start InhibitAbort Cause,1 [0],Veh Speed High,$FF,$0F,$0F
+193843,Remote Start InhibitAbort Cause,1 [0],Hood Ajar,$FF,$10,$10
+193843,Remote Start InhibitAbort Cause,1 [0],Trunk Liftgate,$FF,$11,$11
+193843,Remote Start InhibitAbort Cause,1 [0],Vta Alarm,$FF,$12,$12
+193843,Remote Start InhibitAbort Cause,1 [0],Panic Mode,$FF,$13,$13
+193843,Remote Start InhibitAbort Cause,1 [0],Battery Voltage High,$FF,$14,$14
+193843,Remote Start InhibitAbort Cause,1 [0],Battery Voltage Low,$FF,$15,$15
+193843,Remote Start InhibitAbort Cause,1 [0],Power Loss,$FF,$16,$16
+193843,Remote Start InhibitAbort Cause,1 [0],MIL On,$FF,$17,$17
+193843,Remote Start InhibitAbort Cause,1 [0],Oil Pressure Low,$FF,$18,$18
+193843,Remote Start InhibitAbort Cause,1 [0],Coolant Temp High,$FF,$19,$19
+193843,Remote Start InhibitAbort Cause,1 [0],RPM Too High,$FF,$1A,$1A
+193843,Remote Start InhibitAbort Cause,1 [0],Crank No Start,$FF,$1B,$1B
+193843,Remote Start InhibitAbort Cause,1 [0],RKE Off Message,$FF,$1C,$1C
+193843,Remote Start InhibitAbort Cause,1 [0],RS Disabled Prev,$FF,$1D,$1D
+193843,Remote Start InhibitAbort Cause,1 [0],Not Configured,$FF,$1E,$1E
+193843,Remote Start InhibitAbort Cause,1 [0],No Hood Switch,$FF,$1F,$1F
+193843,Remote Start InhibitAbort Cause,1 [0],No Auto Trans,$FF,$20,$20
+193843,Remote Start InhibitAbort Cause,1 [0],Not Enabled,$FF,$21,$21
+193843,Remote Start InhibitAbort Cause,1 [0],Invalid Key,$FF,$22,$22
+193843,Remote Start InhibitAbort Cause,1 [0],Ignition SNA,$FF,$23,$23
+193843,Remote Start InhibitAbort Cause,1 [0],Ignition Not In Lock,$FF,$24,$24
+193843,Remote Start InhibitAbort Cause,1 [0],Glow Plug Timeout,$FF,$25,$25
+193843,Remote Start InhibitAbort Cause,1 [0],Low Fuel,$FF,$26,$26
+193843,Remote Start InhibitAbort Cause,1 [0],ETC Lamp On,$FF,$27,$27
+193843,Remote Start InhibitAbort Cause,1 [0],Logistic Mode,$FF,$28,$28
+193843,Remote Start InhibitAbort Cause,1 [0],Cold Start Lamp Flash,$FF,$29,$29
+193843,Remote Start InhibitAbort Cause,1 [0],ESL Failure,$FF,$2A,$2A
+193843,Remote Start InhibitAbort Cause,1 [0],Fail HCSS,$FF,$2C,$2C
+193843,Remote Start InhibitAbort Cause,1 [0],Fota Install Fail,$FF,$2D,$2D
+193843,Remote Start InhibitAbort Cause,1 [0],EPB No Resp,$FF,$3E,$3E
+193843,Remote Start InhibitAbort Cause,1 [0],SNA,$FF,$3F,$3F
+193844,RLLockLight/RRLockLight,0 [2],Unlocked,$3,$0,$0
+193844,RLLockLight/RRLockLight,0 [2],Locked,$3,$1,$1
+193844,RLLockLight/RRLockLight,0 [2],Blink RQ,$3,$2,$2
+193844,RLLockLight/RRLockLight,0 [2],Unused,$3,$3,$3
+193845,IBS3 Current Flow Direction,0 [2],Ibatt quiescent current >= 0 (Charge),$3,$0,$0
+193845,IBS3 Current Flow Direction,0 [2],Ibatt quiescent current < 0 (Disharge),$3,$1,$1
+193845,IBS3 Current Flow Direction,0 [2],Quiescent state not reached,$3,$2,$2
+193845,IBS3 Current Flow Direction,0 [2],SNA,$3,$3,$3
+193846,KeyInIgnSts,0 [2],Key Def,$3,$0,$0
+193846,KeyInIgnSts,0 [2],Key Not in Ignition,$3,$1,$1
+193846,KeyInIgnSts,0 [2],Key in Ignition,$3,$2,$2
+193846,KeyInIgnSts,0 [2],SNA,$3,$3,$3
+193847,ERR ST HOD,0 [4],No Error,$F,$0,$0
+193847,ERR ST HOD,0 [4],Hod Eeprom Error,$F,$1,$1
+193847,ERR ST HOD,0 [4],Hod Rom Error,$F,$2,$2
+193847,ERR ST HOD,0 [4],Hod Watchdog Error,$F,$3,$3
+193847,ERR ST HOD,0 [4],Hod Cpu Error,$F,$4,$4
+193847,ERR ST HOD,0 [4],Hod Guard Interruption Error,$F,$5,$5
+193847,ERR ST HOD,0 [4],Hod Sense Interruption Error,$F,$6,$6
+193847,ERR ST HOD,0 [4],Hod Cpu Defect Mat Shortage,$F,$7,$7
+193847,ERR ST HOD,0 [4],Undervolatge Error,$F,$8,$8
+193847,ERR ST HOD,0 [4],Overvoltage Error,$F,$9,$9
+193847,ERR ST HOD,0 [4],Hod Coding Error,$F,$A,$A
+193847,ERR ST HOD,0 [4],Hod Generic System Error,$F,$B,$B
+193847,ERR ST HOD,0 [4],SNA,$F,$F,$F
+193848,PARALELL ASSIST PAD,0 [3],Not selected,$7,$0,$0
+193848,PARALELL ASSIST PAD,0 [3],Sw1 Activated (selected),$7,$1,$1
+193848,PARALELL ASSIST PAD,0 [3],Sw2 Activated (if used)   Not used for 1 switch buttons,$7,$2,$2
+193848,PARALELL ASSIST PAD,0 [3],Sw1 AND Sw2 Activated (if used) -Not used for 1 switch buttons,$7,$3,$3
+193848,PARALELL ASSIST PAD,0 [3],Invalid State,$7,$4,$4
+193848,PARALELL ASSIST PAD,0 [3],Faulted - Short to Ground,$7,$5,$5
+193848,PARALELL ASSIST PAD,0 [3],Faulted - Short to Power,$7,$6,$6
+193848,PARALELL ASSIST PAD,0 [3],Not used,$7,$7,$7
+193849,OFFRoadSw Rq,0 [3],Not Pressed,$7,$0,$0
+193849,OFFRoadSw Rq,0 [3],Pressed,$7,$1,$1
+193849,OFFRoadSw Rq,0 [3],Open/Short to Power Fault,$7,$5,$5
+193849,OFFRoadSw Rq,0 [3],Open Short to Power Fault,$7,$6,$6
+195456,DTCExtendedDataRecordNumbers All,1 [0],OccurrenceCounter,$FF,$01,$01
+195456,DTCExtendedDataRecordNumbers All,1 [0],All,$FF,$FF,$FF
+195457,"DTCExtendedDataRecordNumbers All, except FF",1 [0],OccurrenceCounter,$FF,$01,$01
+195458,DTC Format Identifier (1Byte),1 [0],SAE_J2012-DA_DTCFormat,$FF,$00,$00
+195458,DTC Format Identifier (1Byte),1 [0],ISO_14229-1DTCFormat,$FF,$01,$01
+195458,DTC Format Identifier (1Byte),1 [0],SAE_J1939-73_DTCFormat,$FF,$02,$02
+195458,DTC Format Identifier (1Byte),1 [0],ISO_11992-4_DTCFormat,$FF,$03,$03
+195458,DTC Format Identifier (1Byte),1 [0],SAE_J2012-DA_WWHOBD_DTCFormat,$FF,$04,$04
+195459,Readiness Group Identifier (RGID),1 [0],No Readiness Group,$FF,$00,$00
+195459,Readiness Group Identifier (RGID),1 [0],Catalyst Monitor,$FF,$01,$01
+195459,Readiness Group Identifier (RGID),1 [0],Heated Catalyst Monitor,$FF,$02,$02
+195459,Readiness Group Identifier (RGID),1 [0],Misfire Monitor,$FF,$03,$03
+195459,Readiness Group Identifier (RGID),1 [0],Evaporative System Monitoring,$FF,$04,$04
+195459,Readiness Group Identifier (RGID),1 [0],Secondary Air System Monitoring,$FF,$05,$05
+195459,Readiness Group Identifier (RGID),1 [0],Fuel System Monitoring,$FF,$06,$06
+195459,Readiness Group Identifier (RGID),1 [0],Exhaust Gas Sensor Monitoring,$FF,$07,$07
+195459,Readiness Group Identifier (RGID),1 [0],Exhaust Gas Recirculation (EGR) System Monitoring,$FF,$08,$08
+195459,Readiness Group Identifier (RGID),1 [0],Positive/Crankcase Ventilation (PCV) System Monitoring,$FF,$09,$09
+195459,Readiness Group Identifier (RGID),1 [0],Engine Cooling System Monitoring,$FF,$0A,$0A
+195459,Readiness Group Identifier (RGID),1 [0],Cold Start Emission Reduction Strategy Monitoring,$FF,$0B,$0B
+195459,Readiness Group Identifier (RGID),1 [0],"Variable Valve Timing, Lift, and/or Control (VVT) System Monitoring",$FF,$0C,$0C
+195459,Readiness Group Identifier (RGID),1 [0],Direct Ozone Reduction (DOR) System Monitoring,$FF,$0D,$0D
+195459,Readiness Group Identifier (RGID),1 [0],Comprehensive Component Monitoring,$FF,$0E,$0E
+195459,Readiness Group Identifier (RGID),1 [0],Other Emission Control or Source System Monitoring,$FF,$0F,$0F
+195459,Readiness Group Identifier (RGID),1 [0],Non-Methane Hydrocarbon (NMHC) Converting Catalyst Monitoring,$FF,$10,$10
+195459,Readiness Group Identifier (RGID),1 [0],Oxides of Nitrogen (NOx) Converting Catalyst Monitoring,$FF,$11,$11
+195459,Readiness Group Identifier (RGID),1 [0],Boost Pressure Control System Monitoring,$FF,$12,$12
+195459,Readiness Group Identifier (RGID),1 [0],NOx Adsorber Monitoring,$FF,$13,$13
+195459,Readiness Group Identifier (RGID),1 [0],Particulate Matter (PM) Filter Monitoring,$FF,$14,$14
+195459,Readiness Group Identifier (RGID),1 [0],Reserved,$FF,$15,$FF
+195987,"The correct PIN was entered/Wrong PIN was entered,retry once",1 [0],The correct PIN was entered,$FF,$00,$00
+195987,"The correct PIN was entered/Wrong PIN was entered,retry once",1 [0],"Wrong PIN was entered,retry once",$FF,$01,$01
+195987,"The correct PIN was entered/Wrong PIN was entered,retry once",1 [0],Invalid Attempt,$FF,$02,$02
+195989,IBS3_Batt_Technology(1),0 [2],Lead acid flooded & enhanced flooded / FLOODED,$3,$0,$0
+195989,IBS3_Batt_Technology(1),0 [2],Lead acid AGM / AGM,$3,$1,$1
+195989,IBS3_Batt_Technology(1),0 [2],SNA,$3,$3,$3
+195990,Reserved (2Byte),2 [0],Reserved,$FFFF,$0000,$0000
+195991,No error / Error(1),0 [1],No error / NO_ERROR,$1,$0,$0
+195991,No error / Error(1),0 [1],Internal_Error / Internal_Error,$1,$1,$1
+195992,parametrized type of battery(1),0 [2],Lead acid flooded & enhanced flooded / FLOODED,$3,$0,$0
+195992,parametrized type of battery(1),0 [2],Lead acid AGM / AGM,$3,$1,$1
+195992,parametrized type of battery(1),0 [2],UNUSED,$3,$2,$2
+195992,parametrized type of battery(1),0 [2],SNA,$3,$3,$3
+195993,IBS3_BatteryId_mode(1),0 [2],Use battery type / BATT_TYPE,$3,$0,$0
+195993,IBS3_BatteryId_mode(1),0 [2],Use battery parameters / BATT_PARA,$3,$1,$1
+195993,IBS3_BatteryId_mode(1),0 [2],Clustering / DETECT,$3,$2,$2
+195993,IBS3_BatteryId_mode(1),0 [2],No change of battery coding / No_Change,$3,$3,$3
+195994,Close / Open(1),0 [1],Close / CLS,$1,$0,$0
+195994,Close / Open(1),0 [1],Open / OPN,$1,$1,$1
+195995,Fail not present / Fail present(1),0 [1],Fail not present / Fail_not_present,$1,$0,$0
+195995,Fail not present / Fail present(1),0 [1],Fail present / Fail_present,$1,$1,$1
+195996,Accurate/Inaccurate(1),0 [1],Inaccurate / Inaccurate,$1,$0,$0
+195996,Accurate/Inaccurate(1),0 [1],Accurate / Accurate,$1,$1,$1
+195997,battery_id_mode2(1),0 [2],Use battery type / BATT_TYPE,$3,$0,$0
+195997,battery_id_mode2(1),0 [2],Use battery parameters / BATT_PARA,$3,$1,$1
+195997,battery_id_mode2(1),0 [2],Clustering / DETECT,$3,$2,$2
+195997,battery_id_mode2(1),0 [2],No change of battery coding / No_Cahange,$3,$3,$3
+195998,OPEN/CLOSE(1),0 [1],Open / Open,$1,$0,$0
+195998,OPEN/CLOSE(1),0 [1],Close / Close,$1,$1,$1
+195999,open/ignore(1),0 [1],Open / Open,$1,$0,$0
+195999,open/ignore(1),0 [1],Ignore / Ignore,$1,$1,$1
+197093,Option 51,1 [0],Invalid,$FF,$00,$00
+197093,Option 51,1 [0],343 (33 Hex),$FF,$33,$33
+197093,Option 51,1 [0],327FL (34 Hex),$FF,$34,$34
+197093,Option 51,1 [0],226 (35 Hex),$FF,$35,$35
+197093,Option 51,1 [0],PF (50 Hex),$FF,$50,$50
+197093,Option 51,1 [0],KL/K4  (51 Hex),$FF,$51,$51
+197093,Option 51,1 [0],UF (52 Hex),$FF,$52,$52
+197093,Option 51,1 [0],UT (53 Hex),$FF,$53,$53
+197093,Option 51,1 [0],334 (54 Hex),$FF,$54,$54
+197093,Option 51,1 [0],520 (55 Hex),$FF,$55,$55
+197093,Option 51,1 [0],551 /M1 (56 Hex),$FF,$56,$56
+197093,Option 51,1 [0],338 (57 Hex),$FF,$57,$57
+197093,Option 51,1 [0],521 (58 Hex),$FF,$58,$58
+197093,Option 51,1 [0],636 VM (59 Hex),$FF,$59,$59
+197093,Option 51,1 [0],356 (5A Hex),$FF,$5A,$5A
+197093,Option 51,1 [0],952 (5B Hex),$FF,$5B,$5B
+197093,Option 51,1 [0],341 (5C Hex),$FF,$5C,$5C
+197093,Option 51,1 [0],552/MP (5D Hex),$FF,$5D,$5D
+197093,Option 51,1 [0],949 (5E Hex),$FF,$5E,$5E
+197093,Option 51,1 [0],523 (5F Hex),$FF,$5F,$5F
+197093,Option 51,1 [0],358 (60 Hex),$FF,$60,$60
+197093,Option 51,1 [0],359 (61 Hex),$FF,$61,$61
+197093,Option 51,1 [0],553/M4 (62 Hex),$FF,$62,$62
+197093,Option 51,1 [0],556/M6 (63 Hex),$FF,$63,$63
+197093,Option 51,1 [0],K8 (64 Hex),$FF,$64,$64
+197093,Option 51,1 [0],WL (65 Hex),$FF,$65,$65
+197093,Option 51,1 [0],281 (66 Hex),$FF,$66,$66
+197093,Option 51,1 [0],363 (67 Hex),$FF,$67,$67
+197093,Option 51,1 [0],WS (68 Hex),$FF,$68,$68
+197093,Option 51,1 [0],332 (69 Hex),$FF,$69,$69
+197093,Option 51,1 [0],560 (6A Hex),$FF,$6A,$6A
+197093,Option 51,1 [0],DT (7C hex),$FF,$7C,$7C
+197093,Option 51,1 [0],HDCC (82 Hex),$FF,$82,$82
+203914,Not Used,3 [0],Not Used,$FFFFFF,$000000,$000000
+203914,Not Used,3 [0],Invalid,$FFFFFF,$000001,$FFFFFF
+203952,Wake-Up Reasons,1 [0],FD-CAN1 ASCM,$FF,$00,$00
+203952,Wake-Up Reasons,1 [0],FD-CAN1 SGW,$FF,$01,$01
+203952,Wake-Up Reasons,1 [0],FD-CAN1 SPAAK,$FF,$02,$02
+203952,Wake-Up Reasons,1 [0],FD-CAN2 BSM2,$FF,$03,$03
+203952,Wake-Up Reasons,1 [0],FD-CAN2 CADM2,$FF,$04,$04
+203952,Wake-Up Reasons,1 [0],FD-CAN2 CVADAS,$FF,$05,$05
+203952,Wake-Up Reasons,1 [0],FD-CAN2 EPS,$FF,$06,$06
+203952,Wake-Up Reasons,1 [0],FD-CAN2 ORC,$FF,$07,$07
+203952,Wake-Up Reasons,1 [0],FD-CAN2 SGW,$FF,$08,$08
+203952,Wake-Up Reasons,1 [0],FD-CAN3 AGSM,$FF,$09,$09
+203952,Wake-Up Reasons,1 [0],FD-CAN3 BSM,$FF,$0A,$0A
+203952,Wake-Up Reasons,1 [0],FD-CAN3 CADM mid,$FF,$0B,$0B
+203952,Wake-Up Reasons,1 [0],FD-CAN3 GNMN,$FF,$0C,$0C
+203952,Wake-Up Reasons,1 [0],FD-CAN3 IPC,$FF,$0D,$0D
+203952,Wake-Up Reasons,1 [0],FD-CAN3 RFHM,$FF,$0E,$0E
+203952,Wake-Up Reasons,1 [0],FD-CAN3 SGW,$FF,$0F,$0F
+203952,Wake-Up Reasons,1 [0],FD-CAN3 TCM,$FF,$10,$10
+203952,Wake-Up Reasons,1 [0],FD-CAN4 SLML,$FF,$11,$11
+203952,Wake-Up Reasons,1 [0],FD-CAN4 SLMR,$FF,$12,$12
+203952,Wake-Up Reasons,1 [0],BH-CAN AMP,$FF,$20,$20
+203952,Wake-Up Reasons,1 [0],BH-CAN DDM,$FF,$21,$21
+203952,Wake-Up Reasons,1 [0],BH-CAN ICS,$FF,$22,$22
+203952,Wake-Up Reasons,1 [0],BH-CAN PDM,$FF,$23,$23
+203952,Wake-Up Reasons,1 [0],BH-CAN PTGM,$FF,$24,$24
+203952,Wake-Up Reasons,1 [0],BH-CAN PSM,$FF,$25,$25
+203952,Wake-Up Reasons,1 [0],BH-CAN SMMD,$FF,$26,$26
+203952,Wake-Up Reasons,1 [0],BH-CAN SMMP,$FF,$27,$27
+203952,Wake-Up Reasons,1 [0],C1-CAN TTM/ITCM,$FF,$28,$28
+203952,Wake-Up Reasons,1 [0],C1-CAN1 SCCM,$FF,$30,$30
+203952,Wake-Up Reasons,1 [0],FD-CAN3 ECM,$FF,$37,$37
+203952,Wake-Up Reasons,1 [0],LIN1 - Wakeup Signal Detected,$FF,$38,$38
+203952,Wake-Up Reasons,1 [0],LIN2 - Wakeup Signal Detected,$FF,$39,$39
+203952,Wake-Up Reasons,1 [0],LIN3 - Wakeup Signal Detected,$FF,$3A,$3A
+203952,Wake-Up Reasons,1 [0],LIN4 - Wakeup Signal Detected,$FF,$3B,$3B
+203952,Wake-Up Reasons,1 [0],LIN5 - Wakeup Signal Detected,$FF,$3C,$3C
+203952,Wake-Up Reasons,1 [0],LIN6 - Wakeup Signal Detected,$FF,$3D,$3D
+203952,Wake-Up Reasons,1 [0],LIN7 - Wakeup Signal Detected,$FF,$3E,$3E
+203952,Wake-Up Reasons,1 [0],LIN8 - Wakeup Signal Detected,$FF,$3F,$3F
+203952,Wake-Up Reasons,1 [0],ComfortEnable Active,$FF,$40,$40
+203952,Wake-Up Reasons,1 [0],IgnitionRunThrough Active,$FF,$41,$41
+203952,Wake-Up Reasons,1 [0],Hazard On,$FF,$42,$42
+203952,Wake-Up Reasons,1 [0],HLS in Park,$FF,$43,$43
+203952,Wake-Up Reasons,1 [0],Low Beam On,$FF,$44,$44
+203952,Wake-Up Reasons,1 [0],ParkLight On,$FF,$45,$45
+203952,Wake-Up Reasons,1 [0],Flash To Pass Active,$FF,$46,$46
+203952,Wake-Up Reasons,1 [0],Remote Start Active,$FF,$47,$47
+203952,Wake-Up Reasons,1 [0],Refuel Event Pending,$FF,$48,$48
+203952,Wake-Up Reasons,1 [0],Refuel Event in Progress,$FF,$49,$49
+203952,Wake-Up Reasons,1 [0],Fuel Tank Leak Test in Progress,$FF,$4A,$4A
+203952,Wake-Up Reasons,1 [0],Panic On,$FF,$4B,$4B
+203952,Wake-Up Reasons,1 [0],Diag - Tester Present,$FF,$4C,$4C
+203952,Wake-Up Reasons,1 [0],Drive Door Status Change,$FF,$50,$50
+203952,Wake-Up Reasons,1 [0],Passenger Door Status Change,$FF,$51,$51
+203952,Wake-Up Reasons,1 [0],Rear Left Door Status Change,$FF,$52,$52
+203952,Wake-Up Reasons,1 [0],Rear Right Door Status Change,$FF,$53,$53
+203952,Wake-Up Reasons,1 [0],Tailgate Ajar Status Change,$FF,$54,$54
+203952,Wake-Up Reasons,1 [0],Bonnet Ajar Status Change,$FF,$55,$55
+203952,Wake-Up Reasons,1 [0],Drive Lock / Unlock Switch,$FF,$56,$56
+203952,Wake-Up Reasons,1 [0],Tailgate Handle Switch Pressed,$FF,$57,$57
+203952,Wake-Up Reasons,1 [0],Left RamBox Ajar Status Change,$FF,$59,$59
+203952,Wake-Up Reasons,1 [0],Right RamBox Ajar Status Change,$FF,$5A,$5A
+203952,Wake-Up Reasons,1 [0],Horn Switch Pressed,$FF,$5B,$5B
+203952,Wake-Up Reasons,1 [0],Leak Test Timer Expired,$FF,$5C,$5C
+203952,Wake-Up Reasons,1 [0],OHC indicates LG Switch Pressed,$FF,$5D,$5D
+203952,Wake-Up Reasons,1 [0],FD-CAN1 wait for NM Timeout,$FF,$60,$60
+203952,Wake-Up Reasons,1 [0],FD-CAN2 wait for NM Timeout,$FF,$61,$61
+203952,Wake-Up Reasons,1 [0],FD-CAN3 wait for NM Timeout,$FF,$62,$62
+203952,Wake-Up Reasons,1 [0],FD-CAN4 wait for NM Timeout,$FF,$63,$63
+203952,Wake-Up Reasons,1 [0],C-CAN1 wait for TSleepDelay,$FF,$64,$64
+203952,Wake-Up Reasons,1 [0],BH-CAN DCSD,$FF,$65,$65
+203952,Wake-Up Reasons,1 [0],BH-CAN PSSM,$FF,$66,$66
+203952,Wake-Up Reasons,1 [0],Right Tailgate Ajar,$FF,$67,$67
+203952,Wake-Up Reasons,1 [0],LIN1 in Stand-by (Tg),$FF,$70,$70
+203952,Wake-Up Reasons,1 [0],LIN2 in Stand-by (Tg),$FF,$71,$71
+203952,Wake-Up Reasons,1 [0],LIN3 in Stand-by (Tg),$FF,$72,$72
+203952,Wake-Up Reasons,1 [0],LIN4 in Stand-by (Tg),$FF,$73,$73
+203952,Wake-Up Reasons,1 [0],LIN5 in Stand-by (Tg),$FF,$74,$74
+203952,Wake-Up Reasons,1 [0],LIN6 in Stand-by (Tg),$FF,$75,$75
+203952,Wake-Up Reasons,1 [0],LIN7 in Stand-by (Tg),$FF,$76,$76
+203952,Wake-Up Reasons,1 [0],LIN8 in Stand-by (Tg),$FF,$77,$77
+203952,Wake-Up Reasons,1 [0],BH-CAN DALM,$FF,$78,$78
+203952,Wake-Up Reasons,1 [0],BH-CAN ECC,$FF,$79,$79
+203952,Wake-Up Reasons,1 [0],BH-CAN ANC,$FF,$7A,$7A
+203952,Wake-Up Reasons,1 [0],BH-CAN PFTM,$FF,$7B,$7B
+203952,Wake-Up Reasons,1 [0],BH-CAN DSM,$FF,$7C,$7C
+203952,Wake-Up Reasons,1 [0],C1-CAN TTPM,$FF,$7D,$7D
+203952,Wake-Up Reasons,1 [0],C1-CAN OCM,$FF,$7E,$7E
+203952,Wake-Up Reasons,1 [0],C1-CAN ATMM,$FF,$7F,$7F
+214109,Option 63,0 [1],1 Microphone,$1,$0,$0
+214109,Option 63,0 [1],2 Microphones,$1,$1,$1
+214110,Option 62,0 [3],Absent,$7,$0,$0
+214110,Option 62,0 [3],Standard 6 Buttons,$7,$1,$1
+214110,Option 62,0 [3],Standard 8 Buttons,$7,$2,$2
+214110,Option 62,0 [3],Standrad 10 Buttons,$7,$3,$3
+214110,Option 62,0 [3],14_LIN_button_EMEA,$7,$4,$4
+214110,Option 62,0 [3],14_LIN_button_NAFTA,$7,$5,$5
+214113,Option 78,1 [0],No Package/None,$FF,$00,$00
+214113,Option 78,1 [0],DT Base,$FF,$8D,$8D
+214113,Option 78,1 [0],DT Limited,$FF,$8E,$8E
+214113,Option 78,1 [0],DT Longhorn Brown,$FF,$8F,$8F
+214113,Option 78,1 [0],DT Longhorn Black,$FF,$90,$90
+214113,Option 78,1 [0],DT Rebel,$FF,$91,$91
+214113,Option 78,1 [0],DT TRX,$FF,$92,$92
+214113,Option 78,1 [0],DT Tungsten,$FF,$93,$93
+214114,Option 64,0 [2],Peiker 300mV,$3,$0,$0
+214114,Option 64,0 [2],Type 2,$3,$1,$1
+214114,Option 64,0 [2],Type 3,$3,$2,$2
+214114,Option 64,0 [2],Type 4,$3,$3,$3
+214115,Option 66,0 [2],Rear,$3,$0,$0
+214115,Option 66,0 [2],Front And Rear,$3,$1,$1
+214116,Option 65,0 [2],Mono Zone,$3,$0,$0
+214116,Option 65,0 [2],2 Zone,$3,$1,$1
+214116,Option 65,0 [2],3 Zone,$3,$2,$2
+214116,Option 65,0 [2],4 Zone,$3,$3,$3
+214117,Option 68,1 [0],Default Languages,$FF,$00,$00
+214117,Option 68,1 [0],01h,$FF,$01,$01
+214117,Option 68,1 [0],02h,$FF,$02,$02
+214117,Option 68,1 [0],04h,$FF,$03,$03
+214117,Option 68,1 [0],08h,$FF,$04,$04
+214117,Option 68,1 [0],10h,$FF,$05,$05
+214117,Option 68,1 [0],20h,$FF,$06,$06
+214117,Option 68,1 [0],40h,$FF,$07,$07
+214117,Option 68,1 [0],80h,$FF,$08,$08
+214118,Option 80,0 [1],False,$1,$0,$0
+214118,Option 80,0 [1],True,$1,$1,$1
+214119,Option 67,0 [2],Disabled,$3,$0,$0
+214119,Option 67,0 [2],Access_Only,$3,$1,$1
+214119,Option 67,0 [2],Alarm_Only,$3,$2,$2
+214119,Option 67,0 [2],Both_Access_Alarm,$3,$3,$3
+214120,Option 81,0 [4],Not Applicable,$F,$0,$0
+214120,Option 81,0 [4],Battery Electric Vehicle (BEV),$F,$1,$1
+214120,Option 81,0 [4],Hybrid Electric Vehicle,$F,$2,$2
+214120,Option 81,0 [4],Plugin Hybrid Electric Vehicle,$F,$3,$3
+214120,Option 81,0 [4],48V Belt Start Generator (BSG),$F,$4,$4
+214120,Option 81,0 [4],12V Belt Start Generator (BSG),$F,$5,$5
+214120,Option 81,0 [4],Range Electric Paradigm Breaker (REPB),$F,$6,$6
+214121,Option 69,0 [2],Absent,$3,$0,$0
+214121,Option 69,0 [2],Present on VP,$3,$1,$1
+214121,Option 69,0 [2],Present on IPC,$3,$2,$2
+214121,Option 69,0 [2],Present on IPC and VP,$3,$3,$3
+214122,Option 70,0 [1],Passive,$1,$0,$0
+214122,Option 70,0 [1],Active,$1,$1,$1
+214123,Option 54,0 [1],7 Passengers,$1,$0,$0
+214123,Option 54,0 [1],8 Passengers,$1,$1,$1
+214124,Option 53,0 [3],No Special Brand,$7,$0,$0
+214124,Option 53,0 [3],Brand 1 Premium Power Panel,$7,$1,$1
+214124,Option 53,0 [3],Brand 2 Base Power Panel,$7,$2,$2
+214125,Option 55,0 [1],Disabled,$1,$0,$0
+214125,Option 55,0 [1],Enabled,$1,$1,$1
+214126,Option 83,0 [3],non - Rebel,$7,$0,$0
+214126,Option 83,0 [3],Rebel,$7,$1,$1
+214127,Option 82,0 [2],Absent,$3,$0,$0
+214127,Option 82,0 [2],Type1,$3,$1,$1
+214127,Option 82,0 [2],Type2,$3,$2,$2
+214128,Option 85,0 [1],Without Direction (2  levels),$1,$0,$0
+214128,Option 85,0 [1],With Direction (3  levels),$1,$1,$1
+214129,Option 84,0 [3],Increasing_0,$7,$0,$0
+214129,Option 84,0 [3],Increasing_1,$7,$1,$1
+214129,Option 84,0 [3],Increasing_2,$7,$2,$2
+214129,Option 84,0 [3],Increasing_3,$7,$3,$3
+214129,Option 84,0 [3],Increasing_4,$7,$4,$4
+214129,Option 84,0 [3],Increasing_5,$7,$5,$5
+214129,Option 84,0 [3],Increasing_6,$7,$6,$6
+214129,Option 84,0 [3],Increasing_7,$7,$7,$7
+214130,Option 71,0 [2],Invalid,$3,$0,$0
+214130,Option 71,0 [2],Type 1 (Leather),$3,$1,$1
+214130,Option 71,0 [2],Type  2 (Vinyl),$3,$2,$2
+214130,Option 71,0 [2],Type 3 (Wood),$3,$3,$3
+214131,Option 86,0 [3],Absent,$7,$0,$0
+214131,Option 86,0 [3],Type 1 (Present),$7,$1,$1
+214132,Option 87,0 [3],Absent,$7,$0,$0
+214132,Option 87,0 [3],1  USB,$7,$1,$1
+214132,Option 87,0 [3],2  USB,$7,$2,$2
+214132,Option 87,0 [3],3  USB,$7,$3,$3
+214132,Option 87,0 [3],4  USB,$7,$4,$4
+214132,Option 87,0 [3],5  USB,$7,$5,$5
+214132,Option 87,0 [3],6  USB,$7,$6,$6
+214132,Option 87,0 [3],7  USB,$7,$7,$7
+214133,Option 74,0 [3],Invalid,$7,$0,$0
+214133,Option 74,0 [3],2 modes,$7,$1,$1
+214133,Option 74,0 [3],3 modes,$7,$2,$2
+214133,Option 74,0 [3],4 modes,$7,$3,$3
+214133,Option 74,0 [3],5 modes,$7,$4,$4
+214134,Option 75,0 [5],Unbranded,$1F,$0,$0
+214134,Option 75,0 [5],Fiat,$1F,$1,$1
+214134,Option 75,0 [5],Lancia,$1F,$2,$2
+214134,Option 75,0 [5],Alfa Romeo,$1F,$3,$3
+214134,Option 75,0 [5],Fiat Professional,$1F,$4,$4
+214134,Option 75,0 [5],Abarth,$1F,$5,$5
+214134,Option 75,0 [5],Maserati,$1F,$6,$6
+214134,Option 75,0 [5],Ferrari,$1F,$7,$7
+214134,Option 75,0 [5],Chrysler,$1F,$8,$8
+214134,Option 75,0 [5],Dodge,$1F,$9,$9
+214134,Option 75,0 [5],Jeep,$1F,$A,$A
+214134,Option 75,0 [5],RAM,$1F,$B,$B
+214134,Option 75,0 [5],SRT,$1F,$C,$C
+214134,Option 75,0 [5],PSA (Citroen),$1F,$D,$D
+214134,Option 75,0 [5],PSA (Peugeot),$1F,$E,$E
+214134,Option 75,0 [5],Ford,$1F,$F,$F
+214135,Option 73,0 [4],Invalid,$F,$0,$0
+214135,Option 73,0 [4],"Type 1 (18"" Brakes FNC HD Disc)",$F,$1,$1
+214135,Option 73,0 [4],"Type 2 (18"" Brakes HD Disc)",$F,$2,$2
+214135,Option 73,0 [4],Type 3 (4 Wheel Disc Brakes),$F,$3,$3
+214135,Option 73,0 [4],Type 4 (High Performance Brakes),$F,$4,$4
+214136,Option 57,0 [3],Base,$7,$0,$0
+214136,Option 57,0 [3],Fiat Booster,$7,$1,$1
+214136,Option 57,0 [3],Premium CAN,$7,$2,$2
+214136,Option 57,0 [3],Beats,$7,$3,$3
+214137,Option 56,0 [3],Absent,$7,$0,$0
+214137,Option 56,0 [3],Base Display (3.5 inch),$7,$1,$1
+214137,Option 56,0 [3],Medium Display (7 inch),$7,$2,$2
+214137,Option 56,0 [3],High Display (12 inch),$7,$3,$3
+214137,Option 56,0 [3],TFT B/W Display,$7,$4,$4
+214137,Option 56,0 [3],TFT Color display,$7,$5,$5
+214138,Option 58,0 [1],Enabled,$1,$0,$0
+214138,Option 58,0 [1],Disabled,$1,$1,$1
+214139,Option 59,0 [2],Absent,$3,$0,$0
+214139,Option 59,0 [2],First Active,$3,$1,$1
+214139,Option 59,0 [2],Second Active,$3,$2,$2
+214139,Option 59,0 [2],Both Active,$3,$3,$3
+214140,Option 61,0 [4],Absent,$F,$0,$0
+214140,Option 61,0 [4],Mic Tuning set 1,$F,$1,$1
+214141,Option 77,0 [2],FGA Type,$3,$0,$0
+214141,Option 77,0 [2],CG Type,$3,$1,$1
+214142,Option 60,1 [0],Standard Cab Premium 1 ($56),$FF,$56,$56
+214142,Option 60,1 [0],Quad Cab Premium 2 ($57),$FF,$57,$57
+214142,Option 60,1 [0],Crew Cab Premium 2 ($58),$FF,$58,$58
+214142,Option 60,1 [0],Mega Cab Premium 2 ($59),$FF,$59,$59
+214142,Option 60,1 [0],Crew Cab Premium 4 ($5A),$FF,$5A,$5A
+214142,Option 60,1 [0],Crew Cab Premium 3 ($5B),$FF,$5B,$5B
+214142,Option 60,1 [0],Mega Cab Premium 3 ($5C),$FF,$5C,$5C
+214142,Option 60,1 [0],Quad &amp;amp;amp; Crew Cab Base no ANC ($5D),$FF,$5D,$5D
+214142,Option 60,1 [0],Quad &amp;amp;amp; Crew Cab Base with ANC ($5E),$FF,$5E,$5E
+214143,Option 76,0 [2],Not_present,$3,$0,$0
+214143,Option 76,0 [2],GSI,$3,$1,$1
+214143,Option 76,0 [2],GSI II,$3,$2,$2
+214143,Option 76,0 [2],Enhanced GSI,$3,$3,$3
+214145,Option 110,0 [4],None,$F,$0,$0
+214145,Option 110,0 [4],Type 1,$F,$1,$1
+214145,Option 110,0 [4],Type 2,$F,$2,$2
+214145,Option 110,0 [4],Type 3,$F,$3,$3
+214145,Option 110,0 [4],Type 4,$F,$4,$4
+214145,Option 110,0 [4],Type 5,$F,$5,$5
+214145,Option 110,0 [4],Type 6,$F,$6,$6
+214145,Option 110,0 [4],Type 7,$F,$7,$7
+214145,Option 110,0 [4],Type 8,$F,$8,$8
+214145,Option 110,0 [4],Type 9,$F,$9,$9
+214145,Option 110,0 [4],Type 10,$F,$A,$A
+214145,Option 110,0 [4],Type 11,$F,$B,$B
+214145,Option 110,0 [4],Type 12,$F,$C,$C
+214637,Stop / Start switch Pad(1),0 [3],Short Circuit to Ground,$7,$0,$0
+214637,Stop / Start switch Pad(1),0 [3],Short Circuit to Ground,$7,$1,$1
+214637,Stop / Start switch Pad(1),0 [3],Pressed (Switch Open),$7,$2,$2
+214637,Stop / Start switch Pad(1),0 [3],Pressed (Switch Open),$7,$3,$3
+214637,Stop / Start switch Pad(1),0 [3],Not Pressed (Switch Close),$7,$4,$4
+214637,Stop / Start switch Pad(1),0 [3],Not Pressed (Switch Close),$7,$5,$5
+214637,Stop / Start switch Pad(1),0 [3],Open Circuit / Short Circuit to battery,$7,$6,$6
+214637,Stop / Start switch Pad(1),0 [3],Open Circuit / Short Circuit to battery,$7,$7,$7
+219688,Option 79,1 [0],No Audio Brand,$FF,$00,$00
+219688,Option 79,1 [0],Beats,$FF,$01,$01
+219688,Option 79,1 [0],Alpine,$FF,$02,$02
+219688,Option 79,1 [0],Harman,$FF,$03,$03
+219688,Option 79,1 [0],McIntosh,$FF,$04,$04
+219689,Option 92,0 [5],none,$1F,$0,$0
+219689,Option 92,0 [5],Theme 1 (Bighorn),$1F,$1,$1
+219689,Option 92,0 [5],Theme 2 (Laramie),$1F,$2,$2
+219689,Option 92,0 [5],Theme 3 (Limited),$1F,$3,$3
+219689,Option 92,0 [5],Theme 4 (Lonestar),$1F,$4,$4
+219689,Option 92,0 [5],Theme 5 (Longhorn(BLACK)),$1F,$5,$5
+219689,Option 92,0 [5],Theme 6 (LONGHORN(BROWN)),$1F,$6,$6
+219689,Option 92,0 [5],Theme 7 (ORT),$1F,$7,$7
+219689,Option 92,0 [5],Theme (RAM_TRX),$1F,$8,$8
+219689,Option 92,0 [5],THEME 9 (RAM_1500),$1F,$9,$9
+219689,Option 92,0 [5],Theme 10 (RED),$1F,$A,$A
+219689,Option 92,0 [5],Theme 11(Sport),$1F,$B,$B
+219689,Option 92,0 [5],Theme 12 (Tungsten),$1F,$C,$C
+219690,Option_1406,0 [1],Fail Not Present,$1,$0,$0
+219690,Option_1406,0 [1],Fail Present,$1,$1,$1
+219691,Option_1401,0 [1],Absent,$1,$0,$0
+219691,Option_1401,0 [1],Present,$1,$1,$1
+219692,Option_1404,0 [1],EOL NOT Required,$1,$0,$0
+219692,Option_1404,0 [1],EOL Required,$1,$1,$1
+219693,Option_1405,0 [1],Don't care or Not OK,$1,$0,$0
+219693,Option_1405,0 [1],Response OK,$1,$1,$1
+219694,Option_1402,0 [1],Has NOT EOL,$1,$0,$0
+219694,Option_1402,0 [1],Has EOL,$1,$1,$1
+219695,Option_1403,0 [1],Not Active,$1,$0,$0
+219695,Option_1403,0 [1],Active,$1,$1,$1
+219696,Option 141,0 [3],Absent,$7,$0,$0
+219696,Option 141,0 [3],Type 1,$7,$1,$1
+219696,Option 141,0 [3],Type 2,$7,$2,$2
+219696,Option 141,0 [3],Type 3,$7,$3,$3
+219696,Option 141,0 [3],Type 4,$7,$4,$4
+219696,Option 141,0 [3],Type 5,$7,$5,$5
+219696,Option 141,0 [3],Type 6,$7,$6,$6
+219696,Option 141,0 [3],Type 7,$7,$7,$7
+219697,Option 142,0 [1],Engine,$1,$0,$0
+219697,Option 142,0 [1],Storage,$1,$1,$1

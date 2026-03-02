@@ -1,0 +1,23 @@
+ByteBit,ByteBit_Description,Size,Type,Name,ID
+0 [0],SID-PR,1 [0],-,-,-
+1 [0],RecordDataIdentifier,2 [0],-,-,-
+3 [0],Current Stay Awake Condition number 1,1 [0],T,Wake-Up Reasons,203952
+4 [0],Current Stay Awake Condition number 2,1 [0],T,Wake-Up Reasons,203952
+5 [0],Current Stay Awake Condition number 3,1 [0],T,Wake-Up Reasons,203952
+6 [0],Current Stay Awake Condition number 4,1 [0],T,Wake-Up Reasons,203952
+7 [0],Current Stay Awake Condition number 5,1 [0],T,Wake-Up Reasons,203952
+8 [0],Current Stay Awake Condition number 6,1 [0],T,Wake-Up Reasons,203952
+9 [0],Current Stay Awake Condition number 7,1 [0],T,Wake-Up Reasons,203952
+10 [0],Current Stay Awake Condition number 8,1 [0],T,Wake-Up Reasons,203952
+11 [0],Current Stay Awake Condition number 9,1 [0],T,Wake-Up Reasons,203952
+12 [0],Current Stay Awake Condition number 10,1 [0],T,Wake-Up Reasons,203952
+13 [0],Current Stay Awake Condition number 11,1 [0],T,Wake-Up Reasons,203952
+14 [0],Current Stay Awake Condition number 12,1 [0],T,Wake-Up Reasons,203952
+15 [0],Current Stay Awake Condition number 13,1 [0],T,Wake-Up Reasons,203952
+16 [0],Current Stay Awake Condition number 14,1 [0],T,Wake-Up Reasons,203952
+17 [0],Current Stay Awake Condition number 15,1 [0],T,Wake-Up Reasons,203952
+18 [0],Current Stay Awake Condition number 16,1 [0],T,Wake-Up Reasons,203952
+19 [0],Current Stay Awake Condition number 17,1 [0],T,Wake-Up Reasons,203952
+20 [0],Current Stay Awake Condition number 18,1 [0],T,Wake-Up Reasons,203952
+21 [0],Current Stay Awake Condition number 19,1 [0],T,Wake-Up Reasons,203952
+22 [0],Current Stay Awake Condition number 20,1 [0],T,Wake-Up Reasons,203952

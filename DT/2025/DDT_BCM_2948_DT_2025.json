@@ -1,0 +1,181 @@
+{
+  "name": "DDT_BCM_2948_DT_2025.csv",
+  "entries": [
+    {
+      "byte": "0 [0]",
+      "description": "SID-PR",
+      "size": "1 [0]",
+      "type": "-",
+      "name": "-",
+      "id": "-"
+    },
+    {
+      "byte": "1 [0]",
+      "description": "RecordDataIdentifier",
+      "size": "2 [0]",
+      "type": "-",
+      "name": "-",
+      "id": "-"
+    },
+    {
+      "byte": "3 [0]",
+      "description": "Current Stay Awake Condition number 1",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "4 [0]",
+      "description": "Current Stay Awake Condition number 2",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "5 [0]",
+      "description": "Current Stay Awake Condition number 3",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "6 [0]",
+      "description": "Current Stay Awake Condition number 4",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "7 [0]",
+      "description": "Current Stay Awake Condition number 5",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "8 [0]",
+      "description": "Current Stay Awake Condition number 6",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "9 [0]",
+      "description": "Current Stay Awake Condition number 7",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "10 [0]",
+      "description": "Current Stay Awake Condition number 8",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "11 [0]",
+      "description": "Current Stay Awake Condition number 9",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "12 [0]",
+      "description": "Current Stay Awake Condition number 10",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "13 [0]",
+      "description": "Current Stay Awake Condition number 11",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "14 [0]",
+      "description": "Current Stay Awake Condition number 12",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "15 [0]",
+      "description": "Current Stay Awake Condition number 13",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "16 [0]",
+      "description": "Current Stay Awake Condition number 14",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "17 [0]",
+      "description": "Current Stay Awake Condition number 15",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "18 [0]",
+      "description": "Current Stay Awake Condition number 16",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "19 [0]",
+      "description": "Current Stay Awake Condition number 17",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "20 [0]",
+      "description": "Current Stay Awake Condition number 18",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "21 [0]",
+      "description": "Current Stay Awake Condition number 19",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    },
+    {
+      "byte": "22 [0]",
+      "description": "Current Stay Awake Condition number 20",
+      "size": "1 [0]",
+      "type": "T",
+      "name": "Wake-Up Reasons",
+      "id": "203952"
+    }
+  ]
+}

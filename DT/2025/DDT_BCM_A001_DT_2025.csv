@@ -1,0 +1,145 @@
+ByteBit,ByteBit_Description,Size,Type,Name,ID
+0 [0],SID-PR,1 [0],-,-,-
+1 [0],RecordDataIdentifier,2 [0],-,-,-
+3 [0],BCM - Master_2IBS_Init - IBS3_QuiesCurr_Lmt,1 [0],L,"-250 to 0 mA (1,-250,0)",124956
+4 [0],BCM - Master_2IBS_Init - IBS3_ChargeCurr_Lmt,1 [0],L,"0 to 2500 mA (10,0,0)",124949
+5 [0],BCM - Master_2IBS_Init - IBS3_MinVolt_Lmt,1 [0],L,"0 to 25.4 V (0.1,0,1)",124955
+6 [0],BCM - Master_2IBS_Init - IBS3_MinCharge_Lmt,1 [0],L,"0 to 100 %( 1,0,0)",124954
+7 [0],BCM - Master_2IBS_Init - IBS3_BattType,0 [6],L,"0 to 63 Battery Type (1,0,0)",124957
+7 [6],BCM - Master_2IBS_Init - IBS3_Batt_Technology,0 [2],T,IBS3_Batt_Technology,179265
+8 [0],BCM - Master_2IBS_Init - IBS3_Battery_C0_F,0 [6],L,"90000 to 405000 F(5000,0,0)",76290
+8 [6],BCM - Master_2IBS_Init - IBS3_BatteryId_mode,0 [2],T,IBS3_BatteryId_mode,179264
+9 [0],BCM - Master_2IBS_Init - IBS3_BatteryCapacity_Ah,0 [7],L,"0 to 252 Ah (2,0,0)",124945
+9 [7],Reserved,0 [1],I,1 Bit Identical,11046
+10 [0],BCM - Master_2IBS_Init - IBS3_U00_max,0 [6],L,"12.7 to 13.33 V (0.01,12.7,2)",76266
+10 [6],BCM - Master_2IBS_Init - IBS3_ActivateMWU,0 [1],T,False / True,32688
+10 [7],BCM - Master_2IBS_Init - IBS3_QUS_Cur_Mon,0 [1],T,False / True,32688
+11 [0],BCM - CBC_TCSM_1 - PANEL_INTS_TCSM,1 [0],L,"0 to 100 % (0.5, 0, 0)",4448
+12 [0],BCM - CBC_TCSM_1 - LnchCtrl_HrdBtn_LED,0 [2],T,LED Status (OFF-CONT-BLINK),179310
+12 [2],Reserved,0 [6],I,6 Bit Identical,10029
+13 [0],BCM - CBC_TCSM_1 - HILL_DES_STAT_TCSM,0 [2],T,Hill Descent Feature Status,7761
+13 [2],BCM - CBC_TCSM_1 - SelSpdLmp_TCSM,0 [2],T,LED Status (OFF-CONT-BLINK),179310
+13 [4],BCM - CBC_TCSM_1 - SpStSwStat_TCSM,0 [2],T,LED Status (OFF-CONT-BLINK),179310
+13 [6],BCM - CBC_TCSM_1 - ESP_Off_IndLmp_on_Rq_TCSM,0 [1],T,Not Pressed / Pressed,4008
+13 [7],BCM - CBC_TCSM_1 - TCSM_Launch_HrdBtn_LED,0 [1],T,Not Pressed / Pressed,4008
+14 [0],BCM - CBC_TCSM_1 - TcaseAWD_Stat,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+14 [2],BCM - CBC_TCSM_1 - Tcase4Lock_Stat,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+14 [4],BCM - CBC_TCSM_1 - Tcase4Low_Stat,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+14 [6],BCM - CBC_TCSM_1 - RrAxleLkIndRq,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+15 [0],BCM - CBC_TCSM_1 - CmdIgnStat_TCSM,0 [3],T,Commanded ignition switch status,179322
+15 [3],BCM - CBC_TCSM_1 - DAY_LGT_MD_TCSM,0 [1],T,Night / Day,177026
+15 [4],BCM - CBC_TCSM_1 - TcaseNtrlStat_TCSM,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+15 [6],BCM - CBC_TCSM_1 - Tcase2WD_Stat,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+16 [1],BCM - CBC_TCSM_2 - AxleUnLckIndRq,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+16 [3],BCM - CBC_TCSM_2 - Ft_RrAxleLkInd_Rq,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+16 [5],BCM - CBC_TCSM_2 - SwayBar_LEDRq_TCSM,0 [2],T,LED Satus (OFF-ON-BLINK),179317
+16 [7],BCM - CBC_TCSM_2 - NetCfg_FDCM,0 [1],T,Not Present / Present,4834
+17 [0],Reserved,1 [1],I,1 Byte Identical,18484
+18 [0],BCM - MasterReq - MasterReqB0,1 [0],T,MasterReq (IBS3-TCSM),177075
+19 [0],BCM - MasterReq - MasterReqB1,1 [0],T,MasterReq (IBS3-TCSM),177075
+20 [0],BCM - MasterReq - MasterReqB2,1 [0],T,MasterReq (IBS3-TCSM),177075
+21 [0],BCM - MasterReq - MasterReqB3,1 [0],T,MasterReq (IBS3-TCSM),177075
+22 [0],BCM - MasterReq - MasterReqB4,1 [0],T,MasterReq (IBS3-TCSM),177075
+23 [0],BCM - MasterReq - MasterReqB5,1 [0],T,MasterReq (IBS3-TCSM),177075
+24 [0],BCM - MasterReq - MasterReqB6,1 [0],T,MasterReq (IBS3-TCSM),177075
+25 [0],BCM - MasterReq - MasterReqB7,1 [0],T,MasterReq (IBS3-TCSM),177075
+26 [0],IBS3 - IBS_Fast1 - SOF_V_StartRequest,0 [7],L,"5 to 11.3 V (0.05, 5, 1) (7bit)",124903
+26 [7],IBS3 - IBS_Fast1 - SOF_EngineRunning,0 [1],T,Charge / Discharge,177057
+27 [0],IBS3 - IBS_Fast1 - IBS3_SOF_V_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+27 [1],IBS3 - IBS_Fast1 - Flag_Batt_Line_Open,0 [1],T,Close / Open,19020
+27 [2],Reserved,0 [6],I,6 Bit Identical,10029
+28 [0],IBS3 - IBS_Fast1 - IBS3_SOF_V,0 [7],L,"5 to 11.3 V (0.05, 5, 1) (7bit)",124903
+28 [7],IBS3 - IBS_Fast1 - VoltBattFailStatus,0 [1],T,Fail not present / Fail present,179305
+29 [0],IBS3 - IBS_Fast1 - IBS3_SOF_VF,0 [7],L,"5 to 11.3 V (0.05, 5, 1) (7bit)",124903
+29 [7],IBS3 - IBS_Fast1 - CurrBattFailStatus,0 [1],T,Fail not present / Fail present,179305
+30 [1],IBS3 - IBS_Fast1 - IBS3_SOF_VC,0 [7],L,"5 to 11.3 V (0.05, 5, 1) (7bit)",124903
+31 [0],IBS3 - IBS_Fast1 - IBS3_Vbatt,1 [1],L,"5 to 17.75 V (0.025, 5, 2) (9bit)",124905
+32 [0],IBS3 - IBS_Fast1 - IBS3_Ibatt,2 [0],L,"-1000 to 310.68 A (0.02, -1000, 2)",124906
+34 [0],IBS3 - IBS_Fast2 - IBS3_Rbatt_25,1 [0],L,"0 to 25.4 mOhm (0.1,0,1)",124895
+35 [0],IBS3 - IBS_Fast2 - IBS3_Rbatt,1 [0],L,"0 to 25.4 mOhm (0.1,0,1)",124895
+36 [0],IBS3 - IBS_Fast2 - CRC_IBS_1,1 [0],I,HexDump (1Byte),165
+37 [0],IBS3 - IBS_Fast2 - FLAG_DISCONNECT_ADAS,0 [2],T,FLAGDISCONNECT ADAS,185397
+37 [2],IBS_ADAS_OK,0 [2],T,Support ADAS operation,179336
+37 [4],IBS3 - IBS_Fast2 - MC_IBS_1,0 [4],L,MessageCounter,129039
+38 [0],Reserved,2 [0],I,2 Byte Identical,9897
+40 [0],IBS3 - IBS_Fast2 - IBS3_LastCrankPeak_V,0 [7],L,"4 to 10.3 V (0.05, 4, 1)",124897
+40 [7],IBS3 - IBS_Fast2 - RsErrIBS3,0 [1],T,No error / Error,179295
+41 [0],IBS3 - IBS_Fast2 - IBS3_LastCrankPeak_I,0 [6],L,"260 to 1500 A (20, 260, 0)",124898
+41 [6],Reserved,0 [1],I,1 Bit Identical,11046
+41 [7],IBS3 - IBS_Fast2 - IBS3_Error_Internal,0 [1],T,No error / Error,179295
+42 [0],Reserved,0 [5],I,5 Bit Identical,12122
+42 [5],IBS3 - IBS_Slow1 - IBS3_SOC_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+42 [6],IBS3 - IBS_Slow1 - IBS3_CalibrationStatus_EMEA,0 [1],T,Inaccurate / Accurate,177066
+42 [7],Reserved,0 [1],I,1 Bit Identical,11046
+43 [0],IBS3 - IBS_Slow1 - IBS3_SOH_COR,0 [7],L,0 to 100 %,76118
+43 [7],IBS3 - IBS_Slow1 - IBS3_SOH_Q_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+44 [0],IBS3 - IBS_Slow1 - IBS3_SOH_SUL,0 [7],L,0 to 100 %,76118
+44 [7],IBS3 - IBS_Slow1 - IBS3_SOH_SUL_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+45 [0],IBS3 - IBS_Slow1 - IBS3_SOH_EMEA,0 [7],L,"0 to 126 % (1,0,0)",124923
+45 [7],IBS3 - IBS_Slow1 - IBS3_SOH_COR_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+46 [0],IBS3 - IBS_Slow1 - IBS3_SOH_Q,0 [7],L,"0 to 252 Ah (2,0,0)",124945
+46 [7],IBS3 - IBS_Slow1 - IBS3_SOF_Q_Accuracy,0 [1],T,Inaccurate / Accurate,177066
+47 [0],IBS3 - IBS_Slow1 - IBS3_SOC,0 [7],L,0 to 100 %,76118
+47 [7],IBS3 - IBS_Slow1 - IBS3_TempFailStatus,0 [1],T,Fail not present / Fail present,179305
+48 [0],IBS3 - IBS_Slow1 - IBS3_SOF_Q,1 [0],L,"0 to 254 Ah (1,0,0)",124916
+49 [0],IBS3 - IBS_Slow1 - IBS3_T_BATT,1 [0],L,"-40 to 105 °C (1, -40, 0)",4568
+50 [0],IBS3 - IBS_Slow2 - IBS3_Q_Released,2 [0],L,"0 to 8191.75  Ah (0.125,0,2)",124925
+52 [0],IBS3 - IBS_Slow2 - IBS3_Q_Received,2 [0],L,"0 to 8191.75  Ah (0.125,0,2)",124925
+54 [0],IBS3 - IBS_Slow2 - IBS3_TmLstResetSec,2 [0],L,"0 to 86398 sec (2,0,0)",124919
+56 [4],Reserved,0 [4],I,4 Bit Identical,11674
+57 [0],IBS3 - IBS_Slow2 - IBS3_TmLstResetDays,1 [4],L,"0 to 4094 Days (1,0,0)",124922
+58 [0],IBS3 - IBS_Wakeup - IBS3_BatteryId_chosen,0 [7],L,"0 to 127 Battery Type (1,0,0)",124910
+58 [7],Reserved,0 [1],I,1 Bit Identical,11046
+59 [0],IBS3 - IBS_Wakeup - IBS3_PN,1 [0],L,"0 to 254 PN (1,0,0)",124911
+60 [0],IBS3 - IBS_Wakeup - IBS3_HW_version,1 [0],L,"0 to 254 Version (1,0,0)",124913
+61 [0],IBS3 - IBS_Wakeup - IBS3_SW_version,1 [0],L,"0 to 254 Version (1,0,0)",124913
+62 [0],IBS3 - IBS_Wakeup - IBS3_Ibatt_Keyoff_Dsch,0 [2],T,IBS3_Ibatt_Keyoff_Dsch,101146
+62 [2],IBS3 - IBS_Wakeup - IBS3_LowBatteryFlag,0 [1],T,False / True,32688
+62 [3],IBS3 - IBS_Wakeup - IBS3_MasterWkRs,0 [3],T,IBS3_MasterWkRs,101150
+62 [6],IBS3 - IBS_Wakeup - IBS3_FLAG_DISCONNECT,0 [1],T,Not_Disconnected / Disconnecred,179326
+62 [7],IBS3 - IBS_Wakeup - IBS3_Initialized,0 [1],T,False / True,32688
+63 [0],IBS3 - IBS_Wakeup - IBS3_StandbyTime,0 [4],T,IBS3_StandbyTime,101046
+63 [4],IBS3 - IBS_Wakeup - IBS3_Ibatt_Keyoff_Value,0 [4],T,IBS3_Ibatt_Keyoff_Value,101154
+64 [2],Reserved,0 [6],I,6 Bit Identical,10029
+65 [0],IBS3 - IBS_Wakeup - IBS3_PreWakeupVoltage,1 [2],L,"5 to 15V (0.01, 5, 0) (10bit)",124924
+66 [0],IBS3 - SlaveResp - SlaveRespB0,1 [0],T,SlaveResp_IBS3,177081
+67 [0],IBS3 - SlaveResp - SlaveRespB1,1 [0],T,SlaveResp_IBS3,177081
+68 [0],IBS3 - SlaveResp - SlaveRespB2,1 [0],T,SlaveResp_IBS3,177081
+69 [0],IBS3 - SlaveResp - SlaveRespB3,1 [0],T,SlaveResp_IBS3,177081
+70 [0],IBS3 - SlaveResp - SlaveRespB4,1 [0],T,SlaveResp_IBS3,177081
+71 [0],IBS3 - SlaveResp - SlaveRespB5,1 [0],T,SlaveResp_IBS3,177081
+72 [0],IBS3 - SlaveResp - SlaveRespB6,1 [0],T,SlaveResp_IBS3,177081
+73 [0],IBS3 - SlaveResp - SlaveRespB7,1 [0],T,SlaveResp_IBS3,177081
+76 [0],TCSM - TCSM_1 - LnchCtrl_Hrdbtn_Req,0 [2],T,NPSD / PSD / STUCK,177111
+76 [2],Reserved,2 [6],I,2 Byte Identical,16157
+77 [0],TCSM - TCSM_1 - TCSM_Launch_Hrdbtn_Statu,0 [2],T,Not Pressed / Pressed / SNA (2bit),179351
+77 [2],TCSM - TCSM_1 - TerrainModeInterfaceButton_TCSM,0 [3],T,Switch_TCSM,179356
+77 [5],TCSM - TCSM_1 - SSC_RQ_TCSM,0 [2],T,Not Pressed / Pressed / SNA (2bit),179351
+77 [7],Reserved,0 [1],I,1 Bit Identical,11046
+78 [0],TCSM - TCSM_1 - TRAC_RQ_TCSM,0 [2],T,Not Pressed / Pressed / SNA (2bit),179351
+78 [2],TCSM - TCSM_1 - Left_Switch_TCSM,0 [3],T,Switch_TCSM,179356
+78 [5],TCSM - TCSM_1 - Right_Switch_TCSM,0 [3],T,Switch_TCSM,179356
+79 [0],TCSM - TCSM_1 - HILL_DES_RQ_TCSM,0 [2],T,NPSD / PSD / NDEF2,177088
+79 [2],TCSM - TCSM_1 - SpSt_Pad1_TCSM,0 [3],T,Stop / Start switch Pad,177085
+79 [5],TCSM - TCSM_1 - SpSt_Pad2_TCSM,0 [3],T,Stop / Start switch Pad,177085
+80 [0],TCSM - TCSM_1 - Tcase4Low_Rq,0 [2],T,NPSD / PSD / NDEF2,177088
+80 [2],TCSM - TCSM_1 - TcaseSwTyp,0 [2],T,ROT / PB,177087
+80 [4],TCSM - TCSM_1 - Ntrl_LED_Fail,0 [1],T,Fail not present / Fail present,179305
+80 [5],TCSM - TCSM_1 - RsErr_TCSM,0 [1],T,No error / Error,179295
+80 [6],TCSM - TCSM_1 - RrAxleLckr_Rq,0 [2],T,NPSD / PSD / NDEF2,177088
+81 [0],TCSM - TCSM_1 - TCASE_NEUT_RQ_TCSM,0 [2],T,NPSD / PSD / NDEF2,177088
+81 [2],TCSM - TCSM_1 - Tcase2WD_Rq,0 [2],T,NPSD / PSD / NDEF2,177088
+81 [4],TCSM - TCSM_1 - TcaseAWD_Rq,0 [2],T,NPSD / PSD / NDEF2,177088
+81 [6],TCSM - TCSM_1 - Tcase4Lock_Rq,0 [2],T,NPSD / PSD / NDEF2,177088
+83 [0],TCSM - TCSM_2 - SwayBarBtnRq_TCSM,0 [2],T,NPSD / PSD / STUCK,177111
+83 [2],TCSM - TCSM_2 - Ft_RrAxleLocker_Rq,0 [2],T,NPSD / PSD / STUCK,177111
+83 [4],TCSM - TCSM_2 - AxleUnLck_Rq,0 [2],T,NPSD / PSD / STUCK,177111
+83 [6],Reserved,1 [2],I,1 Byte Identical,12198
+84 [0],SlaveResp,1 [0],T,SlaveResp_TCSM,177110
+85 [0],SlaveResp1,1 [0],T,SlaveResp_TCSM,177110
+86 [0],SlaveResp2,1 [0],T,SlaveResp_TCSM,177110
+87 [0],SlaveResp3,1 [0],T,SlaveResp_TCSM,177110
+88 [0],SlaveResp4,1 [0],T,SlaveResp_TCSM,177110
+89 [0],SlaveResp5,1 [0],T,SlaveResp_TCSM,177110
+90 [0],SlaveResp6,1 [0],T,SlaveResp_TCSM,177110
+91 [0],SlaveResp7,1 [0],T,SlaveResp_TCSM,177110
